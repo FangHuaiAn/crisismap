@@ -8,7 +8,9 @@ actor APIClient {
     private let session: URLSession
     private let decoder: JSONDecoder
 
-    init(baseURL: URL = URL(string: "http://localhost:3000")!) {
+    private static let fallbackBaseURL = URL(string: "http://localhost:3000")!
+
+    init(baseURL: URL = APIClient.resolveBaseURL()) {
         self.baseURL = baseURL
 
         let config = URLSessionConfiguration.default
@@ -17,6 +19,41 @@ actor APIClient {
         self.session = URLSession(configuration: config)
 
         self.decoder = JSONDecoder()
+    }
+
+    nonisolated static func resolveBaseURL(
+        environment: [String: String] = ProcessInfo.processInfo.environment,
+        infoDictionary: [String: Any]? = Bundle.main.infoDictionary
+    ) -> URL {
+        if let url = urlFromEnvironment(environment) {
+            return url
+        }
+
+        if
+            let raw = infoDictionary?["API_BASE_URL"] as? String,
+            let url = normalizeURL(raw)
+        {
+            return url
+        }
+
+        return fallbackBaseURL
+    }
+
+    nonisolated private static func urlFromEnvironment(_ environment: [String: String]) -> URL? {
+        let keys = ["CRISISMAP_API_BASE_URL", "API_BASE_URL"]
+        for key in keys {
+            guard let raw = environment[key], let url = normalizeURL(raw) else { continue }
+            return url
+        }
+        return nil
+    }
+
+    nonisolated private static func normalizeURL(_ raw: String) -> URL? {
+        let trimmed = raw.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmed.isEmpty else { return nil }
+        guard let url = URL(string: trimmed), let scheme = url.scheme?.lowercased() else { return nil }
+        guard scheme == "http" || scheme == "https" else { return nil }
+        return url
     }
 
     // MARK: - Public API

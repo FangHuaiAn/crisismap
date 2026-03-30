@@ -33,6 +33,33 @@ final class ResearchViewModelTopicsTests: XCTestCase {
         XCTAssertFalse(topics.contains(where: { $0.topic == "Trade" }))
     }
 
+    func testAPIBaseURLPrefersEnvironmentOverride() {
+        let resolved = APIClient.resolveBaseURL(
+            environment: ["CRISISMAP_API_BASE_URL": "https://api.example.com"],
+            infoDictionary: ["API_BASE_URL": "https://ignored.example.com"]
+        )
+
+        XCTAssertEqual(resolved.absoluteString, "https://api.example.com")
+    }
+
+    func testAPIBaseURLFallsBackToInfoPlistValue() {
+        let resolved = APIClient.resolveBaseURL(
+            environment: [:],
+            infoDictionary: ["API_BASE_URL": "https://prod.example.com"]
+        )
+
+        XCTAssertEqual(resolved.absoluteString, "https://prod.example.com")
+    }
+
+    func testAPIBaseURLFallsBackToLocalhostForInvalidValues() {
+        let resolved = APIClient.resolveBaseURL(
+            environment: ["CRISISMAP_API_BASE_URL": "not-a-url"],
+            infoDictionary: ["API_BASE_URL": "ftp://invalid-scheme.example.com"]
+        )
+
+        XCTAssertEqual(resolved.absoluteString, "http://localhost:3000")
+    }
+
     private func makeArticle(id: String, category: String, topics: [String]) -> ThinkTankArticle {
         ThinkTankArticle(
             id: id,
