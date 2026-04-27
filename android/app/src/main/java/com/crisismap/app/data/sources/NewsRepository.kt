@@ -2,6 +2,7 @@ package com.crisismap.app.data.sources
 
 import com.crisismap.app.data.model.CrisisEvent
 import com.crisismap.app.data.model.Region
+import com.crisismap.app.domain.locations.inferEventLocation
 import com.crisismap.app.domain.regions.NewsClusterSummary
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
@@ -9,6 +10,7 @@ import kotlinx.coroutines.coroutineScope
 
 sealed interface NewsLoadResult {
     data class Success(
+        val events: List<CrisisEvent>,
         val clusters: List<NewsClusterSummary>,
         val failedSources: List<String>
     ) : NewsLoadResult
@@ -45,7 +47,8 @@ class NewsRepository(
             .sorted()
 
         val events = if (liveEvents.isEmpty()) fallbackSource.fetch() else liveEvents
-        val clusters = buildNewsClusters(events)
+        val enrichedEvents = events.map(::enrichEvent)
+        val clusters = buildNewsClusters(enrichedEvents)
 
         if (clusters.isEmpty()) {
             return NewsLoadResult.Failure(
@@ -55,9 +58,23 @@ class NewsRepository(
         }
 
         return NewsLoadResult.Success(
+            events = enrichedEvents,
             clusters = clusters,
             failedSources = failedSources
         )
+    }
+
+    private fun enrichEvent(event: CrisisEvent): CrisisEvent {
+        if (event.location != null) return event
+
+        val inferred = inferEventLocation(
+            title = event.title,
+            summary = event.summary,
+            providedName = event.location?.name,
+            providedCountry = event.location?.country
+        ) ?: return event
+
+        return event.copy(location = inferred.location)
     }
 }
 

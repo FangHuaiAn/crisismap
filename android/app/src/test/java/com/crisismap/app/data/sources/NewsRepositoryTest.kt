@@ -28,6 +28,20 @@ class NewsRepositoryTest {
     }
 
     @Test
+    fun returnsEventsWithInferredLocations() = runTest {
+        val repository = NewsRepository(
+            sources = listOf(StaticNewsSource(listOf(event("mali", "Mali defence minister killed")))),
+            fallbackSource = StaticNewsSource(emptyList())
+        )
+
+        val result = repository.loadClusters()
+
+        assertTrue(result is NewsLoadResult.Success)
+        result as NewsLoadResult.Success
+        assertEquals("Mali", result.events.first().location?.name)
+    }
+
+    @Test
     fun classifiesPhysicalLocationBeforeActorReferences() {
         val clusters = buildNewsClusters(
             listOf(
