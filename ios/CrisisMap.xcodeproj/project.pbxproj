@@ -11,6 +11,7 @@
 		053892096E3243328F99172A /* ArticleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177EEBE41409E26ED41BB664 /* ArticleRow.swift */; };
 		16724754B75B636C0B583BD0 /* MentionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CCF67B2D23EB7154D22AB1 /* MentionStore.swift */; };
 		203DDC3973EDA1FDAD31BF80 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 463DCA90984F1F27BF7C4CF9 /* Localizable.xcstrings */; };
+		236CE4AEADAB1423801BC934 /* LocationInference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D098CEFF17947118B7312A /* LocationInference.swift */; };
 		246C9175523E2CF4A68D7E6B /* MarketIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895B75D3DE2B19A421AD34B7 /* MarketIndicator.swift */; };
 		25E9C8B43B51B7CAE79F0E30 /* MentionSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EAAD6DA855258E74ED0A6B /* MentionSnapshot.swift */; };
 		25F225425CCA9865EA675CE4 /* FeedFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6C302F2405E8B41378DE7F /* FeedFilterBar.swift */; };
@@ -76,6 +77,7 @@
 		C09F120557EC3B65E2ABA539 /* SourceTier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492BDFFFB3749D0921A79BB /* SourceTier.swift */; };
 		C16F1DF670A3B98BFA998E92 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A2F30AA94F9A0A054CD59A /* NewsViewModel.swift */; };
 		C77ED84A1779C9A2759CBF3D /* KeyActorsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A144448AEEDDB6D7D5563998 /* KeyActorsCard.swift */; };
+		D01EBA9911BCFC459C9317A1 /* LocationInferenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6126A25648820ED38D032F5D /* LocationInferenceTests.swift */; };
 		D0C1192D65E2E231E9CBF2F0 /* XNewsSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928F0853FAD295ACFD82679B /* XNewsSource.swift */; };
 		D3943C0D29592C6A88332739 /* NewsBatchCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD6936173ABD1CA528D2600 /* NewsBatchCache.swift */; };
 		D3B3C311FE3BBE656030AEBA /* CrisisMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856F32B6699BF2DA3C240F13 /* CrisisMapApp.swift */; };
@@ -135,6 +137,7 @@
 		5E6C302F2405E8B41378DE7F /* FeedFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedFilterBar.swift; sourceTree = "<group>"; };
 		5EDE6E6A425D9C5C29C1ECFE /* ClusterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterDetailView.swift; sourceTree = "<group>"; };
 		60FBE3151671077BD23A556B /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		6126A25648820ED38D032F5D /* LocationInferenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInferenceTests.swift; sourceTree = "<group>"; };
 		650421C1D7E2E14C173CA3C1 /* ResearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchViewModel.swift; sourceTree = "<group>"; };
 		66EAAD6DA855258E74ED0A6B /* MentionSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentionSnapshot.swift; sourceTree = "<group>"; };
 		6AC65222EB3ED88C4F273BDE /* NewsPrecomputeSchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPrecomputeSchedulerTests.swift; sourceTree = "<group>"; };
@@ -149,6 +152,7 @@
 		7E5B856D184D610B080576E4 /* TopicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicListView.swift; sourceTree = "<group>"; };
 		81E7A66FA477F4E836ECE147 /* NewsClusteringEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsClusteringEngineTests.swift; sourceTree = "<group>"; };
 		83770462088E44497DFF7A80 /* NewsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDataSource.swift; sourceTree = "<group>"; };
+		83D098CEFF17947118B7312A /* LocationInference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInference.swift; sourceTree = "<group>"; };
 		841763C56F33634139C4FCB7 /* XNewsSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XNewsSourceTests.swift; sourceTree = "<group>"; };
 		856F32B6699BF2DA3C240F13 /* CrisisMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrisisMapApp.swift; sourceTree = "<group>"; };
 		8584A44D63A9BAAD0B9BA884 /* ResearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchView.swift; sourceTree = "<group>"; };
@@ -243,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				3CB1AB3A510E1F1E44FFB983 /* GDELTNewsSourceTests.swift */,
+				6126A25648820ED38D032F5D /* LocationInferenceTests.swift */,
 				12ECF190B400FBE7826F2B6F /* MentionIndexCalculatorTests.swift */,
 				C11C91DE7762400A9A26EE33 /* MentionStoreTests.swift */,
 				2A1CD648B4CE1AEAEE3566E8 /* NewsBatchCacheTests.swift */,
@@ -404,6 +409,7 @@
 			isa = PBXGroup;
 			children = (
 				A503AC72258FAC4AE20DDEE7 /* APIClient.swift */,
+				83D098CEFF17947118B7312A /* LocationInference.swift */,
 				0B6A09DC3CA4D42B73A0F31C /* MentionIndexCalculator.swift */,
 				92CCF67B2D23EB7154D22AB1 /* MentionStore.swift */,
 				C0DE54B1D35497DA00DE7866 /* NewsClusteringEngine.swift */,
@@ -558,6 +564,7 @@
 				60F349CE74813E8397C6D8BD /* GDELTNewsSource.swift in Sources */,
 				C77ED84A1779C9A2759CBF3D /* KeyActorsCard.swift in Sources */,
 				6090BA3BDF8974E5368332D5 /* LiveIndicator.swift in Sources */,
+				236CE4AEADAB1423801BC934 /* LocationInference.swift in Sources */,
 				2C1E4C0669DBBFD94F087178 /* MapFilterOverlay.swift in Sources */,
 				246C9175523E2CF4A68D7E6B /* MarketIndicator.swift in Sources */,
 				35CF9E505B084FEE374BDBA5 /* MarketIndicatorsCard.swift in Sources */,
@@ -603,6 +610,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F0044D2A82A7C4D7486A3C5 /* GDELTNewsSourceTests.swift in Sources */,
+				D01EBA9911BCFC459C9317A1 /* LocationInferenceTests.swift in Sources */,
 				A5F88F4E9D2CF0FCC72EBA9D /* MentionIndexCalculatorTests.swift in Sources */,
 				FA043E799D76871C0DA506BB /* MentionStoreTests.swift in Sources */,
 				F6EAA56FF6799A1391468FD2 /* NewsBatchCacheTests.swift in Sources */,

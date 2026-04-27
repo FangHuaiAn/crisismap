@@ -98,6 +98,34 @@ final class NewsSourceAggregatorTests: XCTestCase {
         XCTAssertEqual(events.map(\.id), ["newest:1", "middle:1", "oldest:1"])
     }
 
+    func testInfersPhysicalLocationBeforeReturningNewsEvents() async throws {
+        let source = FakeSource(
+            id: "mali",
+            isEnabled: true,
+            result: .success([
+                makeEvent(
+                    id: "mali:1",
+                    timestamp: "2026-03-18T12:00:00Z",
+                    title: "What's driving attacks against gov't and Russian forces in Mali?",
+                    summary: "Russian personnel remain exposed to attacks in Mali."
+                )
+            ])
+        )
+        let aggregator = NewsSourceAggregator(
+            sources: [source],
+            sourceTimeout: .milliseconds(50),
+            diversityPolicy: .init(minDistinctRegions: 0)
+        )
+
+        let events = try await aggregator.fetchAll(limit: 10)
+        let location = try XCTUnwrap(events.first?.location)
+
+        XCTAssertEqual(location.name, "Mali")
+        XCTAssertEqual(location.country, "ML")
+        XCTAssertEqual(location.lat, 17.5707, accuracy: 0.0001)
+        XCTAssertEqual(location.lng, -3.9962, accuracy: 0.0001)
+    }
+
     func testSkipsDisabledSources() async throws {
         let enabled = FakeSource(
             id: "enabled",
