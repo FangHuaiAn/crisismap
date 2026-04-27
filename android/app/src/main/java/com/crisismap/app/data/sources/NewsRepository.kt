@@ -50,7 +50,7 @@ class NewsRepository(
         val enrichedEvents = events.map(::enrichEvent)
         val clusters = buildNewsClusters(enrichedEvents)
 
-        if (clusters.isEmpty()) {
+        if (enrichedEvents.isEmpty()) {
             return NewsLoadResult.Failure(
                 message = "No news available.",
                 failedSources = failedSources
@@ -70,8 +70,8 @@ class NewsRepository(
         val inferred = inferEventLocation(
             title = event.title,
             summary = event.summary,
-            providedName = event.location?.name,
-            providedCountry = event.location?.country
+            providedName = null,
+            providedCountry = null
         ) ?: return event
 
         return event.copy(location = inferred.location)
