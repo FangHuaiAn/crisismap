@@ -1,5 +1,6 @@
 package com.crisismap.app.ui.map
 
+import android.os.Bundle
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxScope
@@ -14,6 +15,7 @@ import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -23,12 +25,22 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.viewinterop.AndroidView
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
+import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.crisismap.app.data.model.Region
 import com.crisismap.app.domain.regions.RegionIntelligenceSummary
 import com.crisismap.app.ui.regions.displayName
+import org.maplibre.android.MapLibre
+import org.maplibre.android.camera.CameraPosition
+import org.maplibre.android.geometry.LatLng
+import org.maplibre.android.maps.MapLibreMap
+import org.maplibre.android.maps.MapView
 
 @Composable
 fun MapScreen(
@@ -44,6 +56,8 @@ fun MapScreen(
                 .fillMaxSize()
                 .background(Color(0xFF101418))
         ) {
+            MapLibreMapBackground(modifier = Modifier.fillMaxSize())
+
             Text(
                 text = "Map",
                 color = Color.White,
@@ -77,6 +91,81 @@ fun MapScreen(
             )
         }
     }
+}
+
+@Composable
+private fun MapLibreMapBackground(modifier: Modifier = Modifier) {
+    val mapView = rememberMapViewWithLifecycle()
+    var isConfigured by remember { mutableStateOf(false) }
+
+    AndroidView(
+        modifier = modifier,
+        factory = { mapView },
+        update = { view ->
+            if (!isConfigured) {
+                view.getMapAsync { map ->
+                    configureMapLibreMap(map)
+                    isConfigured = true
+                }
+            }
+        }
+    )
+}
+
+@Composable
+private fun rememberMapViewWithLifecycle(): MapView {
+    val context = LocalContext.current
+    val lifecycle = LocalLifecycleOwner.current.lifecycle
+    val mapView = remember {
+        MapLibre.getInstance(context.applicationContext)
+        MapView(context).apply {
+            onCreate(Bundle())
+        }
+    }
+
+    DisposableEffect(lifecycle, mapView) {
+        if (lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED)) {
+            mapView.onStart()
+        }
+        if (lifecycle.currentState.isAtLeast(Lifecycle.State.RESUMED)) {
+            mapView.onResume()
+        }
+
+        val observer = LifecycleEventObserver { _, event ->
+            when (event) {
+                Lifecycle.Event.ON_START -> mapView.onStart()
+                Lifecycle.Event.ON_RESUME -> mapView.onResume()
+                Lifecycle.Event.ON_PAUSE -> mapView.onPause()
+                Lifecycle.Event.ON_STOP -> mapView.onStop()
+                Lifecycle.Event.ON_DESTROY -> mapView.onDestroy()
+                else -> Unit
+            }
+        }
+        lifecycle.addObserver(observer)
+
+        onDispose {
+            lifecycle.removeObserver(observer)
+            if (!mapView.isDestroyed) {
+                mapView.onPause()
+                mapView.onStop()
+                mapView.onDestroy()
+            }
+        }
+    }
+
+    return mapView
+}
+
+private fun configureMapLibreMap(map: MapLibreMap) {
+    map.cameraPosition = CameraPosition.Builder()
+        .target(LatLng(22.0, 20.0))
+        .zoom(1.1)
+        .build()
+    map.uiSettings.setCompassEnabled(false)
+    map.uiSettings.setLogoEnabled(false)
+    map.uiSettings.setAttributionEnabled(true)
+    map.uiSettings.setAttributionMargins(16, 16, 16, 180)
+    map.setStyle(MapLibreMapConfig.styleUri)
 }
 
 @Composable
