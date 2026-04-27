@@ -2,6 +2,7 @@ package com.crisismap.app.data.sources
 
 import com.crisismap.app.data.model.CrisisEvent
 import com.crisismap.app.data.model.EventCategory
+import com.crisismap.app.data.model.Location
 import com.crisismap.app.data.model.Region
 import com.crisismap.app.data.model.SourceTier
 import com.crisismap.app.data.model.ThreatLevel
@@ -25,6 +26,43 @@ class NewsRepositoryTest {
         assertEquals(1, result.clusters.size)
         assertEquals(Region.EastAsia, result.clusters.first().region)
         assertEquals(listOf("live"), result.failedSources)
+    }
+
+    @Test
+    fun returnsEventsWithInferredLocations() = runTest {
+        val repository = NewsRepository(
+            sources = listOf(StaticNewsSource(listOf(event("mali", "Mali defence minister killed")))),
+            fallbackSource = StaticNewsSource(emptyList())
+        )
+
+        val result = repository.loadClusters()
+
+        assertTrue(result is NewsLoadResult.Success)
+        result as NewsLoadResult.Success
+        assertEquals("Mali", result.events.first().location?.name)
+    }
+
+    @Test
+    fun returnsSuccessWhenLocatedEventsDoNotCluster() = runTest {
+        val locatedEvent = event("port-vila", "Port Vila port resumes operations").copy(
+            location = Location(
+                lat = -17.7333,
+                lng = 168.3273,
+                name = "Port Vila",
+                country = "VU"
+            )
+        )
+        val repository = NewsRepository(
+            sources = listOf(StaticNewsSource(listOf(locatedEvent))),
+            fallbackSource = StaticNewsSource(emptyList())
+        )
+
+        val result = repository.loadClusters()
+
+        assertTrue(result is NewsLoadResult.Success)
+        result as NewsLoadResult.Success
+        assertEquals(1, result.events.size)
+        assertEquals(emptyList<com.crisismap.app.domain.regions.NewsClusterSummary>(), result.clusters)
     }
 
     @Test

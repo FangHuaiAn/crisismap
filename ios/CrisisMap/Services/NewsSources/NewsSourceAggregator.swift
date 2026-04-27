@@ -77,13 +77,43 @@ struct NewsSourceAggregator: Sendable {
             .sorted(by: sortNewestFirst)
             .deduplicated(by: \.id)
         let collapsed = collapseNearDuplicates(ranked)
+        let enriched = enrichLocations(collapsed)
 
-        let sourceBalanced = applySourceQuota(collapsed, limit: limit)
-        let regionBalanced = applyRegionFloor(sourceBalanced, universe: collapsed, limit: limit)
-        let kindBalanced = applyKindFloor(regionBalanced, universe: collapsed, limit: limit)
-        let attributionBalanced = applyAttributionFloor(kindBalanced, universe: collapsed, limit: limit)
+        let sourceBalanced = applySourceQuota(enriched, limit: limit)
+        let regionBalanced = applyRegionFloor(sourceBalanced, universe: enriched, limit: limit)
+        let kindBalanced = applyKindFloor(regionBalanced, universe: enriched, limit: limit)
+        let attributionBalanced = applyAttributionFloor(kindBalanced, universe: enriched, limit: limit)
 
         return Array(attributionBalanced.prefix(limit))
+    }
+
+    private func enrichLocations(_ events: [CrisisEvent]) -> [CrisisEvent] {
+        events.map { event in
+            guard event.location == nil,
+                  let inferred = LocationInference.infer(
+                      title: event.title,
+                      summary: event.summary,
+                      providedLocation: event.location
+                  ) else {
+                return event
+            }
+
+            return CrisisEvent(
+                id: event.id,
+                title: event.title,
+                summary: event.summary,
+                category: event.category,
+                level: event.level,
+                location: inferred.location,
+                timestamp: event.timestamp,
+                source: event.source,
+                sourceTier: event.sourceTier,
+                url: event.url,
+                actor: event.actor,
+                entities: event.entities,
+                newsSource: event.newsSource
+            )
+        }
     }
 
     private func fetchFromSource(_ source: any NewsDataSource, limit: Int) async -> [CrisisEvent] {
