@@ -10,6 +10,7 @@ import com.crisismap.app.data.model.ThinkTankArticle
 import com.crisismap.app.data.sources.ResearchLoadResult
 import com.crisismap.app.data.sources.ResearchRepository
 import com.crisismap.app.domain.regions.matchesArticle
+import com.crisismap.app.ui.regions.displayName
 import kotlinx.coroutines.launch
 
 data class ResearchUiState(
@@ -51,16 +52,6 @@ val researchRegions = listOf(
     Region.Africa,
     Region.Americas
 )
-
-val Region.displayName: String
-    get() = when (this) {
-        Region.All -> "All"
-        Region.MiddleEast -> "Middle East"
-        Region.Europe -> "Europe"
-        Region.EastAsia -> "East Asia"
-        Region.Africa -> "Africa"
-        Region.Americas -> "Americas"
-    }
 
 class ResearchViewModel(
     private val repository: ResearchRepository = ResearchRepository()

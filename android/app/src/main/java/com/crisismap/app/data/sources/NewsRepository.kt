@@ -1,0 +1,118 @@
+package com.crisismap.app.data.sources
+
+import com.crisismap.app.data.model.CrisisEvent
+import com.crisismap.app.data.model.Region
+import com.crisismap.app.domain.regions.NewsClusterSummary
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
+import kotlinx.coroutines.coroutineScope
+
+sealed interface NewsLoadResult {
+    data class Success(
+        val clusters: List<NewsClusterSummary>,
+        val failedSources: List<String>
+    ) : NewsLoadResult
+
+    data class Failure(
+        val message: String,
+        val failedSources: List<String>
+    ) : NewsLoadResult
+}
+
+class NewsRepository(
+    private val sources: List<NewsDataSource> = listOf(RssNewsSource(), GdeltNewsSource()),
+    private val fallbackSource: NewsDataSource = FixtureNewsSource()
+) {
+    suspend fun loadClusters(): NewsLoadResult {
+        val results = coroutineScope {
+            sources.map { source ->
+                async {
+                    runCatching { source.fetch() }
+                        .fold(
+                            onSuccess = { NewsFetchResult.Success(source.id, it) },
+                            onFailure = { NewsFetchResult.Failure(source.id) }
+                        )
+                }
+            }.awaitAll()
+        }
+
+        val liveEvents = results
+            .filterIsInstance<NewsFetchResult.Success>()
+            .flatMap { it.events }
+        val failedSources = results
+            .filterIsInstance<NewsFetchResult.Failure>()
+            .map { it.sourceId }
+            .sorted()
+
+        val events = if (liveEvents.isEmpty()) fallbackSource.fetch() else liveEvents
+        val clusters = buildNewsClusters(events)
+
+        if (clusters.isEmpty()) {
+            return NewsLoadResult.Failure(
+                message = "No news available.",
+                failedSources = failedSources
+            )
+        }
+
+        return NewsLoadResult.Success(
+            clusters = clusters,
+            failedSources = failedSources
+        )
+    }
+}
+
+fun buildNewsClusters(events: List<CrisisEvent>): List<NewsClusterSummary> {
+    return events
+        .groupBy { inferRegion(it) }
+        .filterKeys { it != Region.All }
+        .map { (region, regionEvents) ->
+            val sortedEvents = regionEvents.sortedByDescending { it.timestamp }
+            NewsClusterSummary(
+                id = "news-${region.name.lowercase()}",
+                title = sortedEvents.first().title,
+                region = region,
+                eventCount = regionEvents.size,
+                sourceCount = regionEvents.map { it.source }.distinct().size,
+                score = regionEvents.maxOf { it.level.score },
+                topics = listOf(region.name),
+                lastUpdatedAt = sortedEvents.first().timestamp
+            )
+        }
+        .sortedWith(compareByDescending<NewsClusterSummary> { it.score }.thenByDescending { it.eventCount })
+}
+
+private fun inferRegion(event: CrisisEvent): Region {
+    val text = listOf(event.title, event.summary, event.location?.name, event.location?.country)
+        .filterNotNull()
+        .joinToString(" ")
+        .lowercase()
+
+    return when {
+        listOf("taiwan", "china", "indo-pacific", "japan", "korea").any { it in text } -> Region.EastAsia
+        listOf("middle east", "gaza", "israel", "iran", "syria", "red sea").any { it in text } -> Region.MiddleEast
+        listOf("europe", "ukraine", "russia", "nato").any { it in text } -> Region.Europe
+        listOf("africa", "sudan", "sahel", "ethiopia").any { it in text } -> Region.Africa
+        listOf("america", "united states", "venezuela", "mexico", "caribbean").any { it in text } -> Region.Americas
+        else -> Region.All
+    }
+}
+
+private val com.crisismap.app.data.model.ThreatLevel.score: Double
+    get() = when (this) {
+        com.crisismap.app.data.model.ThreatLevel.Critical -> 1.0
+        com.crisismap.app.data.model.ThreatLevel.High -> 0.8
+        com.crisismap.app.data.model.ThreatLevel.Medium -> 0.6
+        com.crisismap.app.data.model.ThreatLevel.Low -> 0.4
+        com.crisismap.app.data.model.ThreatLevel.Info -> 0.2
+    }
+
+private sealed interface NewsFetchResult {
+    data class Success(
+        val sourceId: String,
+        val events: List<CrisisEvent>
+    ) : NewsFetchResult
+
+    data class Failure(
+        val sourceId: String
+    ) : NewsFetchResult
+}
