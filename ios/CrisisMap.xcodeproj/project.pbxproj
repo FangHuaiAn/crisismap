@@ -54,6 +54,7 @@
 		877C890FF4CC386CB23BDF3B /* ClusteredEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37B0D3CA7D3E5B8B3D684F8 /* ClusteredEvent.swift */; };
 		8C7ED036B7C10EF925113392 /* MentionIndexCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A09DC3CA4D42B73A0F31C /* MentionIndexCalculator.swift */; };
 		9259CA39B2B5171CD2078C47 /* SourceBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6D48CAA7A802A409CAFC95 /* SourceBadge.swift */; };
+		965E7883147E98D67959DE16 /* RegionMarkerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A17D94743F15CA85A99D492 /* RegionMarkerSheet.swift */; };
 		972DB9FAB1AB64BC5F4238ED /* MarketsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBF55863ABC218BF9064F5 /* MarketsViewModel.swift */; };
 		97C6B866349DFA1F94BE8A97 /* ThreatLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FC44853B657645C2112A5F /* ThreatLevel.swift */; };
 		9B5BFD673229188EE56CD38D /* NewsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83770462088E44497DFF7A80 /* NewsDataSource.swift */; };
@@ -89,6 +90,7 @@
 		DBC5CC3DE47B00F9507069D7 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3963D2B992EBDD37B5B22A /* NewsView.swift */; };
 		E859BD45E907A5E4FBF23258 /* news-cluster-rules.v1.json in Resources */ = {isa = PBXBuildFile; fileRef = F13F5435953761B62376E98A /* news-cluster-rules.v1.json */; };
 		ECC1A2756CF659484E5E1D79 /* NewsClusteringEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE54B1D35497DA00DE7866 /* NewsClusteringEngine.swift */; };
+		EEBE7DF35A681D80E3FE0F22 /* EventsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316856F5FD5B601338301B0B /* EventsViewModelTests.swift */; };
 		F0A8CBD4091E68B60AA7D831 /* NewsClusterRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B99CD35533A55CD8A2945 /* NewsClusterRule.swift */; };
 		F311AC31A42B38B4836FC6BD /* NewsClusterRuleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA429A49355B5BA63DF96E /* NewsClusterRuleLoader.swift */; };
 		F42601A60ACB56259565B2CD /* NewsSourceDescriptorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C487034618921879801B48AF /* NewsSourceDescriptorTests.swift */; };
@@ -120,6 +122,7 @@
 		230DCD07842FCF00EFC0135F /* ThinkTankArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkTankArticle.swift; sourceTree = "<group>"; };
 		25C5329B3CB440A2D2EE8881 /* NewsSourceAggregator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSourceAggregator.swift; sourceTree = "<group>"; };
 		2A1CD648B4CE1AEAEE3566E8 /* NewsBatchCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsBatchCacheTests.swift; sourceTree = "<group>"; };
+		316856F5FD5B601338301B0B /* EventsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModelTests.swift; sourceTree = "<group>"; };
 		338E7294BA3F73AF87EBD76C /* CategoryIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryIcon.swift; sourceTree = "<group>"; };
 		3C94373853F418196B6E72B9 /* ThreatOverviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreatOverviewCard.swift; sourceTree = "<group>"; };
 		3CB1AB3A510E1F1E44FFB983 /* GDELTNewsSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDELTNewsSourceTests.swift; sourceTree = "<group>"; };
@@ -162,6 +165,7 @@
 		8AE556B1FE29CE2754B3423E /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
 		928F0853FAD295ACFD82679B /* XNewsSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XNewsSource.swift; sourceTree = "<group>"; };
 		92CCF67B2D23EB7154D22AB1 /* MentionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentionStore.swift; sourceTree = "<group>"; };
+		9A17D94743F15CA85A99D492 /* RegionMarkerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionMarkerSheet.swift; sourceTree = "<group>"; };
 		A144448AEEDDB6D7D5563998 /* KeyActorsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyActorsCard.swift; sourceTree = "<group>"; };
 		A503AC72258FAC4AE20DDEE7 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		A9876BE072826D934C3D31C5 /* MapFilterOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFilterOverlay.swift; sourceTree = "<group>"; };
@@ -246,6 +250,7 @@
 		20AAA8C073546EC820617D7C /* CrisisMapTests */ = {
 			isa = PBXGroup;
 			children = (
+				316856F5FD5B601338301B0B /* EventsViewModelTests.swift */,
 				3CB1AB3A510E1F1E44FFB983 /* GDELTNewsSourceTests.swift */,
 				6126A25648820ED38D032F5D /* LocationInferenceTests.swift */,
 				12ECF190B400FBE7826F2B6F /* MentionIndexCalculatorTests.swift */,
@@ -298,6 +303,7 @@
 				F5A57558551E38FA6AB51E97 /* EventDetailSheet.swift */,
 				79E6D47A1AC273D5F6FD333C /* EventMarkerDot.swift */,
 				A9876BE072826D934C3D31C5 /* MapFilterOverlay.swift */,
+				9A17D94743F15CA85A99D492 /* RegionMarkerSheet.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -590,6 +596,7 @@
 				9BF17F6DF638AC0F0477B669 /* PolymarketContract.swift in Sources */,
 				F9424C8130471F4F0679E981 /* RSSNewsSource.swift in Sources */,
 				4E553AA043D499B5C130EA5A /* Region.swift in Sources */,
+				965E7883147E98D67959DE16 /* RegionMarkerSheet.swift in Sources */,
 				B91CD87DE9A7F4A5BB17328D /* RelativeTime.swift in Sources */,
 				BE63143F68B9C9E9F4095B3E /* RelativeTimeText.swift in Sources */,
 				4077D64C359918E44B6F4F0E /* ResearchView.swift in Sources */,
@@ -609,6 +616,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEBE7DF35A681D80E3FE0F22 /* EventsViewModelTests.swift in Sources */,
 				4F0044D2A82A7C4D7486A3C5 /* GDELTNewsSourceTests.swift in Sources */,
 				D01EBA9911BCFC459C9317A1 /* LocationInferenceTests.swift in Sources */,
 				A5F88F4E9D2CF0FCC72EBA9D /* MentionIndexCalculatorTests.swift in Sources */,
