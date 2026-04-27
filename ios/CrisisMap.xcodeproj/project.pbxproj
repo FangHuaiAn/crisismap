@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		01FB818B99FFA9D9684673C1 /* ThreatOverviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C94373853F418196B6E72B9 /* ThreatOverviewCard.swift */; };
 		053892096E3243328F99172A /* ArticleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177EEBE41409E26ED41BB664 /* ArticleRow.swift */; };
+		0D3F3BC3A1D6CA5D53A01F20 /* RelatedResearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DB7759BEDB37CFBFA0A566 /* RelatedResearch.swift */; };
 		16724754B75B636C0B583BD0 /* MentionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CCF67B2D23EB7154D22AB1 /* MentionStore.swift */; };
 		203DDC3973EDA1FDAD31BF80 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 463DCA90984F1F27BF7C4CF9 /* Localizable.xcstrings */; };
 		236CE4AEADAB1423801BC934 /* LocationInference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D098CEFF17947118B7312A /* LocationInference.swift */; };
@@ -23,6 +24,7 @@
 		34CB0E7A560F563963A7086B /* ClusterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE6E6A425D9C5C29C1ECFE /* ClusterDetailView.swift */; };
 		35CF9E505B084FEE374BDBA5 /* MarketIndicatorsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5089AC4C49663B5DE18A694 /* MarketIndicatorsCard.swift */; };
 		3D215DD40C6362470C2A1E4B /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3A03E0701B94CF7289566C /* APIResponse.swift */; };
+		3DE7C6C0F3B7795A6024A1C0 /* ResearchRelevanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DE0656F17E4CEDDF2221FC /* ResearchRelevanceTests.swift */; };
 		3E8C2A2FACEF85ACBABBB0E2 /* TopicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B856D184D610B080576E4 /* TopicListView.swift */; };
 		404285513C6DF89B7780CCB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B8461DBD656D670E511252 /* ContentView.swift */; };
 		4077D64C359918E44B6F4F0E /* ResearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8584A44D63A9BAAD0B9BA884 /* ResearchView.swift */; };
@@ -124,6 +126,7 @@
 		2A1CD648B4CE1AEAEE3566E8 /* NewsBatchCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsBatchCacheTests.swift; sourceTree = "<group>"; };
 		316856F5FD5B601338301B0B /* EventsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModelTests.swift; sourceTree = "<group>"; };
 		338E7294BA3F73AF87EBD76C /* CategoryIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryIcon.swift; sourceTree = "<group>"; };
+		36DB7759BEDB37CFBFA0A566 /* RelatedResearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedResearch.swift; sourceTree = "<group>"; };
 		3C94373853F418196B6E72B9 /* ThreatOverviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreatOverviewCard.swift; sourceTree = "<group>"; };
 		3CB1AB3A510E1F1E44FFB983 /* GDELTNewsSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDELTNewsSourceTests.swift; sourceTree = "<group>"; };
 		431B6399F1283558C040FB8E /* RSSNewsSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSNewsSourceTests.swift; sourceTree = "<group>"; };
@@ -185,6 +188,7 @@
 		C85E2B40727F06F2CC90398F /* CachedWeekly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedWeekly.swift; sourceTree = "<group>"; };
 		CB9B81AF109891E85E36C595 /* NewsScoringConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsScoringConfig.swift; sourceTree = "<group>"; };
 		D01BAA19F1A8D5CE7706A9CA /* CachedMentionSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedMentionSnapshot.swift; sourceTree = "<group>"; };
+		D0DE0656F17E4CEDDF2221FC /* ResearchRelevanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchRelevanceTests.swift; sourceTree = "<group>"; };
 		D1AA429A49355B5BA63DF96E /* NewsClusterRuleLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsClusterRuleLoader.swift; sourceTree = "<group>"; };
 		D24E419EC32C555537400340 /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
 		D492BDFFFB3749D0921A79BB /* SourceTier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceTier.swift; sourceTree = "<group>"; };
@@ -263,6 +267,7 @@
 				C487034618921879801B48AF /* NewsSourceDescriptorTests.swift */,
 				70456726C6CCDEAF95CA79FE /* NewsSourcePresentationTests.swift */,
 				B343291F70DCA535A03287FA /* NewsViewModelTests.swift */,
+				D0DE0656F17E4CEDDF2221FC /* ResearchRelevanceTests.swift */,
 				DDF73940210FA1B21FC6F6BB /* ResearchViewModelTopicsTests.swift */,
 				431B6399F1283558C040FB8E /* RSSNewsSourceTests.swift */,
 				841763C56F33634139C4FCB7 /* XNewsSourceTests.swift */,
@@ -422,6 +427,7 @@
 				D1AA429A49355B5BA63DF96E /* NewsClusterRuleLoader.swift */,
 				B6F09463946D5DD75832B7D4 /* NewsPrecomputeScheduler.swift */,
 				D7F6DBA7F79D59AB43C9EE49 /* NewsScoringConfigLoader.swift */,
+				36DB7759BEDB37CFBFA0A566 /* RelatedResearch.swift */,
 				633CB28D48195D71C5969141 /* NewsSources */,
 			);
 			path = Services;
@@ -597,6 +603,7 @@
 				F9424C8130471F4F0679E981 /* RSSNewsSource.swift in Sources */,
 				4E553AA043D499B5C130EA5A /* Region.swift in Sources */,
 				965E7883147E98D67959DE16 /* RegionMarkerSheet.swift in Sources */,
+				0D3F3BC3A1D6CA5D53A01F20 /* RelatedResearch.swift in Sources */,
 				B91CD87DE9A7F4A5BB17328D /* RelativeTime.swift in Sources */,
 				BE63143F68B9C9E9F4095B3E /* RelativeTimeText.swift in Sources */,
 				4077D64C359918E44B6F4F0E /* ResearchView.swift in Sources */,
@@ -630,6 +637,7 @@
 				7BF73D5D8F6F5C91FA765571 /* NewsSourcePresentationTests.swift in Sources */,
 				78FD5A31AA98221AAF7D915E /* NewsViewModelTests.swift in Sources */,
 				52C2382C6DFA910379CA90BD /* RSSNewsSourceTests.swift in Sources */,
+				3DE7C6C0F3B7795A6024A1C0 /* ResearchRelevanceTests.swift in Sources */,
 				6E5E362A25B0BDDE25A11412 /* ResearchViewModelTopicsTests.swift in Sources */,
 				4F478945FB19668AD9EBC756 /* XNewsSourceTests.swift in Sources */,
 			);

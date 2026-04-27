@@ -30,6 +30,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.crisismap.app.data.model.CrisisEvent
 import com.crisismap.app.data.model.Region
 import com.crisismap.app.domain.regions.RegionIntelligenceSummary
+import com.crisismap.app.domain.regions.relatedResearchForEvent
 import org.maplibre.android.MapLibre
 import org.maplibre.android.annotations.MarkerOptions
 import org.maplibre.android.camera.CameraPosition
@@ -87,6 +88,10 @@ fun MapScreen(
         selectedEvent?.let { event ->
             EventMarkerSheet(
                 event = event,
+                relatedResearch = relatedResearchForEvent(
+                    event = event,
+                    articles = state.researchArticles
+                ),
                 onDismiss = { selectedEvent = null }
             )
         }

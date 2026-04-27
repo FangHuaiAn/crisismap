@@ -21,6 +21,7 @@ import java.time.Instant
 data class MapUiState(
     val isLoading: Boolean = false,
     val events: List<CrisisEvent> = emptyList(),
+    val researchArticles: List<ThinkTankArticle> = emptyList(),
     val eventMarkers: List<EventMapMarker> = emptyList(),
     val summaries: List<RegionIntelligenceSummary> = buildRegionIntelligenceSummaries(
         newsClusters = emptyList(),
@@ -73,6 +74,7 @@ class MapViewModel(
             uiState = MapUiState(
                 isLoading = false,
                 events = events,
+                researchArticles = articles,
                 eventMarkers = buildEventMapMarkers(events),
                 summaries = buildRegionIntelligenceSummaries(
                     newsClusters = clusters,

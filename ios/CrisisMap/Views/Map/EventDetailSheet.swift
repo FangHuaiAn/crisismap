@@ -3,6 +3,7 @@ import SwiftUI
 struct EventDetailSheet: View {
     let event: CrisisEvent
 
+    @Environment(ResearchViewModel.self) private var researchViewModel
     @Environment(\.dismiss) private var dismiss
 
     var body: some View {
@@ -64,8 +65,36 @@ struct EventDetailSheet: View {
                 }
                 .padding(.top, 4)
             }
+
+            if !relatedResearch.isEmpty {
+                Divider()
+                    .background(Color.border)
+
+                Text("Related research")
+                    .font(.caption.bold())
+                    .foregroundStyle(Color.textPrimary)
+
+                ForEach(relatedResearch) { article in
+                    VStack(alignment: .leading, spacing: 3) {
+                        Text(article.title)
+                            .font(.caption.weight(.semibold))
+                            .foregroundStyle(Color.textPrimary)
+                            .lineLimit(2)
+                        Text("\(article.thinkTank) · \(article.date)")
+                            .font(.caption2)
+                            .foregroundStyle(Color.textSecondary)
+                    }
+                }
+            }
         }
         .padding(20)
         .background(Color.bgSecondary)
+    }
+
+    private var relatedResearch: [ThinkTankArticle] {
+        RelatedResearch.match(
+            event: event,
+            articles: researchViewModel.articles
+        )
     }
 }

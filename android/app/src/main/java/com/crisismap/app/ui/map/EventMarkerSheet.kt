@@ -14,11 +14,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.crisismap.app.data.model.CrisisEvent
+import com.crisismap.app.data.model.ThinkTankArticle
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun EventMarkerSheet(
     event: CrisisEvent,
+    relatedResearch: List<ThinkTankArticle> = emptyList(),
     onDismiss: () -> Unit
 ) {
     ModalBottomSheet(onDismissRequest = onDismiss) {
@@ -71,6 +73,17 @@ fun EventMarkerSheet(
                     text = event.summary,
                     style = MaterialTheme.typography.bodyLarge
                 )
+            }
+
+            if (relatedResearch.isNotEmpty()) {
+                HorizontalDivider()
+                Text("Related research", style = MaterialTheme.typography.titleMedium)
+                relatedResearch.take(3).forEach { article ->
+                    ListItem(
+                        headlineContent = { Text(article.title) },
+                        supportingContent = { Text("${article.thinkTank} | ${article.date}") }
+                    )
+                }
             }
         }
     }
