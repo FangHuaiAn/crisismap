@@ -60,6 +60,12 @@ final class ResearchViewModelTopicsTests: XCTestCase {
         XCTAssertEqual(resolved.absoluteString, "http://localhost:3000")
     }
 
+    func testMVPVisibleTabsHideDeferredFeedAndDashboard() {
+        XCTAssertEqual(AppTab.mvpVisible, [.map, .news, .research])
+        XCTAssertFalse(AppTab.mvpVisible.contains(.feed))
+        XCTAssertFalse(AppTab.mvpVisible.contains(.dashboard))
+    }
+
     private func makeArticle(id: String, category: String, topics: [String]) -> ThinkTankArticle {
         ThinkTankArticle(
             id: id,
