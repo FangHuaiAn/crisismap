@@ -3,6 +3,49 @@ import XCTest
 
 @MainActor
 final class EventsViewModelTests: XCTestCase {
+    func testNewsBackedMapFetcherFallsBackToBuiltInEventsWhenLiveProviderIsEmpty() async throws {
+        let fetcher = NewsBackedEventFetcher(
+            eventProvider: FallbackNewsEventProvider(
+                primary: EmptyNewsEventProvider(),
+                fallback: NewsSourceAggregator.builtInFallback()
+            ),
+            eventLimit: 10
+        )
+        let viewModel = EventsViewModel(eventFetcher: fetcher)
+
+        await viewModel.refresh()
+
+        XCTAssertNil(viewModel.error)
+        XCTAssertEqual(viewModel.events.map(\.id), [
+            "fixture-east-asia",
+            "fixture-europe",
+            "fixture-middle-east"
+        ])
+        XCTAssertEqual(
+            Set(viewModel.regionFallbacks.map(\.region)),
+            Set<Region>([.eastAsia, .europe, .middleEast])
+        )
+    }
+
+    func testNewsBackedMapFetcherUsesLiveEventsWhenAvailable() async throws {
+        let liveEvent = makeEvent(
+            id: "live:mali",
+            title: "Mali security forces report attacks",
+            summary: "Russian personnel remain exposed to attacks in Mali."
+        )
+        let fetcher = NewsBackedEventFetcher(
+            eventProvider: FallbackNewsEventProvider(
+                primary: StubNewsEventProvider(events: [liveEvent]),
+                fallback: NewsSourceAggregator.builtInFallback()
+            ),
+            eventLimit: 10
+        )
+
+        let events = try await fetcher.fetchEvents(locale: "en")
+
+        XCTAssertEqual(events.map(\.id), ["live:mali"])
+    }
+
     func testUnlocatedEventsAreAvailableAsRegionFallback() async throws {
         let viewModel = EventsViewModel(
             eventFetcher: StubEventFetcher(events: [
@@ -50,5 +93,13 @@ private struct StubEventFetcher: EventFetching {
 
     func fetchEvents(locale: String) async throws -> [CrisisEvent] {
         events
+    }
+}
+
+private struct StubNewsEventProvider: NewsEventProviding {
+    let events: [CrisisEvent]
+
+    func fetchEvents(limit: Int) async throws -> [CrisisEvent] {
+        Array(events.prefix(limit))
     }
 }

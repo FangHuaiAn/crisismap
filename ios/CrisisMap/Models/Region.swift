@@ -30,7 +30,7 @@ enum Region: String, CaseIterable, Codable, Sendable {
              "bahrain", "kuwait", "oman", "tehran", "baghdad", "beirut",
              "damascus", "sanaa", "riyadh", "jerusalem", "tel aviv",
              "west bank", "hezbollah", "hamas", "houthi", "irgc",
-             "hormuz", "red sea", "suez"]
+             "hormuz", "red sea", "suez", "middle east", "mideast", "mena"]
         case .europe:
             ["ukraine", "russia", "nato", "eu", "europe", "kyiv", "moscow",
              "london", "paris", "berlin", "brussels", "poland", "romania",

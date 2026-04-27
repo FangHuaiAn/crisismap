@@ -7,6 +7,23 @@ protocol EventFetching: Sendable {
 
 extension APIClient: EventFetching {}
 
+struct NewsBackedEventFetcher: EventFetching {
+    let eventProvider: any NewsEventProviding
+    let eventLimit: Int
+
+    init(
+        eventProvider: any NewsEventProviding = FallbackNewsEventProvider.newsTabDefault(),
+        eventLimit: Int = 100
+    ) {
+        self.eventProvider = eventProvider
+        self.eventLimit = max(1, eventLimit)
+    }
+
+    func fetchEvents(locale: String) async throws -> [CrisisEvent] {
+        try await eventProvider.fetchEvents(limit: eventLimit)
+    }
+}
+
 struct RegionFallback: Identifiable, Sendable {
     let region: Region
     let lat: Double
@@ -39,7 +56,7 @@ final class EventsViewModel {
     private var pollingTask: Task<Void, Never>?
     private let eventFetcher: any EventFetching
 
-    init(eventFetcher: any EventFetching = APIClient.shared) {
+    init(eventFetcher: any EventFetching = NewsBackedEventFetcher()) {
         self.eventFetcher = eventFetcher
     }
 

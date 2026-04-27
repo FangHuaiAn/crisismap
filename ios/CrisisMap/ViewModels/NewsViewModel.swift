@@ -81,6 +81,33 @@ struct EmptyNewsEventProvider: NewsEventProviding {
     }
 }
 
+struct FallbackNewsEventProvider: NewsEventProviding {
+    let primary: any NewsEventProviding
+    let fallback: any NewsEventProviding
+
+    static func newsTabDefault() -> FallbackNewsEventProvider {
+        FallbackNewsEventProvider(
+            primary: NewsSourceAggregator.newsTabDefault(),
+            fallback: NewsSourceAggregator.builtInFallback()
+        )
+    }
+
+    func fetchEvents(limit: Int) async throws -> [CrisisEvent] {
+        let primaryEvents: [CrisisEvent]
+        do {
+            primaryEvents = try await primary.fetchEvents(limit: limit)
+        } catch {
+            primaryEvents = []
+        }
+
+        guard primaryEvents.isEmpty else {
+            return primaryEvents
+        }
+
+        return try await fallback.fetchEvents(limit: limit)
+    }
+}
+
 @MainActor
 @Observable
 final class NewsViewModel {
@@ -106,7 +133,7 @@ final class NewsViewModel {
     private let eventLimit: Int
 
     init(
-        eventProvider: any NewsEventProviding = NewsSourceAggregator.newsTabDefault(),
+        eventProvider: any NewsEventProviding = FallbackNewsEventProvider.newsTabDefault(),
         batchCache: (any NewsBatchCaching)? = nil,
         eventLimit: Int = 100,
         scoringConfig: NewsScoringConfig = .default
@@ -321,6 +348,14 @@ extension NewsSourceAggregator: NewsEventProviding {
                 RSSNewsSource(),
                 GDELTNewsSource(),
                 XNewsSource()
+            ]
+        )
+    }
+
+    static func builtInFallback() -> NewsSourceAggregator {
+        NewsSourceAggregator(
+            sources: [
+                FixtureNewsSource()
             ]
         )
     }
