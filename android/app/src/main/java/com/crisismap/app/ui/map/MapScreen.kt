@@ -27,6 +27,8 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.crisismap.app.data.model.CrisisEvent
+import com.crisismap.app.data.model.Region
 import com.crisismap.app.domain.regions.RegionIntelligenceSummary
 import org.maplibre.android.MapLibre
 import org.maplibre.android.annotations.MarkerOptions
@@ -41,6 +43,7 @@ fun MapScreen(
     viewModel: MapViewModel = viewModel()
 ) {
     val state = viewModel.uiState
+    var selectedEvent by remember { mutableStateOf<CrisisEvent?>(null) }
     var selectedSummary by remember { mutableStateOf<RegionIntelligenceSummary?>(null) }
 
     Box(modifier = modifier.fillMaxSize()) {
@@ -50,8 +53,16 @@ fun MapScreen(
                 .background(Color(0xFF101418))
         ) {
             MapLibreMapBackground(
+                eventMarkers = state.eventMarkers,
                 summaries = state.summaries,
-                onMarkerClick = { selectedSummary = it },
+                onEventMarkerClick = { marker ->
+                    selectedSummary = null
+                    selectedEvent = state.events.firstOrNull { it.id == marker.eventId }
+                },
+                onRegionMarkerClick = {
+                    selectedEvent = null
+                    selectedSummary = it
+                },
                 modifier = Modifier.fillMaxSize()
             )
 
@@ -73,6 +84,13 @@ fun MapScreen(
             }
         }
 
+        selectedEvent?.let { event ->
+            EventMarkerSheet(
+                event = event,
+                onDismiss = { selectedEvent = null }
+            )
+        }
+
         selectedSummary?.let { summary ->
             RegionMarkerSheet(
                 summary = summary,
@@ -84,12 +102,15 @@ fun MapScreen(
 
 @Composable
 private fun MapLibreMapBackground(
+    eventMarkers: List<EventMapMarker>,
     summaries: List<RegionIntelligenceSummary>,
-    onMarkerClick: (RegionIntelligenceSummary) -> Unit,
+    onEventMarkerClick: (EventMapMarker) -> Unit,
+    onRegionMarkerClick: (RegionIntelligenceSummary) -> Unit,
     modifier: Modifier = Modifier
 ) {
     val mapView = rememberMapViewWithLifecycle()
-    val currentOnMarkerClick by rememberUpdatedState(onMarkerClick)
+    val currentOnEventMarkerClick by rememberUpdatedState(onEventMarkerClick)
+    val currentOnRegionMarkerClick by rememberUpdatedState(onRegionMarkerClick)
     var isConfigured by remember { mutableStateOf(false) }
     var mapLibreMap by remember { mutableStateOf<MapLibreMap?>(null) }
 
@@ -108,31 +129,47 @@ private fun MapLibreMapBackground(
         }
     )
 
-    DisposableEffect(mapLibreMap, summaries) {
+    DisposableEffect(mapLibreMap, eventMarkers, summaries) {
         val map = mapLibreMap ?: return@DisposableEffect onDispose {}
-        val markers = buildRegionMapMarkers(summaries)
+        val regionMarkers = buildRegionMapMarkers(summaries)
+        val eventMarkersById = eventMarkers.associateBy { it.eventId }
         val summariesByRegion = summaries.associateBy { it.region }
-        val regionsByTitle = markers.associate { it.title to it.region }
+        val eventAnnotationIds = mutableMapOf<Long, String>()
+        val regionAnnotationIds = mutableMapOf<Long, Region>()
 
         map.clear()
-        markers.forEach { marker ->
-            map.addMarker(
+        eventMarkers.forEach { marker ->
+            val annotation = map.addMarker(
                 MarkerOptions()
                     .position(LatLng(marker.lat, marker.lng))
                     .title(marker.title)
                     .snippet(marker.snippet)
             )
+            eventAnnotationIds[annotation.id] = marker.eventId
+        }
+
+        regionMarkers.forEach { marker ->
+            val annotation = map.addMarker(
+                MarkerOptions()
+                    .position(LatLng(marker.lat, marker.lng))
+                    .title(marker.title)
+                    .snippet(marker.snippet)
+            )
+            regionAnnotationIds[annotation.id] = marker.region
         }
 
         map.setOnMarkerClickListener(
             MapLibreMap.OnMarkerClickListener { marker ->
-                val summary = regionsByTitle[marker.title]?.let(summariesByRegion::get)
-                if (summary == null) {
-                    false
-                } else {
-                    currentOnMarkerClick(summary)
-                    true
+                val eventMarker = eventAnnotationIds[marker.id]?.let(eventMarkersById::get)
+                if (eventMarker != null) {
+                    currentOnEventMarkerClick(eventMarker)
+                    return@OnMarkerClickListener true
                 }
+
+                val summary = regionAnnotationIds[marker.id]?.let(summariesByRegion::get)
+                    ?: return@OnMarkerClickListener false
+                currentOnRegionMarkerClick(summary)
+                true
             }
         )
 

@@ -5,6 +5,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.crisismap.app.data.model.CrisisEvent
 import com.crisismap.app.data.model.ThinkTankArticle
 import com.crisismap.app.data.sources.NewsLoadResult
 import com.crisismap.app.data.sources.NewsRepository
@@ -19,6 +20,8 @@ import java.time.Instant
 
 data class MapUiState(
     val isLoading: Boolean = false,
+    val events: List<CrisisEvent> = emptyList(),
+    val eventMarkers: List<EventMapMarker> = emptyList(),
     val summaries: List<RegionIntelligenceSummary> = buildRegionIntelligenceSummaries(
         newsClusters = emptyList(),
         researchArticles = emptyList(),
@@ -52,6 +55,10 @@ class MapViewModel(
                 is NewsLoadResult.Success -> newsResult.clusters
                 is NewsLoadResult.Failure -> emptyList()
             }
+            val events: List<CrisisEvent> = when (newsResult) {
+                is NewsLoadResult.Success -> newsResult.events
+                is NewsLoadResult.Failure -> emptyList()
+            }
 
             val articles: List<ThinkTankArticle> = when (researchResult) {
                 is ResearchLoadResult.Success -> researchResult.articles
@@ -65,6 +72,8 @@ class MapViewModel(
 
             uiState = MapUiState(
                 isLoading = false,
+                events = events,
+                eventMarkers = buildEventMapMarkers(events),
                 summaries = buildRegionIntelligenceSummaries(
                     newsClusters = clusters,
                     researchArticles = articles,
