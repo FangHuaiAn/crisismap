@@ -90,8 +90,8 @@ private fun inferRegion(event: CrisisEvent): Region {
     return when {
         listOf("taiwan", "china", "indo-pacific", "japan", "korea").any { it in text } -> Region.EastAsia
         listOf("middle east", "gaza", "israel", "iran", "syria", "red sea").any { it in text } -> Region.MiddleEast
+        listOf("africa", "sudan", "sahel", "ethiopia", "mali").any { it in text } -> Region.Africa
         listOf("europe", "ukraine", "russia", "nato").any { it in text } -> Region.Europe
-        listOf("africa", "sudan", "sahel", "ethiopia").any { it in text } -> Region.Africa
         listOf("america", "united states", "venezuela", "mexico", "caribbean").any { it in text } -> Region.Americas
         else -> Region.All
     }

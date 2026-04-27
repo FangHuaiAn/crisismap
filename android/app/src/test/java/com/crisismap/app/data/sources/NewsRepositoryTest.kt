@@ -27,13 +27,30 @@ class NewsRepositoryTest {
         assertEquals(listOf("live"), result.failedSources)
     }
 
+    @Test
+    fun classifiesPhysicalLocationBeforeActorReferences() {
+        val clusters = buildNewsClusters(
+            listOf(
+                event(
+                    id = "mali-russia",
+                    title = "What's driving attacks against gov't and Russian forces in Mali?",
+                    summary = "Russian personnel remain exposed to attacks in Mali."
+                )
+            )
+        )
+
+        assertEquals(1, clusters.size)
+        assertEquals(Region.Africa, clusters.first().region)
+    }
+
     private fun event(
         id: String,
-        title: String
+        title: String,
+        summary: String = "Fixture summary"
     ) = CrisisEvent(
         id = id,
         title = title,
-        summary = "Fixture summary",
+        summary = summary,
         category = EventCategory.Military,
         level = ThreatLevel.Medium,
         timestamp = "2026-04-26T00:00:00Z",
