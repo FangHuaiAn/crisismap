@@ -1,0 +1,331 @@
+{
+  "version": "1.0-runtime",
+  "rules": [
+    {
+      "clusterId": "us-china-strategic-competition",
+      "label": "US-China Strategic Competition",
+      "priority": 1,
+      "keywordsAny": [
+        "strategic competition",
+        "us china competition",
+        "export controls",
+        "chip controls",
+        "semiconductor sanctions",
+        "technology decoupling",
+        "investment restrictions",
+        "entity list",
+        "dual-use technology",
+        "supply chain de-risking",
+        "美中戰略競爭",
+        "美中競爭",
+        "出口管制",
+        "晶片管制",
+        "半導體制裁",
+        "科技脫鉤",
+        "投資限制",
+        "實體清單",
+        "兩用技術",
+        "去風險供應鏈"
+      ],
+      "keywordsAll": [],
+      "regions": [
+        "americas",
+        "east-asia"
+      ],
+      "topics": [
+        "geoeconomics",
+        "technology",
+        "sanctions"
+      ]
+    },
+    {
+      "clusterId": "taiwan-strait",
+      "label": "Taiwan Strait",
+      "priority": 2,
+      "keywordsAny": [
+        "taiwan strait",
+        "taipei",
+        "adiz incursion",
+        "cross-strait tensions",
+        "kinmen",
+        "penghu",
+        "amphibious exercise",
+        "blockade drill",
+        "missile overflight",
+        "coast guard confrontation",
+        "台海",
+        "台北",
+        "共機擾台",
+        "兩岸緊張",
+        "金門",
+        "澎湖",
+        "登陸演訓",
+        "封鎖演習",
+        "飛彈越台",
+        "海警對峙"
+      ],
+      "keywordsAll": [],
+      "regions": [
+        "east-asia"
+      ],
+      "topics": [
+        "taiwan",
+        "military",
+        "deterrence"
+      ]
+    },
+    {
+      "clusterId": "south-china-sea",
+      "label": "South China Sea",
+      "priority": 3,
+      "keywordsAny": [
+        "south china sea",
+        "nine dash line",
+        "spratly islands",
+        "paracel islands",
+        "reef militarization",
+        "freedom of navigation",
+        "maritime militia",
+        "naval standoff",
+        "arbitration ruling",
+        "exclusive economic zone",
+        "南海",
+        "九段線",
+        "南沙群島",
+        "西沙群島",
+        "礁島軍事化",
+        "航行自由",
+        "海上民兵",
+        "海上對峙",
+        "南海仲裁",
+        "專屬經濟區"
+      ],
+      "keywordsAll": [],
+      "regions": [
+        "east-asia"
+      ],
+      "topics": [
+        "maritime",
+        "territorial",
+        "security"
+      ]
+    },
+    {
+      "clusterId": "korean-peninsula",
+      "label": "Korean Peninsula",
+      "priority": 4,
+      "keywordsAny": [
+        "korean peninsula",
+        "north korea",
+        "pyongyang",
+        "icbm launch",
+        "ballistic missile test",
+        "nuclear test",
+        "dmz",
+        "artillery drill",
+        "inter-korean tensions",
+        "deterrence posture",
+        "朝鮮半島",
+        "北韓",
+        "平壤",
+        "洲際飛彈試射",
+        "彈道飛彈試射",
+        "核試",
+        "非軍事區",
+        "砲擊演訓",
+        "南北韓緊張",
+        "威懾態勢"
+      ],
+      "keywordsAll": [],
+      "regions": [
+        "east-asia"
+      ],
+      "topics": [
+        "missile",
+        "nuclear",
+        "deterrence"
+      ]
+    },
+    {
+      "clusterId": "red-sea-maritime-chokepoint",
+      "label": "Red Sea Maritime Chokepoint",
+      "priority": 5,
+      "keywordsAny": [
+        "red sea",
+        "bab el mandeb",
+        "houthi attack",
+        "suez canal",
+        "shipping disruption",
+        "container rerouting",
+        "maritime insurance spike",
+        "chokepoint risk",
+        "tanker incident",
+        "anti-ship missile",
+        "紅海",
+        "曼德海峽",
+        "胡塞攻擊",
+        "蘇伊士運河",
+        "航運中斷",
+        "航線改道",
+        "航運保費飆升",
+        "海運咽喉風險",
+        "油輪事件",
+        "反艦飛彈"
+      ],
+      "keywordsAll": [],
+      "regions": [
+        "middle-east",
+        "africa"
+      ],
+      "topics": [
+        "shipping",
+        "trade",
+        "energy"
+      ]
+    },
+    {
+      "clusterId": "israel-gaza-levant",
+      "label": "Israel-Gaza-Levant",
+      "priority": 6,
+      "keywordsAny": [
+        "gaza",
+        "west bank",
+        "rafah",
+        "hamas",
+        "hezbollah",
+        "ceasefire talks",
+        "hostage release",
+        "idf operation",
+        "border escalation",
+        "humanitarian corridor",
+        "加薩",
+        "西岸",
+        "拉法",
+        "哈瑪斯",
+        "真主黨",
+        "停火談判",
+        "人質釋放",
+        "以軍行動",
+        "邊境升級",
+        "人道走廊"
+      ],
+      "keywordsAll": [],
+      "regions": [
+        "middle-east"
+      ],
+      "topics": [
+        "conflict",
+        "ceasefire",
+        "humanitarian"
+      ]
+    },
+    {
+      "clusterId": "russia-ukraine-war",
+      "label": "Russia-Ukraine War",
+      "priority": 7,
+      "keywordsAny": [
+        "ukraine",
+        "kyiv",
+        "donbas",
+        "crimea",
+        "frontline breakthrough",
+        "drone strike",
+        "missile barrage",
+        "black sea fleet",
+        "mobilization wave",
+        "air defense depletion",
+        "烏克蘭",
+        "基輔",
+        "頓巴斯",
+        "克里米亞",
+        "前線突破",
+        "無人機打擊",
+        "飛彈齊射",
+        "黑海艦隊",
+        "動員潮",
+        "防空消耗"
+      ],
+      "keywordsAll": [],
+      "regions": [
+        "europe"
+      ],
+      "topics": [
+        "war",
+        "frontline",
+        "air-defense"
+      ]
+    },
+    {
+      "clusterId": "sahel-west-africa-instability",
+      "label": "Sahel West Africa Instability",
+      "priority": 8,
+      "keywordsAny": [
+        "sahel",
+        "mali junta",
+        "niger coup",
+        "burkina faso",
+        "jihadist insurgency",
+        "border insecurity",
+        "regional force withdrawal",
+        "militia expansion",
+        "state fragility",
+        "displacement crisis",
+        "薩赫勒",
+        "馬利軍政府",
+        "尼日政變",
+        "布吉納法索",
+        "聖戰叛亂",
+        "邊境失控",
+        "區域部隊撤離",
+        "民兵擴張",
+        "國家脆弱化",
+        "流離失所危機"
+      ],
+      "keywordsAll": [],
+      "regions": [
+        "africa"
+      ],
+      "topics": [
+        "insurgency",
+        "governance",
+        "displacement"
+      ]
+    },
+    {
+      "clusterId": "latin-america-governance-shock",
+      "label": "Latin America Governance Shock",
+      "priority": 9,
+      "keywordsAny": [
+        "venezuela crisis",
+        "cartel violence",
+        "narco network",
+        "election unrest",
+        "constitutional crisis",
+        "migration surge",
+        "border security pressure",
+        "organized crime capture",
+        "state emergency decree",
+        "corruption scandal",
+        "委內瑞拉危機",
+        "卡特爾暴力",
+        "毒梟網絡",
+        "選舉動盪",
+        "憲政危機",
+        "移民潮",
+        "邊境壓力",
+        "組織犯罪滲透",
+        "緊急狀態令",
+        "貪腐醜聞"
+      ],
+      "keywordsAll": [],
+      "regions": [
+        "americas"
+      ],
+      "topics": [
+        "governance",
+        "crime",
+        "migration"
+      ]
+    }
+  ]
+}
