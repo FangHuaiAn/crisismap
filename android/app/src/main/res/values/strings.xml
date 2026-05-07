@@ -5,6 +5,7 @@
     <string name="tab_research">Research</string>
     <string name="news_title">News</string>
     <string name="news_retry">Retry</string>
+    <string name="news_items_count">%1$d items</string>
     <string name="news_source_count">%1$d sources</string>
     <string name="news_source_direct">direct</string>
     <string name="news_source_derived">derived</string>

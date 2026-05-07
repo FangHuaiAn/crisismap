@@ -3,17 +3,27 @@ package com.crisismap.app.ui.news
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.Info
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.ListItem
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
@@ -22,6 +32,7 @@ import com.crisismap.app.R
 import com.crisismap.app.data.model.NewsSourceKind
 import com.crisismap.app.domain.regions.NewsClusterSummary
 import com.crisismap.app.ui.regions.displayName
+import com.crisismap.app.ui.shared.SourceTransparencySheet
 
 @Composable
 fun NewsScreen(
@@ -29,6 +40,13 @@ fun NewsScreen(
     viewModel: NewsViewModel = viewModel()
 ) {
     val state = viewModel.uiState
+    var showSourceTransparency by rememberSaveable { mutableStateOf(false) }
+
+    if (showSourceTransparency) {
+        SourceTransparencySheet(
+            onDismissRequest = { showSourceTransparency = false }
+        )
+    }
 
     LazyColumn(
         modifier = modifier,
@@ -37,10 +55,19 @@ fun NewsScreen(
     ) {
         item {
             Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                Text(
-                    text = stringResource(R.string.news_title),
-                    style = MaterialTheme.typography.headlineSmall
-                )
+                Row(modifier = Modifier.fillMaxWidth()) {
+                    Text(
+                        text = stringResource(R.string.news_title),
+                        style = MaterialTheme.typography.headlineSmall
+                    )
+                    Spacer(modifier = Modifier.weight(1f))
+                    IconButton(onClick = { showSourceTransparency = true }) {
+                        Icon(
+                            imageVector = Icons.Outlined.Info,
+                            contentDescription = stringResource(R.string.source_transparency_button)
+                        )
+                    }
+                }
 
                 if (state.isLoading) {
                     LinearProgressIndicator(modifier = Modifier.fillMaxWidth())
@@ -64,7 +91,9 @@ fun NewsScreen(
                 headlineContent = { Text(cluster.title) },
                 supportingContent = {
                     val sourceSummary = sourceSummaryText(cluster)
-                    val baseSummary = "${cluster.region.displayName} | ${cluster.eventCount} items | ${
+                    val baseSummary = "${cluster.region.displayName} | ${
+                        stringResource(R.string.news_items_count, cluster.eventCount)
+                    } | ${
                         stringResource(R.string.news_source_count, cluster.sourceCount)
                     }"
                     Text(
