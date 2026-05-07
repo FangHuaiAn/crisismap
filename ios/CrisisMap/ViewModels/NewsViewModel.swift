@@ -15,53 +15,64 @@ struct NewsClusterSummary: Identifiable, Sendable {
     var id: String { clusterId }
 
     var attributionSummary: String? {
+        attributionSummary(locale: Locale(identifier: "en"))
+    }
+
+    func attributionSummary(locale: Locale) -> String? {
         let directCount = events.filter { $0.newsSource?.attribution == .direct }.count
         let derivedCount = events.filter { $0.newsSource?.attribution == .derived }.count
 
         var parts: [String] = []
         if directCount > 0 {
-            parts.append("\(directCount) direct")
+            let label = NewsLocalization.attributionSummaryText(.direct, locale: locale)
+            parts.append("\(directCount) \(label)")
         }
         if derivedCount > 0 {
-            parts.append("\(derivedCount) derived")
+            let label = NewsLocalization.attributionSummaryText(.derived, locale: locale)
+            parts.append("\(derivedCount) \(label)")
         }
 
         return parts.isEmpty ? nil : parts.joined(separator: " · ")
     }
 
     var sourceKindSummary: String? {
-        let orderedKinds: [NewsSourceKind] = [.wire, .publisher, .social, .aggregator]
-        let labelsByKind: [NewsSourceKind: String] = [
-            .wire: "wire",
-            .publisher: "publisher",
-            .social: "social",
-            .aggregator: "aggregator"
-        ]
+        sourceKindSummary(locale: Locale(identifier: "en"))
+    }
 
+    func sourceKindSummary(locale: Locale) -> String? {
+        let orderedKinds: [NewsSourceKind] = [.wire, .publisher, .social, .aggregator]
         let presentKinds = Set(events.compactMap { $0.newsSource?.kind })
         let labels = orderedKinds.compactMap { kind in
-            presentKinds.contains(kind) ? labelsByKind[kind] : nil
+            presentKinds.contains(kind) ? NewsLocalization.kindSummaryText(kind, locale: locale) : nil
         }
 
         return labels.isEmpty ? nil : labels.joined(separator: " · ")
     }
 
     var rowSourceSummary: String? {
+        rowSourceSummary(locale: Locale(identifier: "en"))
+    }
+
+    func rowSourceSummary(locale: Locale) -> String? {
         let attributionKinds = Set(events.compactMap { $0.newsSource?.attribution })
         if attributionKinds.count > 1 {
-            return attributionSummary
+            return attributionSummary(locale: locale)
         }
 
-        return sourceKindSummary ?? attributionSummary
+        return sourceKindSummary(locale: locale) ?? attributionSummary(locale: locale)
     }
 
     var detailAttributionSummary: String? {
+        detailAttributionSummary(locale: Locale(identifier: "en"))
+    }
+
+    func detailAttributionSummary(locale: Locale) -> String? {
         let attributionKinds = Set(events.compactMap { $0.newsSource?.attribution })
         guard attributionKinds.count > 1 else {
             return nil
         }
 
-        return attributionSummary
+        return attributionSummary(locale: locale)
     }
 }
 

@@ -4,8 +4,10 @@ import SwiftUI
 struct NewsView: View {
     @Environment(NewsViewModel.self) private var newsVM
     @Environment(\.modelContext) private var modelContext
+    @Environment(\.locale) private var locale
 
     @State private var didBootstrap = false
+    @State private var isShowingSourceTransparency = false
 
     var body: some View {
         @Bindable var vm = newsVM
@@ -25,15 +27,15 @@ struct NewsView: View {
                     Spacer()
                 } else if let error = vm.error, vm.allClusters.isEmpty {
                     ContentUnavailableView {
-                        Label("News Unavailable", systemImage: "newspaper.fill")
+                        Label("news.error.unavailable", systemImage: "newspaper.fill")
                     } description: {
                         Text(error)
                     }
                 } else if vm.filteredClusters.isEmpty {
                     ContentUnavailableView {
-                        Label("No Clusters", systemImage: "tray")
+                        Label("news.empty.title", systemImage: "tray")
                     } description: {
-                        Text("Try another region/topic filter.")
+                        Text("news.empty.description")
                     }
                 } else {
                     List(vm.filteredClusters) { cluster in
@@ -51,13 +53,20 @@ struct NewsView: View {
             }
             .padding(.top, 8)
             .background(Color.bgPrimary)
-            .navigationTitle("News")
-            .searchable(text: $vm.searchText, prompt: "Search clusters")
+            .navigationTitle("news.title")
+            .searchable(text: $vm.searchText, prompt: "news.search")
             .refreshable {
                 await refreshNow()
             }
             .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
+                ToolbarItemGroup(placement: .topBarTrailing) {
+                    Button {
+                        isShowingSourceTransparency = true
+                    } label: {
+                        Image(systemName: "info.circle")
+                    }
+                    .accessibilityLabel(Text("sourceTransparency.button"))
+
                     Button {
                         Task { await refreshNow() }
                     } label: {
@@ -65,6 +74,9 @@ struct NewsView: View {
                     }
                 }
             }
+        }
+        .sheet(isPresented: $isShowingSourceTransparency) {
+            SourceTransparencySheet()
         }
         .task {
             guard !didBootstrap else { return }
@@ -75,7 +87,7 @@ struct NewsView: View {
     }
 
     private var offlineBanner: some View {
-        Label("Showing cached news while live sources are unavailable.", systemImage: "wifi.slash")
+        Label("news.offline.cached", systemImage: "wifi.slash")
             .font(.caption)
             .foregroundStyle(Color.accentOrange)
             .frame(maxWidth: .infinity, alignment: .leading)
@@ -108,7 +120,7 @@ struct NewsView: View {
                 }
 
                 Menu {
-                    Button("All Topics") {
+                    Button(NewsLocalization.text("news.topic.all", locale: locale)) {
                         vm.selectedTopic = nil
                     }
 
@@ -118,7 +130,7 @@ struct NewsView: View {
                         }
                     }
                 } label: {
-                    Label(vm.selectedTopic ?? "All Topics", systemImage: "tag")
+                    Label(vm.selectedTopic ?? NewsLocalization.text("news.topic.all", locale: locale), systemImage: "tag")
                         .font(.caption)
                         .foregroundStyle(Color.textPrimary)
                         .padding(.horizontal, 10)

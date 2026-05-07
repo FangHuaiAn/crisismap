@@ -1,0 +1,34 @@
+{
+  "week": "2026-W06",
+  "start_date": "2026-02-02",
+  "end_date": "2026-02-08",
+  "generated_at": "2026-02-26T06:52:05Z",
+  "articles": [
+    {
+      "id": "f42a7ead",
+      "think_tank": "RAND",
+      "title": "Bridging the Digital to Physical Divide: Evaluating LLM Agents on Benchtop DNA Acquisition",
+      "url": "https://www.rand.org/pubs/research_reports/RRA4591-1.html",
+      "date": "2026-02-03",
+      "summary": "This report describes eight frontier large language model (LLM) agents on their ability to design DNA segments, interact with a benchtop DNA synthesizer, and generate laboratory protocols. These are dual-use tasks, explored as potential technical bottlenecks to a malicious actor building a viral pathogen that could be weaponized. Performance varied among the models, but all tested LLMs designed biologically coherent DNA segments in some attempts.",
+      "category": "technology",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "This report describes eight frontier large language model (LLM) agents on their ability to design DNA segments, interact with a benchtop DNA synthesizer, and generate laboratory protocols. These are dual-use tasks, explored as potential technical bottlenecks to a malicious actor building a viral pathogen that could be weaponized. Performance varied among the models, but all tested LLMs designed biologically coherent DNA segments in some attempts.",
+          "category": "technology"
+        },
+        "zh": {
+          "summary": "本報告描述了八種前沿大型語言模型（LLM）智能體在設計DNA片段、與桌上型DNA合成儀互動以及產生實驗室操作規程的能力。這些任務具有雙重用途，旨在探索惡意攻擊者建構可用於武器化的病毒病原體時可能遇到的技術瓶頸。各模型的表現有所不同，但所有測試的LLM智能體在某些嘗試中都設計出了生物學上連貫的DNA片段。",
+          "category": "technology"
+        }
+      },
+      "topics": [
+        "AI",
+        "Cybersecurity",
+        "Nuclear",
+        "United States"
+      ]
+    }
+  ]
+}

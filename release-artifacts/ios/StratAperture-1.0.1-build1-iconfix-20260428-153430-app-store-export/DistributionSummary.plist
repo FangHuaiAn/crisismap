@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CrisisMap.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>85BAA877716EA26C9282047A6BC9A3F2949FFCE5</string>
+				<key>dateExpires</key>
+				<string>2027/2/23</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>Z247G8X22D.net.strataperture.StratAperture</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>Z247G8X22D</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>CrisisMap.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>c7b030b1-1752-4775-8c58-5dd930d0fd1a</string>
+				<key>dateExpires</key>
+				<string>2027/2/23</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: net.strataperture.StratAperture</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>Z247G8X22D</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0.1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

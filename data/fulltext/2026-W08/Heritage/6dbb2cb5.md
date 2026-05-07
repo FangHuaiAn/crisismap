@@ -1,0 +1,25 @@
+# No Marriage. No Babies. No Future. America’s Going From Birth to Death
+
+**來源：** Heritage
+**日期：** 2026-02-22
+**URL：** https://www.heritage.org/marriage-and-family/commentary/no-marriage-no-babies-no-future-americas-going-birth-death
+
+---
+
+A new report by the Congressional Budget Office shows that, absent immigration, America’s population will begin to shrink by 2030. As we approach the 250th anniversary of our nation’s founding, this projection underscores a hard truth: the collapse of marriage and family life represents the gravest threat to our great nation’s future.
+That is why The Heritage Foundation has released the first in a series of special reports on Saving America by Saving the Family. The central argument is straightforward. Our country cannot afford to continue ignoring our declining marriage and birthrates, as lawmakers on both the Left and Right have done for decades. The discussion ranges from eliminating all marriage penalties embedded in welfare programs, to new tax credits for married families, to offering public honors to couples for every decade they remain married.
+These proposals reflect a blend of longstanding conservative priorities and new ideas, all animated by a shared belief: that strong American families were at the heart of the nation in 1776 and remain essential to its future. They are not offered as a final word, but as the beginning of a long-overdue national conversation about how to halt America’s demographic and social collapse.
+>>> Saving America by Saving the Family: A Foundation for the Next 250 Years
+Unfortunately, there are those—on both the radical Left and the libertarian Right—who are rigidly and ideologically opposed to our key ideas for supporting married families.
+Critics on the Left argue that opposition to abortion and support for married parents who prefer to provide home child care (usually through the mother) amount to a patriarchal assault on women’s "autonomy" and "reproductive freedom." Meanwhile, critics on the libertarian Right contend that government has no business trying to incentivize decisions related to family structure.
+Few dispute that marriage rates are falling, that traditional families are weakening, or that the nation stands on a demographic precipice. What is striking is how our critics echo each other in saying the government should not be doing anything proactively about it.
+The problem is that if traditional families continue to disappear, we will eventually lose America itself.
+America is a nation rooted in its people, culture, laws and customs, as well as its ideals—and it cannot be sustained if Americans themselves do not marry, form families, and raise children. And yes, we do believe it is legitimate for government to encourage ways of life that allow its people to endure and flourish, and the social science is crystal clear—traditional married families outpace the alternatives in a host of wealth, education, health, and happiness measures.
+We make no apology for wanting to persuade more young Americans to marry, own homes, raise the next generation, and find deep fulfillment in family life.
+We also do not believe the solution lies in mass immigration when we can’t even assimilate the immigrants that are already here. Nor do we believe that modern technology can substitute for the home, the neighborhood, and the family.
+>>> Reviving the American Family
+The quintessential American Dream of a family with a house and a white-picket fence remains as important as ever to the American imagination, and our task is to convert that dream into a reality. We want to make sure young Americans can realistically achieve these goals by, at a minimum, removing obstacles that stand in the way, and by assuring our policies actually privilege, prefer and support married family formation.
+That is a winning message conservatives would do well to embrace in 2026. And the good news is that President Trump is already leading the way. He recently announced his intention to tackle the unaffordability of single-family homes and abuses in the credit-card industry, and Heritage looks forward to contributing our thoughts and recommendations into that discussion and those to come.
+More broadly, we will continue to answer those—on the Left and on the libertarian Right—who either see no problem or see no solution. They are wrong on both counts. A society that refuses to defend marriage and child-rearing is not neutral; it is choosing between accelerated or managed decline. And a movement that shrugs its shoulders in the face of that decline offers nothing but surrender.
+If our critics have new ideas, they should by all means present them. But we are done watching our kids fall further behind, our families struggle and our societal pillars crumble, and we are calling for action that meets the moment. Heritage will be proud to work on ushering in a new American Golden Age, centered on the family, and the next phase in reaching that goal begins now.
+This piece originally appeared in Fox News

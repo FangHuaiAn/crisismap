@@ -1,0 +1,32 @@
+{
+  "week": "2026-W05",
+  "start_date": "2026-01-26",
+  "end_date": "2026-02-01",
+  "generated_at": "2026-02-26T06:42:56Z",
+  "articles": [
+    {
+      "id": "6395690e",
+      "think_tank": "RAND",
+      "title": "Analysis of West Virginia’s State School Aid Funding Formula: Recommendations to Enhance Adequacy, Fairness, and Efficiency of State Funding for Education",
+      "url": "https://www.rand.org/pubs/research_reports/RRA4161-1.html",
+      "date": "2026-01-30",
+      "summary": "This report, prepared for the West Virginia House of Delegates, is intended to provide an independent, holistic assessment of the state’s school aid funding formula and to identify opportunities for improvements in the state’s funding strategy. The authors use a combination of prior research on funding issues, benchmarks and examples from funding formulas nationwide, and analysis of state and national data sets to inform their recommendations.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "This report, prepared for the West Virginia House of Delegates, is intended to provide an independent, holistic assessment of the state’s school aid funding formula and to identify opportunities for improvements in the state’s funding strategy. The authors use a combination of prior research on funding issues, benchmarks and examples from funding formulas nationwide, and analysis of state and national data sets to inform their recommendations.",
+          "category": "governance"
+        },
+        "zh": {
+          "summary": "這份提交給西維吉尼亞州眾議院的報告旨在對該州的學校援助資金分配方案進行獨立、全面的評估，並找出改善該州資金策略的機會。作者綜合運用了以往關於資金問題的研究、全國範圍內的資金分配方案基準和案例，以及對州和國家數據集的分析，來提出他們的建議。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "AI",
+        "United States"
+      ]
+    }
+  ]
+}

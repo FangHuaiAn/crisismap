@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ThinkTankWeekly",
+  "description": "智庫週報 — 每週智庫文章彙集資料",
+  "type": "object",
+  "required": ["week", "start_date", "end_date", "generated_at", "articles"],
+  "properties": {
+    "week": {
+      "type": "string",
+      "description": "ISO 週次標記，格式 YYYY-WNN",
+      "pattern": "^\\d{4}-W\\d{2}$"
+    },
+    "start_date": {
+      "type": "string",
+      "format": "date",
+      "description": "該週起始日（週一）"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "description": "該週結束日（週日）"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "JSON 檔案產出時間"
+    },
+    "articles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "think_tank", "title", "url", "date", "status"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "文章唯一識別碼（8 字元短 UUID）"
+          },
+          "think_tank": {
+            "type": "string",
+            "description": "智庫簡稱，對應 config.yaml 中的 short_name"
+          },
+          "title": {
+            "type": "string",
+            "description": "文章標題"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "文章原始連結"
+          },
+          "date": {
+            "type": "string",
+            "format": "date",
+            "description": "文章發布日期"
+          },
+          "summary": {
+            "type": "string",
+            "description": "Claude Chrome Plugin 產出的摘要，初始為空字串",
+            "default": ""
+          },
+          "category": {
+            "type": "string",
+            "description": "文章歸類，初始為空字串",
+            "default": ""
+          },
+          "topics": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "主題標籤（多值），從 data/topics.json 清單選取",
+            "default": []
+          },
+          "status": {
+            "type": "string",
+            "enum": ["pending", "ai_generated", "paywall", "reviewed", "summarized"],
+            "description": "pending=待處理, ai_generated=AI草稿完成, paywall=付費牆需人工, reviewed=人工確認完成, summarized=舊版已完成",
+            "default": "pending"
+          },
+          "paywall": {
+            "type": "boolean",
+            "description": "true = 全文不可取得，需人工輸入摘要",
+            "default": false
+          },
+          "analysis": {
+            "description": "AI 草稿工作區，null 表示尚未執行",
+            "oneOf": [
+              {"type": "null"},
+              {
+                "type": "object",
+                "properties": {
+                  "en": {
+                    "type": "object",
+                    "properties": {
+                      "summary": {"type": "string"},
+                      "category": {"type": "string"}
+                    }
+                  },
+                  "zh": {
+                    "type": "object",
+                    "properties": {
+                      "summary": {"type": "string"},
+                      "category": {"type": "string"}
+                    }
+                  },
+                  "provider": {"type": "string", "description": "claude | gemini | codex"},
+                  "generated_at": {"type": "string", "format": "date-time"}
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

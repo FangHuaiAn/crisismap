@@ -1,0 +1,2443 @@
+{
+  "week": "2026-W09",
+  "start_date": "2026-02-23",
+  "end_date": "2026-03-01",
+  "generated_at": "2026-02-23T12:24:50Z",
+  "articles": [
+    {
+      "id": "1069debb",
+      "think_tank": "CFR",
+      "title": "China Daily: US business groups, lawmakers welcome Supreme Court ruling against Trump tariffs",
+      "url": "https://global.chinadaily.com.cn/a/202602/21/WS69991e03a310d6866eb39b5c.html",
+      "date": "2026-02-23",
+      "summary": "",
+      "category": "",
+      "status": "pending",
+      "topics": [
+        "China"
+      ]
+    },
+    {
+      "id": "469ae922",
+      "think_tank": "CFR",
+      "title": "Froman: U.S. Focus Has Been on Europe Taking Responsibility for Its Conventional Defense",
+      "url": "https://www.npr.org/2026/02/17/nx-s1-5716883/europes-post-munich-exhale-machado-on-gifting-nobel-peace-prize-to-trump",
+      "date": "2026-02-23",
+      "summary": "",
+      "category": "",
+      "status": "pending",
+      "topics": [
+        "Europe",
+        "United States"
+      ]
+    },
+    {
+      "id": "c2e58ac9",
+      "think_tank": "CFR",
+      "title": "George Kennan and the Long Telegram",
+      "url": "https://www.cfr.org/articles/george-kennan-and-the-long-telegram",
+      "date": "2026-02-23",
+      "summary": "George Kennan’s 1946 'Long Telegram' and subsequent 'X Article' established the foundational strategy of containment that defined U.S. foreign policy for four decades. He argued that Soviet expansionism was driven by internal ideological dynamics rather than external incentives, necessitating a firm, long-term counterforce to Russian encroachment. Beyond military might, Kennan emphasized that successfully containing the Soviet threat required the United States to maintain a healthy, vibrant, and spiritually vital domestic society. This strategy ultimately guided the U.S. to victory in the Cold War by managing geopolitical competition until the Soviet Union's collapse in 1991.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "George Kennan’s 1946 'Long Telegram' and subsequent 'X Article' established the foundational strategy of containment that defined U.S. foreign policy for four decades. He argued that Soviet expansionism was driven by internal ideological dynamics rather than external incentives, necessitating a firm, long-term counterforce to Russian encroachment. Beyond military might, Kennan emphasized that successfully containing the Soviet threat required the United States to maintain a healthy, vibrant, and spiritually vital domestic society. This strategy ultimately guided the U.S. to victory in the Cold War by managing geopolitical competition until the Soviet Union's collapse in 1991.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:43:29.278648+00:00",
+        "zh": {
+          "summary": "喬治·肯楠（George Kennan）1946 年的「長電報」及隨後的「X 文章」，奠定了定義美國四十年外交政策的「圍堵」基礎戰略。他主張蘇聯的擴張主義是由其內部意識形態動力而非外部激勵所驅動，因此必須對俄羅斯的蠶食採取堅定且長期的抗衡。除了軍事力量，肯楠強調成功圍堵蘇聯威脅有賴於美國維持一個健康、充滿活力且具備精神力量的國內社會。這一戰略透過管理地緣政治競爭，最終指引美國贏得冷戰，直到 1991 年蘇聯解體。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "Europe",
+        "Indo-Pacific",
+        "Russia",
+        "United States"
+      ]
+    },
+    {
+      "id": "4c5e933d",
+      "think_tank": "Chatham House",
+      "title": "US Supreme Court strikes down Trump’s tariffs: Early analysis from Chatham House experts",
+      "url": "https://www.chathamhouse.org/2026/02/us-supreme-court-strikes-down-trumps-tariffs-early-analysis-chatham-house-experts",
+      "date": "2026-02-23",
+      "summary": "The US Supreme Court invalidated President Trump's use of the International Emergency Economic Powers Act to impose broad tariffs, ruling that the administration exceeded its executive authority. Despite this legal setback, the White House immediately pivoted to Section 122 of the 1974 Trade Act to implement a new 15% global tariff, though experts warn this move remains vulnerable to further litigation. Ultimately, the ruling fails to restore predictability to US trade policy, forcing global partners to navigate continued protectionist volatility and pursue long-term trade diversification strategies.",
+      "category": "economics",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The US Supreme Court invalidated President Trump's use of the International Emergency Economic Powers Act to impose broad tariffs, ruling that the administration exceeded its executive authority. Despite this legal setback, the White House immediately pivoted to Section 122 of the 1974 Trade Act to implement a new 15% global tariff, though experts warn this move remains vulnerable to further litigation. Ultimately, the ruling fails to restore predictability to US trade policy, forcing global partners to navigate continued protectionist volatility and pursue long-term trade diversification strategies.",
+          "category": "economics"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:12:48.366137+00:00",
+        "zh": {
+          "summary": "美國最高法院裁定川普總統利用《國際緊急經濟權力法》徵收廣泛關稅的行為無效，判定行政部門逾越了其行政權限。儘管遭遇法律挫折，白宮立即轉而根據 1974 年《貿易法》第 122 條實施新的 15% 全球關稅，但專家警告此舉仍可能面臨進一步的訴訟。最終，該裁決未能恢復美國貿易政策的可預測性，迫使全球夥伴在持續的保護主義波動中尋求應對之道，並追求長期的貿易多元化策略。",
+          "category": "economics"
+        }
+      },
+      "topics": [
+        "Europe",
+        "Indo-Pacific",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "c7704c7f",
+      "think_tank": "INSS",
+      "title": "The ISNAD Campaign Against Israel—Toward a New Strategy?",
+      "url": "https://www.inss.org.il/publication/isnad-after-war/",
+      "date": "2026-02-23",
+      "summary": "The ISNAD influence campaign, linked to the Muslim Brotherhood, has pivoted from a wartime focus on ending the Gaza conflict to a long-term 'sociological warfare' strategy targeting Israel’s internal social fabric. Evidence from social media analysis indicates a shift toward narratives that delegitimize state institutions, foster extreme political polarization, and encourage emigration to undermine national cohesion. This evolution into a more professionalized and defensive operation suggests that Israel must treat such civilian-led digital campaigns as significant threats to its long-term social resilience and national security.",
+      "category": "other",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The ISNAD influence campaign, linked to the Muslim Brotherhood, has pivoted from a wartime focus on ending the Gaza conflict to a long-term 'sociological warfare' strategy targeting Israel’s internal social fabric. Evidence from social media analysis indicates a shift toward narratives that delegitimize state institutions, foster extreme political polarization, and encourage emigration to undermine national cohesion. This evolution into a more professionalized and defensive operation suggests that Israel must treat such civilian-led digital campaigns as significant threats to its long-term social resilience and national security.",
+          "category": "other"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:13:22.802878+00:00",
+        "zh": {
+          "summary": "與穆斯林兄弟會有關的 ISNAD 影響力行動，已將重點從戰時結束加薩衝突轉向針對以色列內部社會結構的長期「社會學戰爭」策略。社群媒體分析證據顯示，其敘事正轉向削弱國家機構的正當性、煽動極端政治極化，並透過鼓勵移民來破壞國家凝聚力。這種向更專業化與防禦性運作的演變，顯示以色列必須將此類民間發起的數位行動，視為對其長期社會韌性與國家安全的重大威脅。",
+          "category": "other"
+        }
+      },
+      "topics": [
+        "Middle East",
+        "Trade"
+      ]
+    },
+    {
+      "id": "bd36c0e8",
+      "think_tank": "INSS",
+      "title": "Digital Sovereignty: A Conceptual Framework for Israel and Policy Recommendations",
+      "url": "https://www.inss.org.il/publication/digital-sovereignty/",
+      "date": "2026-02-23",
+      "summary": "Israel must transition from reliance on foreign digital infrastructure to a model of digital sovereignty to protect its national security and strategic autonomy in the AI era. While a global leader in innovation, Israel faces vulnerabilities due to its dependence on international cloud providers, semiconductor supply chains, and a regulatory environment ill-suited for large-scale domestic infrastructure projects. To mitigate these risks, the paper recommends designating digital assets as strategic national infrastructure, integrating energy planning with data center needs, and establishing a sovereign hybrid cloud framework to ensure national control over critical data and computing resources.",
+      "category": "technology",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "Israel must transition from reliance on foreign digital infrastructure to a model of digital sovereignty to protect its national security and strategic autonomy in the AI era. While a global leader in innovation, Israel faces vulnerabilities due to its dependence on international cloud providers, semiconductor supply chains, and a regulatory environment ill-suited for large-scale domestic infrastructure projects. To mitigate these risks, the paper recommends designating digital assets as strategic national infrastructure, integrating energy planning with data center needs, and establishing a sovereign hybrid cloud framework to ensure national control over critical data and computing resources.",
+          "category": "technology"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:13:57.868327+00:00",
+        "zh": {
+          "summary": "以色列必須從依賴外國數位基礎設施轉型為數位主權模式，以在人工智慧時代維護其國家安全與戰略自主。儘管以色列身為全球創新領導者，但由於過度依賴國際雲端服務商、半導體供應鏈，加上現行監管環境難以支持大規模國內基礎設施建設，使其面臨安全隱憂。為降低相關風險，本文建議將數位資產定位為國家戰略基礎設施，並將能源規劃與資料中心需求整合，同時建立主權混合雲架構，以確保國家對關鍵數據與運算資源的掌控權。",
+          "category": "technology"
+        }
+      },
+      "topics": [
+        "AI",
+        "China",
+        "Climate",
+        "Cybersecurity",
+        "Europe",
+        "Middle East",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "852ee6fb",
+      "think_tank": "INSS",
+      "title": "Saudi Arabia’s New Approach to Israel and the Normalization Process",
+      "url": "https://www.inss.org.il/publication/saudi-israel-2026/",
+      "date": "2026-02-23",
+      "summary": "Saudi Arabia has shifted from a path of gradual rapprochement to a policy of strategic distancing from Israel, making normalization unlikely in the near term. This shift is fueled by overwhelming domestic public opposition, increasingly harsh rhetoric from leadership regarding the conflict in Gaza, and a non-negotiable demand for a Palestinian state based on 1967 borders. Consequently, Riyadh now views normalization as a risk to its regional standing and domestic legitimacy rather than a strategic opportunity. Any return to the normalization trajectory will require significant developments in the Palestinian arena and a fundamental reassessment of Israel's regional role.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "Saudi Arabia has shifted from a path of gradual rapprochement to a policy of strategic distancing from Israel, making normalization unlikely in the near term. This shift is fueled by overwhelming domestic public opposition, increasingly harsh rhetoric from leadership regarding the conflict in Gaza, and a non-negotiable demand for a Palestinian state based on 1967 borders. Consequently, Riyadh now views normalization as a risk to its regional standing and domestic legitimacy rather than a strategic opportunity. Any return to the normalization trajectory will require significant developments in the Palestinian arena and a fundamental reassessment of Israel's regional role.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:14:35.503455+00:00",
+        "zh": {
+          "summary": "沙烏地阿拉伯已從漸進和解轉向與以色列保持戰略距離的政策，使短期內關係正常化的前景變得渺茫。此一轉變源於國內輿論的強烈反對、領導層針對加薩衝突的辭令日益嚴厲，以及堅持以1967年邊界建立巴勒斯坦國的強硬立場。因此，利雅德目前將關係正常化視為對其區域地位與國內政權合法性的威脅，而非戰略機遇。若要重啟正常化進程，必須仰賴巴勒斯坦議題取得實質進展，並對以色列的區域角色進行根本性的重新評估。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "AI",
+        "Middle East",
+        "United States"
+      ]
+    },
+    {
+      "id": "fdb77fc7",
+      "think_tank": "RAND",
+      "title": "Decisive Economic Advantage: Modeling the Transition from Temporary First-Mover Leads to Economic Dominance in Artificial General Intelligence",
+      "url": "https://www.rand.org/pubs/research_reports/RRA4444-1.html",
+      "date": "2026-02-23",
+      "summary": "This RAND report introduces the concept of Decisive Economic Advantage (DEA), a state where early leads in Artificial General Intelligence (AGI) become permanent dominance through self-reinforcing feedback loops between technological capability, economic deployment, and capital reinvestment. Using a dynamic economic model and Monte Carlo simulations, the author identifies two primary pathways to dominance: 'frontier-driven' intelligence explosions and 'accumulation-driven' reinvestment moats that can occur even without recursive self-improvement. The findings suggest that strategic intervention leverage decays rapidly as asymmetries widen, implying that policymakers must prioritize early detection of regime shifts and tailor responses—such as export controls or ecosystem containment—to the specific growth mechanism involved.",
+      "category": "technology",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "This RAND report introduces the concept of Decisive Economic Advantage (DEA), a state where early leads in Artificial General Intelligence (AGI) become permanent dominance through self-reinforcing feedback loops between technological capability, economic deployment, and capital reinvestment. Using a dynamic economic model and Monte Carlo simulations, the author identifies two primary pathways to dominance: 'frontier-driven' intelligence explosions and 'accumulation-driven' reinvestment moats that can occur even without recursive self-improvement. The findings suggest that strategic intervention leverage decays rapidly as asymmetries widen, implying that policymakers must prioritize early detection of regime shifts and tailor responses—such as export controls or ecosystem containment—to the specific growth mechanism involved.",
+          "category": "technology"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:15:10.932794+00:00",
+        "zh": {
+          "summary": "這份蘭德公司 (RAND) 的報告提出了「決定性經濟優勢」(Decisive Economic Advantage, DEA) 的概念，這是一種透過技術能力、經濟部署與資本再投資之間的自我強化回饋循環，使通用人工智慧 (AGI) 的早期領先地位演變為永久主導權的狀態。作者利用動態經濟模型與蒙地卡羅模擬，識別出達成主導權的兩條主要路徑：即使在沒有遞迴式自我完善的情況下也可能發生的「前沿驅動型」智慧爆炸，以及「累積驅動型」的再投資護城河。研究結果表明，隨著不對稱性的擴大，策略性干預的槓桿作用會迅速衰減，這意味著決策者必須優先考慮及早偵測模式切換，並針對所涉及的特定增長機制量身定制應對措施，例如出口管制或生態系統遏制。",
+          "category": "technology"
+        }
+      },
+      "topics": [
+        "AI",
+        "Nuclear",
+        "Taiwan",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "e7947546",
+      "think_tank": "Brookings",
+      "title": "Brown Center scholars reflect on education after 1 year of the Trump administration",
+      "url": "https://www.brookings.edu/articles/brown-center-scholars-reflect-on-education-after-1-year-of-the-trump-administration/",
+      "date": "2026-02-24",
+      "summary": "Brookings scholars analyze the second Trump administration's first year of education policy, highlighting a paradoxical strategy of dismantling federal bureaucracy while aggressively using civil rights enforcement to advance culture-war priorities. Key actions include slashing Department of Education staff, ending DEI initiatives despite empirical evidence of their value, and withholding funds from institutions over campus protests and transgender policies. The analysis suggests that while executive orders have significantly restructured the federal role, long-term impact remains uncertain due to ongoing litigation and the need for Congressional support to terminate major programs like IDEA and Title I.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "Brookings scholars analyze the second Trump administration's first year of education policy, highlighting a paradoxical strategy of dismantling federal bureaucracy while aggressively using civil rights enforcement to advance culture-war priorities. Key actions include slashing Department of Education staff, ending DEI initiatives despite empirical evidence of their value, and withholding funds from institutions over campus protests and transgender policies. The analysis suggests that while executive orders have significantly restructured the federal role, long-term impact remains uncertain due to ongoing litigation and the need for Congressional support to terminate major programs like IDEA and Title I.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:15:45.548750+00:00",
+        "zh": {
+          "summary": "布魯金斯學會學者分析第二任川普政府首年的教育政策，指出其採取了一種矛盾策略：在拆解聯邦官僚體系的同時，積極動用民權執法以推進文化戰爭的優先議程。關鍵行動包括大幅裁減教育部員額、無視實證成效終止多元、公平與包容（DEI）倡議，並針對校園抗議及跨性別政策扣留機構經費。分析顯示，儘管行政命令已顯著重塑聯邦政府的角色，但受限於持續的法律訴訟，且終止《身心障礙者教育法》（IDEA）與《第一章》（Title I）等重大計畫仍需國會支持，其長期影響仍具不確定性。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "Climate",
+        "Middle East",
+        "United States"
+      ]
+    },
+    {
+      "id": "18621d31",
+      "think_tank": "Brookings",
+      "title": "AI + work: Building pro-worker AI",
+      "url": "https://www.hamiltonproject.org/event/building-pro-worker-ai/",
+      "date": "2026-02-24",
+      "summary": "",
+      "category": "",
+      "status": "pending"
+    },
+    {
+      "id": "bcb83196",
+      "think_tank": "CATO",
+      "title": "Cato’s Coverage of the IEEPA Tariff Decision: Resource Guide",
+      "url": "https://www.cato.org/blog/catos-coverage-ieepa-tariff-decision-resource-guide",
+      "date": "2026-02-24",
+      "summary": "The Supreme Court’s 6–3 ruling in Learning Resources, Inc. v. Trump significantly curtails executive power by holding that the International Emergency Economic Powers Act (IEEPA) does not authorize presidential tariffs. Cato analysts emphasize that while the decision addresses a major constitutional overreach and provides fiscal relief for households, the administration is already pivoting to alternative statutes to maintain its trade agenda. This shift underscores a critical need for Congress to reclaim its constitutional authority over trade policy to ensure long-term economic stability and prevent arbitrary executive taxation.",
+      "category": "economics",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The Supreme Court’s 6–3 ruling in Learning Resources, Inc. v. Trump significantly curtails executive power by holding that the International Emergency Economic Powers Act (IEEPA) does not authorize presidential tariffs. Cato analysts emphasize that while the decision addresses a major constitutional overreach and provides fiscal relief for households, the administration is already pivoting to alternative statutes to maintain its trade agenda. This shift underscores a critical need for Congress to reclaim its constitutional authority over trade policy to ensure long-term economic stability and prevent arbitrary executive taxation.",
+          "category": "economics"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:16:24.808885+00:00",
+        "zh": {
+          "summary": "最高法院在 Learning Resources, Inc. 訴川普案（Learning Resources, Inc. v. Trump）中以 6 比 3 的裁定，判定《國際緊急經濟權力法》（IEEPA）並未授權總統徵收關稅，從而大幅削減了行政權。卡托研究所（Cato）分析師強調，儘管這項裁定解決了重大的憲法越權問題並為家庭提供了財政緩解，但行政當局已在轉向其他法令以維持其貿易議程。這一轉變凸顯了國會收回其對貿易政策的憲法權限之緊迫性，以確保長期經濟穩定並防止行政部門任意徵稅。",
+          "category": "economics"
+        }
+      },
+      "topics": [
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "f1d368ca",
+      "think_tank": "CATO",
+      "title": "Ten Commandments Ruling Underscores That Progressives Need School Choice",
+      "url": "https://www.cato.org/blog/ten-commandments-ruling-underscores-progressives-need-school-choice",
+      "date": "2026-02-24",
+      "summary": "The article argues that school choice is an essential policy for progressives as well as conservatives, particularly following a court ruling allowing religious displays in public classrooms. It highlights a Fifth Circuit decision overturning an injunction against a Louisiana law requiring the Ten Commandments to be posted, illustrating the ongoing legal shift toward allowing more religion in schools. The author concludes that since public schools cannot satisfy all diverse beliefs, educational funding should follow the student to ensure all families can access education aligned with their values.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The article argues that school choice is an essential policy for progressives as well as conservatives, particularly following a court ruling allowing religious displays in public classrooms. It highlights a Fifth Circuit decision overturning an injunction against a Louisiana law requiring the Ten Commandments to be posted, illustrating the ongoing legal shift toward allowing more religion in schools. The author concludes that since public schools cannot satisfy all diverse beliefs, educational funding should follow the student to ensure all families can access education aligned with their values.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:17:13.489590+00:00",
+        "zh": {
+          "summary": "本文主張教育選擇權對於進步派與保守派而言皆為不可或缺的政策，特別是在法院裁定允許公立教室進行宗教展示之後。文中強調了第五巡迴上訴法院撤銷路易斯安那州法律禁制令的判決（該法律要求張貼「十誡」），說明法律趨勢正轉向允許宗教更多地進入校園。作者總結指出，由於公立學校無法滿足所有多元信仰，教育經費應採行「經費隨學生走」的原則，以確保所有家庭都能獲得符合其價值觀的教育。",
+          "category": "governance"
+        }
+      }
+    },
+    {
+      "id": "8b06d72b",
+      "think_tank": "CATO",
+      "title": "Immigration Saves Lives",
+      "url": "https://www.cato.org/blog/immigration-saves-lives",
+      "date": "2026-02-24",
+      "summary": "The article argues that liberalizing immigration is a critical strategy for making long-term care more affordable and improving health outcomes for the elderly. Research indicates that a higher influx of immigrants significantly expands the healthcare workforce, particularly in home-based care, without displacing domestic workers. This labor shift reduces reliance on nursing homes and is associated with a substantial decrease in nationwide mortality rates among older adults. Consequently, the findings suggest that immigration reform serves as a powerful lever for addressing the public health challenges of an aging population.",
+      "category": "health",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The article argues that liberalizing immigration is a critical strategy for making long-term care more affordable and improving health outcomes for the elderly. Research indicates that a higher influx of immigrants significantly expands the healthcare workforce, particularly in home-based care, without displacing domestic workers. This labor shift reduces reliance on nursing homes and is associated with a substantial decrease in nationwide mortality rates among older adults. Consequently, the findings suggest that immigration reform serves as a powerful lever for addressing the public health challenges of an aging population.",
+          "category": "health"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:18:40.193471+00:00",
+        "zh": {
+          "summary": "本文主張放寬移民限制是降低長期照護成本並提升老年人健康成效的關鍵策略。研究顯示，大量移民的移入顯著擴大了醫療照護勞動力，特別是在居家照護領域，且並未排擠本土勞工。此種人力結構的轉變減少了對安養機構的依賴，並與全國老年人死亡率的顯著下降密切相關。因此，研究結果顯示，移民改革是應對人口老化公共衛生挑戰的強大政策槓桿。",
+          "category": "health"
+        }
+      }
+    },
+    {
+      "id": "5f86a488",
+      "think_tank": "CATO",
+      "title": "Offset Emergency Spending",
+      "url": "https://www.cato.org/blog/offset-emergency-spending",
+      "date": "2026-02-24",
+      "summary": "The article argues that Congress frequently exploits the 'emergency designation' loophole to bypass fiscal rules, leading to over $12.5 trillion in un-offset spending since 1991. It highlights that while countries like Switzerland and Germany successfully use 'debt brakes' to repay emergency borrowing, the US has seen its debt-to-GDP ratio surge due to a lack of similar enforcement mechanisms. To achieve fiscal sustainability, the author recommends adopting binding constraints that track and offset emergency spending through automatic, across-the-board reductions over a multi-year period.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The article argues that Congress frequently exploits the 'emergency designation' loophole to bypass fiscal rules, leading to over $12.5 trillion in un-offset spending since 1991. It highlights that while countries like Switzerland and Germany successfully use 'debt brakes' to repay emergency borrowing, the US has seen its debt-to-GDP ratio surge due to a lack of similar enforcement mechanisms. To achieve fiscal sustainability, the author recommends adopting binding constraints that track and offset emergency spending through automatic, across-the-board reductions over a multi-year period.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:19:15.152529+00:00",
+        "zh": {
+          "summary": "本文指出，美國國會頻繁利用「緊急撥款」（emergency designation）漏洞規避財政規則，導致自 1991 年以來未經抵銷的支出超過 12.5 兆美元。報告強調，雖然瑞士與德國等國成功利用「債務剎車」（debt brakes）機制償還緊急借款，但美國因缺乏類似的執行機制，其債務佔國內生產總值（GDP）的比率持續攀升。為實現財政永續性，作者建議採納具約束力的限制措施，透過多年期的自動化全面削減，追蹤並抵銷緊急支出。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "f1c8766c",
+      "think_tank": "CATO",
+      "title": "Establish an Independent, Fast-Track Fiscal Commission",
+      "url": "https://www.cato.org/blog/establish-independent-fast-track-fiscal-commission",
+      "date": "2026-02-24",
+      "summary": "The article proposes establishing an independent, fast-track fiscal commission to address the U.S. debt crisis and unsustainable growth in automatic entitlement spending. Drawing on the successful Base Realignment and Closure (BRAC) model, the author argues for a 'silent approval' mechanism where commission recommendations automatically become law unless rejected by Congress, overcoming chronic political paralysis. This reform aims to stabilize federal debt at or below 100 percent of GDP and restore the solvency of Social Security and Medicare through gradual, predictable changes rather than crisis-driven panic.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The article proposes establishing an independent, fast-track fiscal commission to address the U.S. debt crisis and unsustainable growth in automatic entitlement spending. Drawing on the successful Base Realignment and Closure (BRAC) model, the author argues for a 'silent approval' mechanism where commission recommendations automatically become law unless rejected by Congress, overcoming chronic political paralysis. This reform aims to stabilize federal debt at or below 100 percent of GDP and restore the solvency of Social Security and Medicare through gradual, predictable changes rather than crisis-driven panic.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:20:08.793831+00:00",
+        "zh": {
+          "summary": "本文提議成立一個獨立且具快速審議程序的財政委員會，以應對美國債務危機及法定權利支出不可持續的增長。作者借鑑「基地重新調整與關閉」（BRAC）模式的成功經驗，主張建立「默認核准」機制，使委員會的建議除非遭國會否決，否則將自動成為法律，藉此克服長期的政治癱瘓。此項改革旨在將聯邦債務穩定在國內生產總額（GDP）的 100% 或以下，並透過漸進且可預測的變革而非危機驅動的恐慌，恢復社會安全與醫療保險的償付能力。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "United States"
+      ]
+    },
+    {
+      "id": "77290e37",
+      "think_tank": "CFR",
+      "title": "Trump’s 2026 State of the Union: Foreign Policy Issue Guide",
+      "url": "https://www.cfr.org/articles/trumps-2026-state-of-the-union-foreign-policy-issue-guide",
+      "date": "2026-02-24",
+      "summary": "This CFR guide outlines the 'America First' transformation of U.S. foreign policy during the first year of President Trump’s second term, emphasizing a shift toward unilateralism and aggressive economic nationalism. Key developments highlighted include the 2025 National Security Strategy's focus on regional dominance, the military capture of Venezuela's Nicolás Maduro, and significant withdrawals from international organizations and climate agreements. These policies have strained traditional alliances while prioritizing U.S. resource access and domestic border security over global humanitarian assistance. Ultimately, the administration's approach suggests a future of transactional global engagement and a preference for military-backed regime change over multilateral diplomacy.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "This CFR guide outlines the 'America First' transformation of U.S. foreign policy during the first year of President Trump’s second term, emphasizing a shift toward unilateralism and aggressive economic nationalism. Key developments highlighted include the 2025 National Security Strategy's focus on regional dominance, the military capture of Venezuela's Nicolás Maduro, and significant withdrawals from international organizations and climate agreements. These policies have strained traditional alliances while prioritizing U.S. resource access and domestic border security over global humanitarian assistance. Ultimately, the administration's approach suggests a future of transactional global engagement and a preference for military-backed regime change over multilateral diplomacy.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:21:10.797917+00:00",
+        "zh": {
+          "summary": "這份外交關係協會（CFR）指南概述了川普總統第二任期第一年美國外交政策的「美國優先」轉型，強調轉向單邊主義和激進的經濟民族主義。重點發展包括 2025 年《國家安全戰略》對地區主導地位的關注、對委內瑞拉總統馬杜洛（Nicolás Maduro）的軍事抓捕，以及從國際組織和氣候協議的大規模退出。這些政策使傳統盟友關係緊張，同時將美國的資源獲取和國內邊境安全置於全球人道援助之上。最終，現任政府的方針暗示了一個交易型全球參與的未來，且相對於多邊外交，更傾向於以軍事支持的政權更迭。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "AI",
+        "China",
+        "Climate",
+        "Europe",
+        "Indo-Pacific",
+        "Middle East",
+        "NATO",
+        "Nuclear",
+        "Russia",
+        "Taiwan",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "c788ae08",
+      "think_tank": "CFR",
+      "title": "Ten Facts About the State of the Union Address",
+      "url": "https://www.cfr.org/articles/ten-facts-about-the-state-of-the-union-address",
+      "date": "2026-02-24",
+      "summary": "The State of the Union address is a foundational U.S. constitutional tradition that has evolved from a formal written report into a high-stakes televised event used to define presidential agendas. Historical data indicates that while the complexity of the speech's prose has decreased to reach a wider audience, actual television viewership has declined sharply over recent decades. Nonetheless, the address remains a critical mechanism for presidents to fulfill constitutional obligations and announce major foreign policy doctrines during periods of international instability.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The State of the Union address is a foundational U.S. constitutional tradition that has evolved from a formal written report into a high-stakes televised event used to define presidential agendas. Historical data indicates that while the complexity of the speech's prose has decreased to reach a wider audience, actual television viewership has declined sharply over recent decades. Nonetheless, the address remains a critical mechanism for presidents to fulfill constitutional obligations and announce major foreign policy doctrines during periods of international instability.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:21:50.030050+00:00",
+        "zh": {
+          "summary": "《國情咨文》是美國憲政的一項基本傳統。其形式已由最初的書面報告，演變為當前旨在界定總統施政方針的高風險電視直播盛事。歷史數據顯示，雖然演講詞的複雜程度有所降低以接觸更廣泛的受眾，但過去幾十年的電視收視率卻急劇下降。儘管如此，國情咨文仍是總統履行憲法義務，並在國際局勢動盪時期宣示重大外交政策主張的關鍵機制。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "China",
+        "Middle East",
+        "Russia",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "84d4f992",
+      "think_tank": "CFR",
+      "title": "Gunmen Wreak Chaos in Mexican Coastal Retreat After Cartel Killing",
+      "url": "https://www.wsj.com/world/americas/gunmen-wreak-chaos-in-mexican-coastal-retreat-after-cartel-killing-882c0cc2?st=RxMCNc&reflink=desktopwebshare_permalink",
+      "date": "2026-02-24",
+      "summary": "",
+      "category": "",
+      "status": "pending"
+    },
+    {
+      "id": "5f403f90",
+      "think_tank": "CFR",
+      "title": "China Plays Its Cards to Attract U.S. Allies (in Spanish)",
+      "url": "https://res.cloudinary.com/dmovl8u5q/images/v1771864277/El-Mercurio/El-Mercurio.pdf?_i=AA",
+      "date": "2026-02-24",
+      "summary": "",
+      "category": "",
+      "status": "pending",
+      "topics": [
+        "China",
+        "United States"
+      ]
+    },
+    {
+      "id": "318dca56",
+      "think_tank": "CFR",
+      "title": "Ahead of April Talks, The US And China Will Continue Their Arms Race Over Semiconductors And Rare Earth Elements (in Korean)",
+      "url": "https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.mk.co.kr%2Fnews%2Fworld%2F11964999%3Futm_source%3Doasisfeed%26utm_medium%3Dreferral&data=05%7C02%7CNLu%40cfr.org%7C54e12ee60ea5485de42c08de72ec87f1%7C146cc3db32f24b3c815625bcc3553464%7C0%7C0%7C639074557984833468%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=5j3wKdJF1PNGIfDUMW%2BLaVxh5D7i2Pqy0kCM%2F%2Fn0V8s%3D&reserved=0",
+      "date": "2026-02-24",
+      "summary": "",
+      "category": "",
+      "status": "pending",
+      "topics": [
+        "China"
+      ]
+    },
+    {
+      "id": "60b55128",
+      "think_tank": "CFR",
+      "title": "Global Energy Tracker",
+      "url": "https://www.cfr.org/trackers/global-energy-tracker",
+      "date": "2026-02-24",
+      "summary": "The CFR Global Energy Tracker reveals that while high-carbon sources still account for 89% of energy consumption across 79 tracked countries, low-carbon alternatives are steadily rising, particularly in developed nations. Significant gains in renewable energy shares in the UK and China demonstrate the impact of declining technology costs, though global energy demand has already surpassed pre-pandemic levels by 6%. The data underscores an uneven global transition, with some nations like Norway and France leading in low-carbon reliance while others remain heavily dependent on coal. Consequently, policymakers must address these regional disparities and the persistent growth in total energy demand to accelerate effective decarbonization strategies.",
+      "category": "energy-environment",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The CFR Global Energy Tracker reveals that while high-carbon sources still account for 89% of energy consumption across 79 tracked countries, low-carbon alternatives are steadily rising, particularly in developed nations. Significant gains in renewable energy shares in the UK and China demonstrate the impact of declining technology costs, though global energy demand has already surpassed pre-pandemic levels by 6%. The data underscores an uneven global transition, with some nations like Norway and France leading in low-carbon reliance while others remain heavily dependent on coal. Consequently, policymakers must address these regional disparities and the persistent growth in total energy demand to accelerate effective decarbonization strategies.",
+          "category": "energy-environment"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:22:29.089492+00:00",
+        "zh": {
+          "summary": "CFR 全球能源追蹤器（Global Energy Tracker）顯示，雖然在 79 個受追蹤國家中，高碳能源仍占能源消耗的 89%，但低碳替代方案正穩步上升，特別是在已開發國家。英國與中國再生能源占比的顯著增長，證明了技術成本下降的影響，儘管全球能源需求已較疫情前水平高出 6%。數據凸顯了全球轉型進程的不均，挪威與法國等國在低碳能源依賴度方面領先，而其他國家仍高度依賴煤炭。因此，政策制定者必須解決這些地區差異以及能源總需求的持續增長，以加速有效的去碳化策略。",
+          "category": "energy-environment"
+        }
+      },
+      "topics": [
+        "China",
+        "Climate",
+        "Indo-Pacific",
+        "Nuclear",
+        "United States"
+      ]
+    },
+    {
+      "id": "4ed96c3d",
+      "think_tank": "CFR",
+      "title": "Flash Droughts: Why Speed, Not Scarcity, Is the New Systemic Risk",
+      "url": "https://www.cfr.org/articles/flash-droughts-why-speed-not-scarcity-is-the-new-systemic-risk",
+      "date": "2026-02-24",
+      "summary": "Flash droughts are rapidly intensifying climate events that represent a new systemic risk because their speed collapses traditional warning timelines and overwhelms existing drought governance frameworks. These events, which have increased in frequency since the 1950s, cause disproportionate damage to agriculture and energy security, as seen in the 2012 U.S. losses and the 2010 Russian heatwave that triggered global food price spikes. To mitigate these risks, policymakers must establish flash droughts as a distinct category, leveraging high-resolution satellite data and anticipatory financing to trigger interventions before losses become inevitable.",
+      "category": "energy-environment",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "Flash droughts are rapidly intensifying climate events that represent a new systemic risk because their speed collapses traditional warning timelines and overwhelms existing drought governance frameworks. These events, which have increased in frequency since the 1950s, cause disproportionate damage to agriculture and energy security, as seen in the 2012 U.S. losses and the 2010 Russian heatwave that triggered global food price spikes. To mitigate these risks, policymakers must establish flash droughts as a distinct category, leveraging high-resolution satellite data and anticipatory financing to trigger interventions before losses become inevitable.",
+          "category": "energy-environment"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:23:06.281173+00:00",
+        "zh": {
+          "summary": "「驟旱」是快速增強的氣候事件，代表著一種新的系統性風險，因為其發生的速度瓦解了傳統的預警時程，並使現有的乾旱治理框架難以應對。這類事件自 1950 年代以來發生頻率日益增加，對農業和能源安全造成了不成比例的損害，例如 2012 年美國的損失，以及 2010 年俄羅斯熱浪引發全球糧價飆升。為了減輕這些風險，政策制定者必須將驟旱確立為一個獨立的範疇，利用高解析度衛星數據和預期性融資，在損失變得不可避免之前啟動干預措施。",
+          "category": "energy-environment"
+        }
+      },
+      "topics": [
+        "China",
+        "Indo-Pacific",
+        "Nuclear",
+        "Russia",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "b5c90799",
+      "think_tank": "CSIS",
+      "title": "EST Rapid Roundup: What Comes Next for U.S. Trade Policy After the Supreme Court’s IEEPA Ruling?",
+      "url": "https://www.csis.org/analysis/est-rapid-roundup-what-comes-next-us-trade-policy-after-supreme-courts-ieepa-ruling",
+      "date": "2026-02-24",
+      "summary": "The U.S. Supreme Court ruled in Learning Resources Inc. v. Trump that the International Emergency Economic Powers Act (IEEPA) does not authorize presidential tariffs, reaffirming that the power to tax resides with Congress. While this decision curtails broad executive trade authority, the administration is pivoting to alternative statutes like Section 122 and Section 301 to sustain its protectionist agenda, albeit with more procedural hurdles. The ruling necessitates a complex refund process for $160 billion in collected revenues, yet experts warn that persistent policy volatility will continue to create an 'uncertainty tax' on global investment and supply chains.",
+      "category": "economics",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The U.S. Supreme Court ruled in Learning Resources Inc. v. Trump that the International Emergency Economic Powers Act (IEEPA) does not authorize presidential tariffs, reaffirming that the power to tax resides with Congress. While this decision curtails broad executive trade authority, the administration is pivoting to alternative statutes like Section 122 and Section 301 to sustain its protectionist agenda, albeit with more procedural hurdles. The ruling necessitates a complex refund process for $160 billion in collected revenues, yet experts warn that persistent policy volatility will continue to create an 'uncertainty tax' on global investment and supply chains.",
+          "category": "economics"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:23:50.594576+00:00",
+        "zh": {
+          "summary": "美國聯邦最高法院在「學習資源公司訴川普案」(Learning Resources Inc. v. Trump) 中裁定，《國際緊急經濟權力法》(IEEPA) 並未授權總統徵收關稅，並重申徵稅權屬於國會。儘管此裁定削減了廣泛的行政貿易職權，但政府正轉向第122條及第301條等替代法規，以維持其保護主義議程，儘管這將面臨更多程序障礙。該裁定要求針對已徵收的1600億美元稅收進行複雜的退款程序，然而專家警告，持續的政策波動將繼續對全球投資和供應鏈造成「不確定性稅」。",
+          "category": "economics"
+        }
+      },
+      "topics": [
+        "China",
+        "Europe",
+        "Indo-Pacific",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "3b4f4c62",
+      "think_tank": "CSIS",
+      "title": "EST Rapid Roundup: How Will the Supreme Court’s IEEPA Ruling Impact U.S.-China Tech Competition?",
+      "url": "https://www.csis.org/analysis/est-rapid-roundup-how-will-supreme-courts-ieepa-ruling-impact-us-china-tech-competition",
+      "date": "2026-02-24",
+      "summary": "The Supreme Court's 2026 ruling that the IEEPA does not authorize presidential tariffs has upended U.S. trade policy, forcing an immediate shift to alternative authorities and creating significant legal uncertainty for $150 billion in revenues. CSIS experts argue that while this provides China with a tactical and propaganda advantage ahead of upcoming summits, it compels Congress to reclaim its constitutional role in defining a more strategic and stable trade framework. The analysis highlights that reliance on coercive tariffs alone has failed to curb the overall trade deficit or effectively reindustrialize the U.S., instead increasing costs for critical energy and technology supply chains. Consequently, the panel recommends a policy pivot toward a 'positive agenda' that prioritizes domestic innovation, infrastructure, and allied cooperation over blunt import substitution.",
+      "category": "economics",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The Supreme Court's 2026 ruling that the IEEPA does not authorize presidential tariffs has upended U.S. trade policy, forcing an immediate shift to alternative authorities and creating significant legal uncertainty for $150 billion in revenues. CSIS experts argue that while this provides China with a tactical and propaganda advantage ahead of upcoming summits, it compels Congress to reclaim its constitutional role in defining a more strategic and stable trade framework. The analysis highlights that reliance on coercive tariffs alone has failed to curb the overall trade deficit or effectively reindustrialize the U.S., instead increasing costs for critical energy and technology supply chains. Consequently, the panel recommends a policy pivot toward a 'positive agenda' that prioritizes domestic innovation, infrastructure, and allied cooperation over blunt import substitution.",
+          "category": "economics"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:24:29.660400+00:00",
+        "zh": {
+          "summary": "最高法院 2026 年裁定《國際緊急經濟權力法》(IEEPA) 未授權總統徵收關稅，此舉顛覆了美國貿易政策，迫使政策立即轉向替代權力，並為 1500 億美元的稅收收入帶來重大的法律不確定性。戰略與國際研究中心 (CSIS) 專家認為，儘管這在即將舉行的峰會前為中國提供了戰術與宣傳優勢，但也促使國會收回其憲法職責，以界定更具戰略性且穩定的貿易框架。分析強調，僅依靠強制性關稅未能遏制整體貿易逆差或有效實現美國再工業化，反而增加了關鍵能源與技術供應鏈的成本。因此，專家小組建議政策轉向「積極議程」，優先發展國內創新、基礎設施及盟友合作，而非採取生硬的進口替代策略。",
+          "category": "economics"
+        }
+      },
+      "topics": [
+        "China",
+        "Climate",
+        "Europe",
+        "Indo-Pacific",
+        "Middle East",
+        "Taiwan",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "188d35ef",
+      "think_tank": "RAND",
+      "title": "Public Opinion on Legalizing Psychedelics",
+      "url": "https://www.rand.org/pubs/research_reports/RRA4334-2.html",
+      "date": "2026-02-24",
+      "summary": "A RAND survey of over 10,000 U.S. adults reveals that while broad support for legalizing psychedelics remains low compared to cannabis, there is significant public backing for their use in controlled medical and therapeutic settings. The study found that 23% support legal psilocybin use, with nearly half of respondents endorsing supervised administration at medical facilities to address specific health conditions. These findings suggest that public opinion is currently more aligned with medicalized models rather than open retail markets or personal cultivation. For policymakers, this indicates that legislative efforts focusing on supervised therapeutic access are likely to receive more public support than broader legalization frameworks.",
+      "category": "health",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "A RAND survey of over 10,000 U.S. adults reveals that while broad support for legalizing psychedelics remains low compared to cannabis, there is significant public backing for their use in controlled medical and therapeutic settings. The study found that 23% support legal psilocybin use, with nearly half of respondents endorsing supervised administration at medical facilities to address specific health conditions. These findings suggest that public opinion is currently more aligned with medicalized models rather than open retail markets or personal cultivation. For policymakers, this indicates that legislative efforts focusing on supervised therapeutic access are likely to receive more public support than broader legalization frameworks.",
+          "category": "health"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:25:07.945125+00:00",
+        "zh": {
+          "summary": "RAND 一項針對 10,000 多名美國成年人的調查顯示，雖然公眾對迷幻藥合法化的廣泛支持度仍低於大麻，但在受控的醫療和治療環境中使用迷幻藥已獲得顯著的支持。研究發現，23% 的人支持合法使用裸蓋菇素，近半數受訪者支持在醫療機構的監督下施用，以治療特定的健康狀況。這些發現表明，目前的公眾輿論更傾向於醫療化模式，而非開放的零售市場或個人種植。對於政策制定者而言，這意味著側重於受監督治療用途的立法工作，相較於更廣泛的合法化框架，更可能獲得公眾支持。",
+          "category": "health"
+        }
+      },
+      "topics": [
+        "Nuclear",
+        "United States"
+      ]
+    },
+    {
+      "id": "0e21531a",
+      "think_tank": "RAND",
+      "title": "Assessing the Practical Feasibility of the Clader-Jacobs-Sprouse Quantum Algorithm for Calculating Radar Cross Sections",
+      "url": "https://www.rand.org/pubs/research_reports/RRA4086-1.html",
+      "date": "2026-02-24",
+      "summary": "This RAND report evaluates the Clader-Jacobs-Sprouse (CJS) quantum algorithm for calculating radar cross sections (RCS), finding that while it offers a theoretical exponential speedup over classical methods, it faces massive practical implementation hurdles. Quantitative estimates indicate that the computational resources required for even simple 2D models would currently result in runtimes exceeding the age of the universe on projected hardware, largely due to bottlenecks in Hamiltonian simulation and the overhead of quantum oracles. Consequently, quantum-driven breakthroughs in stealth aircraft design are unlikely in the near term, though policymakers should monitor advancements in unrelated fields like drug discovery that could eventually improve the underlying quantum subroutines.",
+      "category": "defense",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "This RAND report evaluates the Clader-Jacobs-Sprouse (CJS) quantum algorithm for calculating radar cross sections (RCS), finding that while it offers a theoretical exponential speedup over classical methods, it faces massive practical implementation hurdles. Quantitative estimates indicate that the computational resources required for even simple 2D models would currently result in runtimes exceeding the age of the universe on projected hardware, largely due to bottlenecks in Hamiltonian simulation and the overhead of quantum oracles. Consequently, quantum-driven breakthroughs in stealth aircraft design are unlikely in the near term, though policymakers should monitor advancements in unrelated fields like drug discovery that could eventually improve the underlying quantum subroutines.",
+          "category": "defense"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:25:48.723374+00:00",
+        "zh": {
+          "summary": "這份蘭德報告評估了用於計算雷達散射截面 (RCS) 的 Clader-Jacobs-Sprouse (CJS) 量子演算法。研究發現，雖然該演算法與傳統方法相比在理論上具備指數級加速的潛力，但在實際執行上面臨巨大的障礙。定量估計顯示，即使是針對簡單的二維模型，在預期的硬體上所需的運算資源也會導致運行時間超過宇宙年齡，這主要是由於哈密頓模擬 (Hamiltonian simulation) 的瓶頸以及量子預言機 (quantum oracles) 的過高開銷。因此，短期內不太可能出現由量子技術驅動的隱形戰機設計突破，但政策制定者應持續關注藥物研發等其他領域的進展，因為這些進展最終可能改善相關的底層量子副程式。",
+          "category": "defense"
+        }
+      },
+      "topics": [
+        "AI",
+        "Europe",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "8418043a",
+      "think_tank": "CATO",
+      "title": "The Fed’s Defenses of Interest on Reserves Are Flawed",
+      "url": "https://www.cato.org/blog/feds-defenses-interest-reserves-are-flawed",
+      "date": "2026-02-25",
+      "summary": "CATO argues that the Federal Reserve's Interest on Reserves (IOR) framework is a flawed and 'dangerous' tool that distorts private lending and reduces Treasury remittances. The article refutes Fed claims that IOR is cost-neutral and necessary for interest rate control, highlighting significant recent operating losses and the destruction of the interbank lending market. To address these issues, the author recommends a gradual 10-to-15-year reduction of the Fed's balance sheet to restore a traditional corridor system. The findings suggest that Congress should implement serious monetary reforms rather than treating the Fed as an infallible institution.",
+      "category": "economics",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "CATO argues that the Federal Reserve's Interest on Reserves (IOR) framework is a flawed and 'dangerous' tool that distorts private lending and reduces Treasury remittances. The article refutes Fed claims that IOR is cost-neutral and necessary for interest rate control, highlighting significant recent operating losses and the destruction of the interbank lending market. To address these issues, the author recommends a gradual 10-to-15-year reduction of the Fed's balance sheet to restore a traditional corridor system. The findings suggest that Congress should implement serious monetary reforms rather than treating the Fed as an infallible institution.",
+          "category": "economics"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:44:01.459795+00:00",
+        "zh": {
+          "summary": "卡托研究所（CATO）指出，聯準會（Fed）的準備金利息（IOR）框架是一項存在缺陷且「危險」的工具，扭曲了私人借貸並減少了上繳財政部的收益。文章反駁了聯準會聲稱 IOR 具備成本中性且為利率控制所必需的觀點，並強調了近期嚴重的營運虧損以及銀行同業拆借市場的破壞。為解決這些問題，作者建議在 10 至 15 年間逐步縮減聯準會的資產負債表，以恢復傳統的利率走廊制度。研究結果顯示，國會應推動嚴肅的貨幣改革，而非將聯準會視為無懈可擊的機構。",
+          "category": "economics"
+        }
+      },
+      "topics": [
+        "United States"
+      ]
+    },
+    {
+      "id": "d1e088e9",
+      "think_tank": "CATO",
+      "title": "The One Big Beautiful Bill Made ICE Shutdown-Proof and Eroded Fiscal Norms",
+      "url": "https://www.cato.org/blog/one-big-beautiful-bill-made-ice-shutdown-proof-eroded-fiscal-norms",
+      "date": "2026-02-25",
+      "summary": "The CATO article examines how the One Big Beautiful Bill Act (OBBBA) has effectively insulated Immigration and Customs Enforcement (ICE) from government shutdowns by shifting its funding from annual discretionary appropriations to multi-year mandatory spending. By providing $75 billion in budget authority—seven times ICE’s typical annual budget—legislators utilized the reconciliation process to bypass traditional fiscal checks and balances. This shift significantly erodes Congressional oversight, as agencies no longer need annual legislative approval to operate, while weakening the minority party's ability to extract policy concessions. Ultimately, this precedent encourages fiscal irresponsibility and institutional norm erosion, as future administrations may similarly exploit reconciliation to bypass budgetary trade-offs.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The CATO article examines how the One Big Beautiful Bill Act (OBBBA) has effectively insulated Immigration and Customs Enforcement (ICE) from government shutdowns by shifting its funding from annual discretionary appropriations to multi-year mandatory spending. By providing $75 billion in budget authority—seven times ICE’s typical annual budget—legislators utilized the reconciliation process to bypass traditional fiscal checks and balances. This shift significantly erodes Congressional oversight, as agencies no longer need annual legislative approval to operate, while weakening the minority party's ability to extract policy concessions. Ultimately, this precedent encourages fiscal irresponsibility and institutional norm erosion, as future administrations may similarly exploit reconciliation to bypass budgetary trade-offs.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:44:37.015319+00:00",
+        "zh": {
+          "summary": "這篇卡托研究所（CATO）的文章探討了《單一宏偉法案》（OBBBA）如何透過將資金來源從年度裁量性撥款轉向多年期強制性支出，有效地使美國移民及海關執法局（ICE）免受政府停擺的影響。透過提供 750 億美元的預算授權（達 ICE 往常年度預算的七倍），立法者利用預算協調程序規避了傳統的財政制衡機制。這種轉變顯著削弱了國會監督，因相關機構運作不再需要年度立法核准，同時也削弱了少數黨爭取政策讓步的能力。最終，這一先例助長了財政不負責任的行為與制度規範的侵蝕，因為未來的政府可能會同樣利用預算協調程序來規避預算的權衡取捨。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "United States"
+      ]
+    },
+    {
+      "id": "7e17ade4",
+      "think_tank": "Heritage",
+      "title": "Good Riddance to EPA’s Endangerment Finding on Greenhouse Gases",
+      "url": "https://www.heritage.org/environment/commentary/good-riddance-epas-endangerment-finding-greenhouse-gases",
+      "date": "2026-02-25",
+      "summary": "The Heritage Foundation argues that reversing the EPA’s endangerment finding on greenhouse gases is a major deregulatory victory that removes the legal basis for over $1 trillion in compliance costs. The article contends that the original finding relied on flawed climate models and created a false choice between economic prosperity and environmental protection. By dismantling these regulations, the administration aims to unleash the U.S. energy sector while promoting a model of 'stewardship' that balances industrial growth with responsible conservation.",
+      "category": "energy-environment",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The Heritage Foundation argues that reversing the EPA’s endangerment finding on greenhouse gases is a major deregulatory victory that removes the legal basis for over $1 trillion in compliance costs. The article contends that the original finding relied on flawed climate models and created a false choice between economic prosperity and environmental protection. By dismantling these regulations, the administration aims to unleash the U.S. energy sector while promoting a model of 'stewardship' that balances industrial growth with responsible conservation.",
+          "category": "energy-environment"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:45:14.033801+00:00",
+        "zh": {
+          "summary": "傳統基金會（Heritage Foundation）主張，撤銷環境保護局（EPA）對溫室氣體的「危害認定」（endangerment finding）是一項重大的去管制化勝利，此舉消除了涉及超過一兆美元合規成本的法律依據。文章指出，最初的認定依賴於有缺陷的氣候模型，並在經濟繁榮與環境保護之間製造了虛假的對立。透過廢除這些法規，政府旨在釋放美國能源產業的潛力，並推廣一種在工業增長與負責任保育之間取得平衡的「管理責任」（stewardship）模式。",
+          "category": "energy-environment"
+        }
+      },
+      "topics": [
+        "Climate",
+        "United States"
+      ]
+    },
+    {
+      "id": "83fb0749",
+      "think_tank": "Brookings",
+      "title": "What’s the state of our Union?",
+      "url": "https://www.brookings.edu/articles/whats-the-state-of-our-union/",
+      "date": "2026-02-26",
+      "summary": "Brookings scholars characterize the current state of the U.S. Union as a period of significant institutional imbalance and 'dissonance' across governance, economics, and security. Evidence includes a depleted federal workforce due to administrative layoffs, the politicization of military leadership, and persistent household frustration over structural affordability despite moderate official inflation. These trends imply a weakening of the separation of powers and a potential breakdown in traditional global alliances, leading to a more volatile and less predictable policy environment. Consequently, the U.S. faces a heightened risk of institutional instability that could impair its ability to respond to future domestic and international crises.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "Brookings scholars characterize the current state of the U.S. Union as a period of significant institutional imbalance and 'dissonance' across governance, economics, and security. Evidence includes a depleted federal workforce due to administrative layoffs, the politicization of military leadership, and persistent household frustration over structural affordability despite moderate official inflation. These trends imply a weakening of the separation of powers and a potential breakdown in traditional global alliances, leading to a more volatile and less predictable policy environment. Consequently, the U.S. faces a heightened risk of institutional instability that could impair its ability to respond to future domestic and international crises.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:26:26.027641+00:00",
+        "zh": {
+          "summary": "布魯金斯學會學者指出，美國目前的國情處於治理、經濟與安全領域顯著體制失衡與「不協調」的時期。具體證據包括行政裁員導致聯邦政府人力枯竭、軍事領導層政治化，以及儘管官方通膨溫和，民眾對結構性生活成本負擔能力仍感持續挫敗。這些趨勢預示著權力分立制衡的削弱，以及傳統全球同盟可能瓦解，進而導致更動盪且難以預測的政策環境。因此，美國正面臨體制不穩定性上升的風險，恐將削弱其應對未來國內外危機的能力。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "AI",
+        "NATO",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "0c5bf0e0",
+      "think_tank": "Brookings",
+      "title": "Assessing President Trump’s second-term staffing record",
+      "url": "https://www.brookings.edu/articles/assessing-president-trumps-second-term-staffing-record/",
+      "date": "2026-02-26",
+      "summary": "The Brookings report finds that President Trump’s second-term staffing strategy has prioritized loyalty and extensive pre-transition planning, leading to a more stable senior staff but a highly centralized executive branch. Key evidence includes a record-setting initial pace of nominations facilitated by a 2025 Senate rule change, contrasted by an unprecedented wave of firings targeting inspectors general and officials with 'for-cause' protections. These actions suggest a deliberate effort to remove institutional guardrails and consolidate political power within the White House, significantly reducing the independence of federal agencies.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The Brookings report finds that President Trump’s second-term staffing strategy has prioritized loyalty and extensive pre-transition planning, leading to a more stable senior staff but a highly centralized executive branch. Key evidence includes a record-setting initial pace of nominations facilitated by a 2025 Senate rule change, contrasted by an unprecedented wave of firings targeting inspectors general and officials with 'for-cause' protections. These actions suggest a deliberate effort to remove institutional guardrails and consolidate political power within the White House, significantly reducing the independence of federal agencies.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:27:05.923635+00:00",
+        "zh": {
+          "summary": "布魯金斯學會的報告指出，川普總統第二任期的人事任用策略優先考量忠誠度與詳盡的交接前規劃，雖使高層官員團隊較為穩定，但也導致行政權力高度集權。關鍵證據包括在 2025 年參議院規則變更的推動下，初期提名進度創下紀錄，但與此同時，針對監察長及受「正當理由」條款保護之官員的解職浪潮亦是前所未見。這些行動顯示其蓄意移除制度性的防護機制，並將政治權力集中於白宮，進而顯著削弱了聯邦機構的獨立性。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "Indo-Pacific",
+        "Nuclear",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "85c61635",
+      "think_tank": "Brookings",
+      "title": "Making America great again? Evaluating Trump’s China strategy at the one-year mark",
+      "url": "https://www.brookings.edu/articles/making-america-great-again-evaluating-trumps-china-strategy-at-the-one-year-mark/",
+      "date": "2026-02-26",
+      "summary": "This Brookings report finds that the Trump administration’s second-term China strategy has produced significant rhetoric but few measurable results after one year. Key economic indicators like manufacturing employment and industrial production remain stagnant despite high-profile investment pledges, while U.S. global standing among allies has declined sharply. In technology, inconsistent export controls and infrastructure bottlenecks are straining America’s lead in AI against a more self-sufficient Chinese ecosystem. Consequently, the administration must shift from transactional signaling to sustained policy execution and alliance rebuilding to effectively reduce strategic dependencies and counter Beijing's influence.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "This Brookings report finds that the Trump administration’s second-term China strategy has produced significant rhetoric but few measurable results after one year. Key economic indicators like manufacturing employment and industrial production remain stagnant despite high-profile investment pledges, while U.S. global standing among allies has declined sharply. In technology, inconsistent export controls and infrastructure bottlenecks are straining America’s lead in AI against a more self-sufficient Chinese ecosystem. Consequently, the administration must shift from transactional signaling to sustained policy execution and alliance rebuilding to effectively reduce strategic dependencies and counter Beijing's influence.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:27:48.108980+00:00",
+        "zh": {
+          "summary": "這份布魯金斯學會報告指出，川普政府第二任期的對華戰略在推行一年後，呈現「口號多、實效少」的局面。儘管政府曾高調宣傳投資承諾，但製造業就業與工業生產等核心經濟指標依舊停滯不前，且美國在盟友間的全球地位顯著下滑。在科技競爭方面，不一致的出口管制與基礎設施瓶頸，正使美國在對抗日益自給自足的中國生態系統時，其人工智慧領域的領先優勢承受沉重壓力。因此，政府必須從交易式表態轉向持續的政策執行與盟友關係重建，方能有效減少戰略依賴並應對北京的影響力。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "AI",
+        "China",
+        "Climate",
+        "Europe",
+        "Indo-Pacific",
+        "Middle East",
+        "Russia",
+        "Taiwan",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "575bc4be",
+      "think_tank": "Brookings",
+      "title": "Brookings experts on the Supreme Court’s tariff decision",
+      "url": "https://www.brookings.edu/articles/brookings-experts-on-the-supreme-courts-tariff-decision/",
+      "date": "2026-02-26",
+      "summary": "The Supreme Court's ruling in Learning Resources Inc. v. Trump invalidated the use of the International Emergency Economic Powers Act (IEEPA) for broad tariffs, reasserting that the power to raise revenue resides with Congress under the Taxing Clause. While the decision eliminates the administration’s primary tool for immediate, open-ended duties, Brookings experts note that significant economic uncertainty persists as the executive branch pivots to alternative authorities like Sections 122, 232, and 301. This shift may force more deliberate, evidence-based trade investigations and increase legislative accountability, yet it also threatens to exacerbate federal deficits and complicate relations with key allies in Europe and the Indo-Pacific.",
+      "category": "economics",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The Supreme Court's ruling in Learning Resources Inc. v. Trump invalidated the use of the International Emergency Economic Powers Act (IEEPA) for broad tariffs, reasserting that the power to raise revenue resides with Congress under the Taxing Clause. While the decision eliminates the administration’s primary tool for immediate, open-ended duties, Brookings experts note that significant economic uncertainty persists as the executive branch pivots to alternative authorities like Sections 122, 232, and 301. This shift may force more deliberate, evidence-based trade investigations and increase legislative accountability, yet it also threatens to exacerbate federal deficits and complicate relations with key allies in Europe and the Indo-Pacific.",
+          "category": "economics"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:28:40.982453+00:00",
+        "zh": {
+          "summary": "最高法院在「Learning Resources Inc. 訴 特朗普」案中的裁決判定，引用《國際緊急經濟權力法》（IEEPA）徵收廣泛關稅為無效，並重申根據「徵稅條款」，增加歲入的權限屬於國會。雖然此裁決取消了行政機關徵收即時、無限制關稅的主要工具，但布魯金斯學會的專家指出，由於行政部門轉向 122、232 和 301 條款等替代權限，顯著的經濟不確定性依然存在。這一轉變可能會迫使政府進行更審慎且基於證據的貿易調查並提高立法問責，但同時也可能加劇聯邦赤字，並使與歐洲及印太地區關鍵盟友的關係趨於複雜。",
+          "category": "economics"
+        }
+      },
+      "topics": [
+        "China",
+        "Europe",
+        "Indo-Pacific",
+        "Russia",
+        "Taiwan",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "1404c239",
+      "think_tank": "Brookings",
+      "title": "From skills to jobs: Building clearer pathways to good work",
+      "url": "https://www.brookings.edu/events/from-skills-to-jobs-building-clearer-pathways-to-good-work/",
+      "date": "2026-02-26",
+      "summary": "The Brookings Institution highlights the growing disconnect between educational systems and labor market needs, which complicates the transition from school to high-wage employment for students and workers. The event examines how fragmented pathways—including degrees, apprenticeships, and work-based learning—often lack the alignment necessary to provide learners with relevant experience or employers with skilled talent. Panelists argue for systemic reforms to make high school more career-relevant, postsecondary options more affordable, and professional entry points more accessible for lifelong learners. Ultimately, building clearer pathways to 'good work' requires better coordination between educational institutions and employers to ensure workforce development meets modern economic demands.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The Brookings Institution highlights the growing disconnect between educational systems and labor market needs, which complicates the transition from school to high-wage employment for students and workers. The event examines how fragmented pathways—including degrees, apprenticeships, and work-based learning—often lack the alignment necessary to provide learners with relevant experience or employers with skilled talent. Panelists argue for systemic reforms to make high school more career-relevant, postsecondary options more affordable, and professional entry points more accessible for lifelong learners. Ultimately, building clearer pathways to 'good work' requires better coordination between educational institutions and employers to ensure workforce development meets modern economic demands.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:29:31.826968+00:00",
+        "zh": {
+          "summary": "布魯金斯學會（Brookings Institution）強調，教育體系與勞動力市場需求之間的脫節正日益擴大，導致學生及勞工從學校轉向高薪就業的過程更趨複雜。該活動探討了學位、學徒制與職場學習等碎片化的路徑，如何往往因缺乏必要的銜接，而無法為學習者提供相關實務經驗，或為雇主提供專業人才。與會者主張推動系統性改革，以提升高中的職涯關聯性、增加高等教育的可負擔性，並為終身學習者創造更易進入的專業門檻。最終，若要建立更清晰的「優良職涯」路徑，必須加強教育機構與雇主間的協調，確保勞動力發展能與現代經濟需求接軌。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "Indo-Pacific",
+        "United States"
+      ]
+    },
+    {
+      "id": "d5690ee3",
+      "think_tank": "Brookings",
+      "title": "Trump relies on showmanship and base appeal in State of the Union address",
+      "url": "https://www.brookings.edu/articles/trump-relies-on-showmanship-and-base-appeal-in-state-of-the-union-address/",
+      "date": "2026-02-26",
+      "summary": "President Trump's 2026 State of the Union address prioritized showmanship and base mobilization over addressing the concerns of swing voters or the ongoing affordability crisis. While highlighting positive economic indicators and military successes, the President doubled down on controversial immigration enforcement and tariff policies that face significant public opposition. This strategy suggests a focus on the 2026 midterms through base consolidation rather than outreach to key declining demographics like Hispanics and independents. Consequently, the administration risks further alienating moderate voters who remain primarily concerned with inflation and healthcare costs.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "President Trump's 2026 State of the Union address prioritized showmanship and base mobilization over addressing the concerns of swing voters or the ongoing affordability crisis. While highlighting positive economic indicators and military successes, the President doubled down on controversial immigration enforcement and tariff policies that face significant public opposition. This strategy suggests a focus on the 2026 midterms through base consolidation rather than outreach to key declining demographics like Hispanics and independents. Consequently, the administration risks further alienating moderate voters who remain primarily concerned with inflation and healthcare costs.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:45:46.806905+00:00",
+        "zh": {
+          "summary": "特朗普總統 2026 年的國情諮文演說，優先考量政治表演與動員基本盤，而非處理中間選民的關切或持續的負擔能力危機。雖然總統在演說中強調了正面的經濟指標與軍事成就，但他仍堅持推行面臨重大公眾反對的爭議性移民執法與關稅政策。此一策略顯示，其重點在於透過鞏固基本盤來應對 2026 年中期選舉，而非向拉美裔與獨立選民等支持度下滑的關鍵族群尋求支持。因此，政府面臨進一步疏遠溫和派選民的風險，而這些選民最關心的仍是通貨膨脹與醫療保健成本。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "Middle East",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "a5ca8a49",
+      "think_tank": "Brookings",
+      "title": "US policy in a changing nuclear landscape",
+      "url": "https://www.brookings.edu/events/us-policy-in-a-changing-nuclear-landscape/",
+      "date": "2026-02-26",
+      "summary": "The United States is entering an increasingly dangerous nuclear era as Russia and China simultaneously modernize and expand their arsenals, presenting the unprecedented challenge of facing two nuclear peers. The collapse of the New START treaty has removed critical constraints on strategic forces, while regional instabilities in Iran and the Korean Peninsula further exacerbate the threat environment. These developments are placing immense strain on U.S. extended deterrence commitments and raising risks of allied nuclear proliferation. Consequently, policymakers must urgently reassess foundational assumptions regarding nuclear posture, modernization, and the integration of emerging defense technologies like the \"Golden Dome\" missile system.",
+      "category": "defense",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The United States is entering an increasingly dangerous nuclear era as Russia and China simultaneously modernize and expand their arsenals, presenting the unprecedented challenge of facing two nuclear peers. The collapse of the New START treaty has removed critical constraints on strategic forces, while regional instabilities in Iran and the Korean Peninsula further exacerbate the threat environment. These developments are placing immense strain on U.S. extended deterrence commitments and raising risks of allied nuclear proliferation. Consequently, policymakers must urgently reassess foundational assumptions regarding nuclear posture, modernization, and the integration of emerging defense technologies like the \"Golden Dome\" missile system.",
+          "category": "defense"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:46:20.936086+00:00",
+        "zh": {
+          "summary": "美國正邁入一個日益危險的核時代，俄羅斯與中國同時對其核武庫進行現代化與擴張，使美國面臨同時應對兩個等量齊觀核對手的空前挑戰。《新削減戰略武器條約》（New START）的瓦解移除了對戰略力量的關鍵限制，而伊朗與朝鮮半島的區域不穩定則進一步惡化了威脅環境。這些發展正對美國的延伸威懾承諾施加巨大壓力，並推高了盟國核擴散的風險。因此，政策制定者必須緊急重新評估核態勢、現代化以及如「金穹」（Golden Dome）飛彈系統等新興防禦技術整合的基本假設。",
+          "category": "defense"
+        }
+      },
+      "topics": [
+        "China",
+        "Middle East",
+        "Nuclear",
+        "Russia",
+        "United States"
+      ]
+    },
+    {
+      "id": "f81fa973",
+      "think_tank": "Brookings",
+      "title": "Why are electricity prices rising in the US and what can be done about it?",
+      "url": "https://www.brookings.edu/events/why-are-electricity-prices-rising-in-the-us-and-what-can-be-done-about-it/",
+      "date": "2026-02-26",
+      "summary": "U.S. electricity prices have outpaced inflation in over half of the states since 2019, creating a growing cost-of-living crisis and potentially harming national economic competitiveness. This trend is expected to persist, straining household budgets and undermining industrial activity unless credible policy solutions are implemented to address complex regional pricing variations. To mitigate these impacts, experts are analyzing the underlying regulatory and market drivers to identify strategies for reining in costs for both consumers and industry.",
+      "category": "economics",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "U.S. electricity prices have outpaced inflation in over half of the states since 2019, creating a growing cost-of-living crisis and potentially harming national economic competitiveness. This trend is expected to persist, straining household budgets and undermining industrial activity unless credible policy solutions are implemented to address complex regional pricing variations. To mitigate these impacts, experts are analyzing the underlying regulatory and market drivers to identify strategies for reining in costs for both consumers and industry.",
+          "category": "economics"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:46:55.399471+00:00",
+        "zh": {
+          "summary": "自 2019 年以來，美國超過半數州的電價漲幅已超過通貨膨脹，引發了日益嚴重的生活成本危機，並可能損害國家經濟競爭力。除非實施可靠的政策解決方案來應對複雜的區域定價差異，否則預計這一趨勢將持續，並加重家庭預算負擔及削弱工業活動。為減輕這些影響，專家正在分析潛在的監管與市場驅動因素，以尋求抑制消費者與工業成本的策略。",
+          "category": "economics"
+        }
+      },
+      "topics": [
+        "United States"
+      ]
+    },
+    {
+      "id": "c322b108",
+      "think_tank": "CATO",
+      "title": "US Fiscal Dominance, the Coming Fiscal Inflection Point, and How Congress Can Fix the Debt Crisis (Before It’s Too Late)",
+      "url": "https://www.cato.org/blog/us-fiscal-dominance-coming-fiscal-inflection-point-how-congress-can-fix-debt-crisis-its-too",
+      "date": "2026-02-26",
+      "summary": "The United States faces an imminent risk of 'fiscal dominance,' where unsustainable federal debt levels may eventually force the Federal Reserve to abandon its inflation-control mandate to finance government spending. Projections indicate that by 2036, mandatory spending on entitlements and interest payments will consume 100% of federal revenue, with the impending depletion of Social Security and Medicare trust funds by 2032 serving as a critical market inflection point. To avert a sovereign debt crisis and persistent inflation, Congress must implement structural entitlement reforms, establish a credible deficit target of 3% of GDP, and utilize a bipartisan fiscal commission to overcome political inertia.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The United States faces an imminent risk of 'fiscal dominance,' where unsustainable federal debt levels may eventually force the Federal Reserve to abandon its inflation-control mandate to finance government spending. Projections indicate that by 2036, mandatory spending on entitlements and interest payments will consume 100% of federal revenue, with the impending depletion of Social Security and Medicare trust funds by 2032 serving as a critical market inflection point. To avert a sovereign debt crisis and persistent inflation, Congress must implement structural entitlement reforms, establish a credible deficit target of 3% of GDP, and utilize a bipartisan fiscal commission to overcome political inertia.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:30:16.817316+00:00",
+        "zh": {
+          "summary": "美國面臨「財政主導」（fiscal dominance）的迫切風險，即不可持續的聯邦債務水平最終可能迫使聯準會放棄其控制通膨的職責，轉而為政府支出提供資金。預測顯示，到 2036 年，福利計畫與利息支出的強制性支出將消耗聯邦總收入的 100%，而社會安全金與醫療保險信託基金預計將於 2032 年耗盡，這將成為市場的一個關鍵轉折點。為避免主權債務危機和持續性通膨，國會必須實施結構性的福利計畫改革，設定佔 GDP 3% 的可靠赤字目標，並利用跨黨派財政委員會來克服政治慣性。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "United States"
+      ]
+    },
+    {
+      "id": "44bc9f5d",
+      "think_tank": "CATO",
+      "title": "The New Trump Tariffs Are Also Unlawful",
+      "url": "https://www.cato.org/blog/new-trump-tariffs-are-also-unlawful",
+      "date": "2026-02-26",
+      "summary": "The Trump administration's invocation of Section 122 of the Trade Act of 1974 to impose 10 percent tariffs is legally suspect because it incorrectly substitutes 'trade deficits' for the statute's requirement of 'balance-of-payments' problems. Economists and the administration's own prior legal filings confirm these concepts are distinct, especially since the U.S. floating exchange rate system currently allows for easy financing of trade imbalances without a payments crisis. Ultimately, the administration is likely using this authority as a 150-day temporary bridge to sustain protectionist policies while bypassing Congressional approval and preparing alternative legal justifications.",
+      "category": "economics",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The Trump administration's invocation of Section 122 of the Trade Act of 1974 to impose 10 percent tariffs is legally suspect because it incorrectly substitutes 'trade deficits' for the statute's requirement of 'balance-of-payments' problems. Economists and the administration's own prior legal filings confirm these concepts are distinct, especially since the U.S. floating exchange rate system currently allows for easy financing of trade imbalances without a payments crisis. Ultimately, the administration is likely using this authority as a 150-day temporary bridge to sustain protectionist policies while bypassing Congressional approval and preparing alternative legal justifications.",
+          "category": "economics"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:31:10.878723+00:00",
+        "zh": {
+          "summary": "川普政府援引《1974年貿易法》第122條徵收10%關稅之舉在法律上存有爭議，主因在於其錯誤地將該條款所要求的「國際收支」問題以「貿易赤字」代之。經濟學家與政府先前的法律呈件均確認兩者概念有別，尤其美國現行的浮動匯率制度能確保在不觸發收支危機的情況下，有效融通貿易失衡。本質上，該政府極可能將此權限視作150天的臨時過渡手段，旨在繞過國會審核並籌備其他法律依據的同時，持續推行其保護主義政策。",
+          "category": "economics"
+        }
+      },
+      "topics": [
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "7b5db46b",
+      "think_tank": "CATO",
+      "title": "Should the Consolidated Audit Trail Have a Future?",
+      "url": "https://www.cato.org/blog/should-consolidated-audit-trail-have-future",
+      "date": "2026-02-26",
+      "summary": "The Cato Institute argues for the immediate termination of the SEC’s Consolidated Audit Trail (CAT), characterizing it as an unconstitutional surveillance system that threatens investor privacy and security. The report cites significant vulnerabilities in the massive database, which processes 58 billion records daily, alongside the SEC’s inability to prevent unauthorized data disclosures. Furthermore, it asserts that the program bypasses Fourth Amendment protections by collecting sensitive financial data without judicial warrants. Consequently, the author calls on Congress or the SEC to dismantle the CAT to prevent further incursions into financial privacy and mitigate systemic cyber risks.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The Cato Institute argues for the immediate termination of the SEC’s Consolidated Audit Trail (CAT), characterizing it as an unconstitutional surveillance system that threatens investor privacy and security. The report cites significant vulnerabilities in the massive database, which processes 58 billion records daily, alongside the SEC’s inability to prevent unauthorized data disclosures. Furthermore, it asserts that the program bypasses Fourth Amendment protections by collecting sensitive financial data without judicial warrants. Consequently, the author calls on Congress or the SEC to dismantle the CAT to prevent further incursions into financial privacy and mitigate systemic cyber risks.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T07:31:52.497037+00:00",
+        "zh": {
+          "summary": "卡托研究所（Cato Institute）主張應立即終止美國證券交易委員會（SEC）的綜合審計軌跡（CAT）系統，將其定性為威脅投資者隱私與安全的違憲監控系統。該報告指出，這個每日處理 580 億條記錄的龐大資料庫存在重大漏洞，且 SEC 無力防止未經授權的數據洩露。此外，報告斷言該計畫在未經司法授權的情況下收集敏感財務數據，規避了憲法第四修正案的保護。因此，作者呼籲國會或 SEC 廢止 CAT，以防止對財務隱私的進一步侵犯，並降低系統性網路風險。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "048f9690",
+      "think_tank": "CATO",
+      "title": "Social Media Addiction Trial Begins, With Stakes for Youth Online Safety Debate",
+      "url": "https://www.cato.org/blog/social-media-addiction-trial-begins-stakes-youth-online-safety-debate",
+      "date": "2026-02-26",
+      "summary": "The commencement of class-action trials against social media platforms over 'addiction' claims marks a pivotal moment that will shape the legal and policy landscape for youth online safety. Critics of the litigation argue that 'social media addiction' lacks a formal medical classification and that existing parental controls and user features already provide sufficient mitigation for excessive use. Ultimately, a ruling for the plaintiffs could force significant changes to platform features like autoplay and algorithms, while a defense victory would likely strengthen First Amendment challenges against state-level age verification and content restriction laws.",
+      "category": "health",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The commencement of class-action trials against social media platforms over 'addiction' claims marks a pivotal moment that will shape the legal and policy landscape for youth online safety. Critics of the litigation argue that 'social media addiction' lacks a formal medical classification and that existing parental controls and user features already provide sufficient mitigation for excessive use. Ultimately, a ruling for the plaintiffs could force significant changes to platform features like autoplay and algorithms, while a defense victory would likely strengthen First Amendment challenges against state-level age verification and content restriction laws.",
+          "category": "health"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:47:24.486118+00:00",
+        "zh": {
+          "summary": "針對社群媒體平台因「成癮」指控而展開的集體訴訟審判，標誌著形塑青少年網路安全法律與政策格局的關鍵時刻。訴訟批評者主張，「社群媒體成癮」缺乏正式的醫學分類，且現有的家長監護功能與用戶設定已為過度使用提供足夠的緩解。最終，若原告勝訴，可能迫使平台針對自動播放與演算法等功能進行重大變革；而辯方的勝利則可能強化針對州級年齡驗證及內容限制法律的第一修正案挑戰。",
+          "category": "health"
+        }
+      }
+    },
+    {
+      "id": "c8438033",
+      "think_tank": "CATO",
+      "title": "The Invincibility Gap: How Constitutional Safeguards Have Become a List of Polite Suggestions",
+      "url": "https://www.cato.org/blog/invincibility-gap-how-constitutional-safeguards-have-become-list-polite-suggestions",
+      "date": "2026-02-26",
+      "summary": "The article argues that the U.S. legal system increasingly favors the state through broad sovereign and qualified immunity doctrines that shield government agencies and officials from accountability. By examining the cases of USPS v. Konan and NRA v. Vullo, the author illustrates how expanding legal exceptions and 'clearly established law' requirements protect even intentional discrimination and regulatory coercion. These developments create a 'double lock' on justice, effectively transforming constitutional guarantees into unenforceable suggestions and leaving citizens without redress for proven misconduct.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The article argues that the U.S. legal system increasingly favors the state through broad sovereign and qualified immunity doctrines that shield government agencies and officials from accountability. By examining the cases of USPS v. Konan and NRA v. Vullo, the author illustrates how expanding legal exceptions and 'clearly established law' requirements protect even intentional discrimination and regulatory coercion. These developments create a 'double lock' on justice, effectively transforming constitutional guarantees into unenforceable suggestions and leaving citizens without redress for proven misconduct.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:47:58.351789+00:00",
+        "zh": {
+          "summary": "本文指出，美國法律體系透過廣泛的主權豁免與限定豁免教義，正日益向國家權力傾斜，保護政府機構與官員免於問責。透過分析 USPS 訴 Konan 案與 NRA 訴 Vullo 案，作者闡述了法律例外的擴張以及「明確既定法律」的要求，如何包庇甚至包括蓄意歧視與監管脅迫在內的行為。這些發展為司法公正套上了「雙重鎖」，實質上將憲法保障轉變為不具強制力的建議，使公民在遭遇已證實的公職人員不當行為時無法獲得救濟。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "United States"
+      ]
+    },
+    {
+      "id": "e4036c53",
+      "think_tank": "CATO",
+      "title": "A “War on Fraud” Will Not Balance the Budget",
+      "url": "https://www.cato.org/blog/war-fraud-will-not-balance-budget",
+      "date": "2026-02-26",
+      "summary": "President Trump's proposed 'war on fraud' is insufficient to balance the federal budget because the primary drivers of the deficit are structural entitlement spending and interest costs, not just improper payments. While fraud accounts for up to $521 billion annually, the projected decade-long deficit of $24 trillion far exceeds even the most optimistic savings from fraud elimination. Consequently, the article argues that authentic fiscal stability requires fundamental reforms to Social Security, Medicare, and Medicaid rather than superficial anti-fraud campaigns or economically unfeasible tariff strategies.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "President Trump's proposed 'war on fraud' is insufficient to balance the federal budget because the primary drivers of the deficit are structural entitlement spending and interest costs, not just improper payments. While fraud accounts for up to $521 billion annually, the projected decade-long deficit of $24 trillion far exceeds even the most optimistic savings from fraud elimination. Consequently, the article argues that authentic fiscal stability requires fundamental reforms to Social Security, Medicare, and Medicaid rather than superficial anti-fraud campaigns or economically unfeasible tariff strategies.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:48:31.990435+00:00",
+        "zh": {
+          "summary": "川普總統提議的「反詐欺戰爭」不足以平衡聯邦預算，因為赤字的主要驅動力在於結構性權益支出與利息成本，而非僅是不當支付。儘管每年詐欺金額高達 5,210 億美元，但預計未來十年高達 24 兆美元的赤字，遠超消除詐欺所能帶來的最樂觀節省金額。因此，本文主張，真正的財政穩定需要對社會安全制度、聯邦醫療保險（Medicare）與聯邦醫療補助（Medicaid）進行根本性改革，而非僅靠表面的反詐欺運動或經濟上不可行的關稅策略。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "f56f21ce",
+      "think_tank": "CATO",
+      "title": "How the Welfare State’s Financing Structure Enables Waste, Fraud, and Abuse",
+      "url": "https://www.cato.org/blog/how-welfare-states-financing-structure-enables-waste-fraud-abuse",
+      "date": "2026-02-26",
+      "summary": "This CATO Institute report argues that federal-state financing structures for welfare programs create misaligned incentives that encourage widespread fraud and fiscal exploitation. Because states administer programs like SNAP and Medicaid while federal taxpayers bear the majority of costs, states lack the financial motivation to prevent improper payments or close administrative loopholes. The author recommends transitioning to block grants or per-capita spending caps to force states to take greater responsibility for program integrity. Ultimately, the report contends that ending federal aid to state programs is necessary to ensure policymakers remain accountable to taxpayers for every dollar spent.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "This CATO Institute report argues that federal-state financing structures for welfare programs create misaligned incentives that encourage widespread fraud and fiscal exploitation. Because states administer programs like SNAP and Medicaid while federal taxpayers bear the majority of costs, states lack the financial motivation to prevent improper payments or close administrative loopholes. The author recommends transitioning to block grants or per-capita spending caps to force states to take greater responsibility for program integrity. Ultimately, the report contends that ending federal aid to state programs is necessary to ensure policymakers remain accountable to taxpayers for every dollar spent.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:49:53.937804+00:00",
+        "zh": {
+          "summary": "這份卡托研究所（CATO Institute）的報告指出，社會福利計畫的聯邦與州政府共同融資結構造成了誘因失調，進而助長廣泛的欺詐與財政剝削。由於各州負責管理補充營養協助計畫（SNAP）和醫療補助（Medicaid）等項目，卻由聯邦納稅人承擔大部分成本，導致州政府缺乏預防不當支付或堵塞行政漏洞的財務動機。作者建議轉向統籌撥款（block grants）或人均支出上限，以迫使州政府對計畫的健全性承擔更大責任。最終，報告主張，唯有終止聯邦對州政府計畫的資助，才能確保決策者對納稅人所支出的每一分錢負責。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "United States"
+      ]
+    },
+    {
+      "id": "70a372bb",
+      "think_tank": "CATO",
+      "title": "Affordability Is Trump’s Albatross and He Can’t Get Rid of It",
+      "url": "https://www.cato.org/commentary/affordability-trumps-albatross-he-cant-get-rid-it",
+      "date": "2026-02-26",
+      "summary": "President Trump faces growing political disapproval as American households remain frustrated by high price levels for essentials like food and electricity despite modest real wage gains. The article argues that the administration's own policies, including tariffs, immigration restrictions, and high budget deficits, are contributing to stagflationary pressures and undermining fiscal stability. Consequently, the failure to deliver immediate price reductions has allowed political opponents to gain traction with 'affordability' narratives and proposals for direct economic intervention.",
+      "category": "health",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "President Trump faces growing political disapproval as American households remain frustrated by high price levels for essentials like food and electricity despite modest real wage gains. The article argues that the administration's own policies, including tariffs, immigration restrictions, and high budget deficits, are contributing to stagflationary pressures and undermining fiscal stability. Consequently, the failure to deliver immediate price reductions has allowed political opponents to gain traction with 'affordability' narratives and proposals for direct economic intervention.",
+          "category": "health"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:50:33.853744+00:00",
+        "zh": {
+          "summary": "川普總統面臨日益升溫的政治不滿，主因在於儘管實質薪資微幅增長，美國家庭仍對食品與電力等民生必需品的高物價水準感到沮喪。文章指出，現任政府的政策（包括關稅、移民限制及高額預算赤字）正加劇停滯性通膨壓力並破壞財政穩定。因此，由於未能立即降低物價，政治對手已藉由「負擔能力」論述及直接經濟干預提案獲得更多支持。",
+          "category": "health"
+        }
+      },
+      "topics": [
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "096ad259",
+      "think_tank": "CATO",
+      "title": "Do We Really Need Half-a-Dozen New Savings Accounts?",
+      "url": "https://www.cato.org/blog/do-we-really-need-half-dozen-new-savings-accounts",
+      "date": "2026-02-26",
+      "summary": "The article critiques the proliferation of special-purpose, tax-advantaged savings accounts, arguing that they create a complex maze of rules that discourages saving among those who need liquidity most. It highlights that new initiatives like Trump Accounts and the HUSTLE Act shift savings tools toward government transfer programs requiring restrictive guardrails and penalties. To improve financial resilience and reduce bureaucratic friction, the author recommends replacing this fragmented system with a single Universal Savings Account (USA). This proposed model would allow for flexible, tax-free withdrawals for any purpose without the paternalistic micromanagement inherent in the current niche account structure.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The article critiques the proliferation of special-purpose, tax-advantaged savings accounts, arguing that they create a complex maze of rules that discourages saving among those who need liquidity most. It highlights that new initiatives like Trump Accounts and the HUSTLE Act shift savings tools toward government transfer programs requiring restrictive guardrails and penalties. To improve financial resilience and reduce bureaucratic friction, the author recommends replacing this fragmented system with a single Universal Savings Account (USA). This proposed model would allow for flexible, tax-free withdrawals for any purpose without the paternalistic micromanagement inherent in the current niche account structure.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:51:06.839170+00:00",
+        "zh": {
+          "summary": "本文批判了專用型稅收優惠儲蓄帳戶的激增，認為這些帳戶造成了複雜的規則迷宮，進而阻礙了最需要流動性的人群進行儲蓄。文章指出，如「川普帳戶」（Trump Accounts）和《HUSTLE 法案》等新倡議，正將儲蓄工具轉向需要嚴格限制與罰則的政府轉移支付計畫。為了提高財務韌性並減少官僚阻礙，作者建議以單一的「通用儲蓄帳戶」（Universal Savings Account, USA）取代這種碎片化的系統。該提議模型將允許出於任何目的進行靈活且免稅的提款，避免了當前利基型帳戶結構中固有的家長式微觀管理。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "United States"
+      ]
+    },
+    {
+      "id": "39a5f5f3",
+      "think_tank": "CFR",
+      "title": "Mexico’s Long War: Drugs, Crime, and the Cartels",
+      "url": "https://www.cfr.org/backgrounders/mexicos-long-war-drugs-crime-and-cartels",
+      "date": "2026-02-26",
+      "summary": "",
+      "category": "",
+      "status": "pending",
+      "topics": [
+        "China",
+        "Indo-Pacific",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "fc358f2f",
+      "think_tank": "CFR",
+      "title": "The Supreme Court Clipped Trump’s Tariff Powers—and Opened New Trade Battles",
+      "url": "https://www.cfr.org/articles/the-supreme-court-clipped-trumps-tariff-powers-and-opened-new-trade-battle-fronts",
+      "date": "2026-02-26",
+      "summary": "The U.S. Supreme Court struck down President Trump’s use of the International Emergency Economic Powers Act (IEEPA) to impose broad tariffs, ruling 6-3 that the executive branch lacks the authority to levy taxes without specific congressional delegation. The Court reasoned that IEEPA’s authorization to \"regulate importation\" does not textually or historically encompass the power to impose duties, which remains a constitutional prerogative of Congress. While the decision triggers a massive refund process for affected importers and forces a pivot to shorter-term Section 122 authorities, it leaves other major trade statutes, such as Section 232 and Section 301, largely untouched.",
+      "category": "economics",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The U.S. Supreme Court struck down President Trump’s use of the International Emergency Economic Powers Act (IEEPA) to impose broad tariffs, ruling 6-3 that the executive branch lacks the authority to levy taxes without specific congressional delegation. The Court reasoned that IEEPA’s authorization to \"regulate importation\" does not textually or historically encompass the power to impose duties, which remains a constitutional prerogative of Congress. While the decision triggers a massive refund process for affected importers and forces a pivot to shorter-term Section 122 authorities, it leaves other major trade statutes, such as Section 232 and Section 301, largely untouched.",
+          "category": "economics"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:02:36.818506+00:00",
+        "zh": {
+          "summary": "美國最高法院以 6 比 3 的投票結果，推翻了川普總統援引《國際緊急經濟權力法》（IEEPA）加徵廣泛關稅的舉措，裁定行政部門在未經國會具體授權的情況下無權課稅。法院認為，IEEPA 授權「監管進口」在文本或歷史上均不包含徵收關稅的權力，而徵稅權仍屬國會的憲法特權。儘管此裁決引發了針對受影響進口商的大規模退稅程序，並迫使政府轉向使用更短期的「第 122 條」權限，但其對《232 條款》和《301 條款》等其他主要貿易法規基本未產生影響。",
+          "category": "economics"
+        }
+      },
+      "topics": [
+        "China",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "fc07893f",
+      "think_tank": "CFR",
+      "title": "The Supreme Court’s Tariff Decision Could Affect U.S.-China Negotiations",
+      "url": "https://www.cfr.org/articles/how-the-supreme-court-tariff-decision-could-affect-trumps-china-negotiations",
+      "date": "2026-02-26",
+      "summary": "The Supreme Court's ruling that the IEEPA does not authorize tariffs constrains the U.S. President's ability to deploy immediate trade barriers, shifting economic statecraft from executive brinkmanship toward slower institutional processes. While established Section 301 and 232 tariffs remain valid, the decision invalidates recent emergency duties and forces the administration to rely on procedural tools like Section 122 or new investigations. This change provides Beijing with a tactical advantage and more time to maneuver ahead of high-stakes negotiations, as U.S. threats now require greater legal and legislative consensus. Consequently, the trade rivalry will likely become more predictable and rule-bound, though structural tensions between the two powers persist.",
+      "category": "economics",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The Supreme Court's ruling that the IEEPA does not authorize tariffs constrains the U.S. President's ability to deploy immediate trade barriers, shifting economic statecraft from executive brinkmanship toward slower institutional processes. While established Section 301 and 232 tariffs remain valid, the decision invalidates recent emergency duties and forces the administration to rely on procedural tools like Section 122 or new investigations. This change provides Beijing with a tactical advantage and more time to maneuver ahead of high-stakes negotiations, as U.S. threats now require greater legal and legislative consensus. Consequently, the trade rivalry will likely become more predictable and rule-bound, though structural tensions between the two powers persist.",
+          "category": "economics"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:03:14.584526+00:00",
+        "zh": {
+          "summary": "最高法院裁定《國際緊急經濟權力法》（IEEPA）並不授權加徵關稅，此舉限制了美國總統立即部署貿易壁壘的能力，使經濟策略從行政邊緣政策轉向較緩慢的體制流程。雖然既有的 301 條款與 232 條款關稅依然有效，但該裁定使近期的緊急關稅失效，迫使行政當局必須依賴如 122 條款或啟動新調查等程序性工具。這項轉變為北京提供了戰術優勢，使其在面對高風險談判前有更多斡旋空間，因為美國的威脅現在需要更高程度的法律與立法共識。因此，貿易對抗可能會變得更具可預測性並受到規則約束，儘管兩大國之間的結構性緊張局勢依然存在。",
+          "category": "economics"
+        }
+      },
+      "topics": [
+        "China",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "781a0175",
+      "think_tank": "CFR",
+      "title": "Countries React to SCOTUS Tariff Ruling",
+      "url": "https://www.cfr.org/articles/countries-react-to-scotus-tariff-ruling",
+      "date": "2026-02-26",
+      "summary": "A 6-3 U.S. Supreme Court ruling striking down tariffs imposed under the International Emergency Economic Powers Act (IEEPA) has created significant trade policy volatility, forcing the White House to pivot to Section 122 authorities to maintain levies. Key trading partners including India, Malaysia, and Indonesia are responding by delaying the ratification or implementation of trade deals originally negotiated under the shadow of the now-illegal tariffs. While the decision offers a temporary legal check on executive trade power, the administration's immediate recourse to alternative authorities indicates a sustained period of trade friction and damaged diplomatic leverage in future economic negotiations.",
+      "category": "economics",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "A 6-3 U.S. Supreme Court ruling striking down tariffs imposed under the International Emergency Economic Powers Act (IEEPA) has created significant trade policy volatility, forcing the White House to pivot to Section 122 authorities to maintain levies. Key trading partners including India, Malaysia, and Indonesia are responding by delaying the ratification or implementation of trade deals originally negotiated under the shadow of the now-illegal tariffs. While the decision offers a temporary legal check on executive trade power, the administration's immediate recourse to alternative authorities indicates a sustained period of trade friction and damaged diplomatic leverage in future economic negotiations.",
+          "category": "economics"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:03:51.042673+00:00",
+        "zh": {
+          "summary": "美國最高法院以 6 比 3 的裁決，推翻了根據《國際緊急經濟權力法》（IEEPA）徵收的關稅，引發顯著的貿易政策波動，迫使白宮轉向《第 122 條》授權以維持徵稅。包括印度、馬來西亞和印尼在內的主要貿易夥伴，正藉由延遲批准或執行最初在非法關稅壓力下談判達成的貿易協議作為回應。儘管該裁決對行政貿易權力提供了暫時性的法律制衡，但政府隨即訴諸其他授權，預示貿易摩擦將長期持續，並削弱未來經濟談判中的外交籌碼。",
+          "category": "economics"
+        }
+      },
+      "topics": [
+        "China",
+        "Europe",
+        "Indo-Pacific",
+        "Middle East",
+        "Nuclear",
+        "Russia",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "c50dd741",
+      "think_tank": "CFR",
+      "title": "Here’s How Much Aid the United States Has Sent Ukraine",
+      "url": "https://www.cfr.org/articles/how-much-us-aid-going-ukraine",
+      "date": "2026-02-26",
+      "summary": "Total U.S. aid to Ukraine reached $188 billion by late 2025, though no new aid legislation has been passed since April 2024, leading European contributions to collectively surpass U.S. support. While the Trump administration continues to deliver previously appropriated funds and facilitates third-party weapon transfers via the PURL program, it has shifted the U.S. stance toward acting as an impartial peace broker. This development underscores a significant pivot in transatlantic burden-sharing and suggests a potential winding down of direct American military assistance.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "Total U.S. aid to Ukraine reached $188 billion by late 2025, though no new aid legislation has been passed since April 2024, leading European contributions to collectively surpass U.S. support. While the Trump administration continues to deliver previously appropriated funds and facilitates third-party weapon transfers via the PURL program, it has shifted the U.S. stance toward acting as an impartial peace broker. This development underscores a significant pivot in transatlantic burden-sharing and suggests a potential winding down of direct American military assistance.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:04:23.734097+00:00",
+        "zh": {
+          "summary": "截至 2025 年底，美國對烏克蘭的援助總額已達 1,880 億美元，然而自 2024 年 4 月以來未再通過新的援助法案，使得歐洲的集體貢獻已超越美國。雖然川普政府持續交付先前撥款的資金，並透過 PURL 計畫促進第三方武器轉讓，但美國的立場已轉向扮演公正的和平調停者。此一發展凸顯了跨大西洋責任分擔的重大轉向，並預示美國直接軍事援助可能逐步減少。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "China",
+        "Europe",
+        "Indo-Pacific",
+        "NATO",
+        "Nuclear",
+        "Russia",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "11cc1f85",
+      "think_tank": "CFR",
+      "title": "Securing Ukraine’s Future: Adapting to New Realities After Four Years of War",
+      "url": "https://www.cfr.org/articles/securing-ukraines-future-adapting-to-new-realities-after-four-years-of-war",
+      "date": "2026-02-26",
+      "summary": "As the Russia-Ukraine war enters its fifth year, a panel of CFR experts argues that Europe must transition from emergency response to a long-term, self-reliant security and recovery architecture. The recommendations emphasize integrating Ukraine’s innovative defense industrial base into European supply chains and preparing for overt Russian provocations that may require European action independent of U.S. support. Strategically, this necessitates balancing robust military deterrence with diplomatic dialogue and modernizing humanitarian aid through agile public-private partnerships to ensure regional stability during and after the conflict.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "As the Russia-Ukraine war enters its fifth year, a panel of CFR experts argues that Europe must transition from emergency response to a long-term, self-reliant security and recovery architecture. The recommendations emphasize integrating Ukraine’s innovative defense industrial base into European supply chains and preparing for overt Russian provocations that may require European action independent of U.S. support. Strategically, this necessitates balancing robust military deterrence with diplomatic dialogue and modernizing humanitarian aid through agile public-private partnerships to ensure regional stability during and after the conflict.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:04:57.193132+00:00",
+        "zh": {
+          "summary": "隨著俄烏戰爭進入第五年，美國外交關係協會（CFR）專家小組指出，歐洲必須從緊急應對轉向建立長期且自立的安全與復原架構。建議重點在於將烏克蘭創新的國防工業體系整合至歐洲供應鏈中，並針對可能需要歐洲在不依賴美國支持下採取獨立行動的公開俄羅斯挑釁做好準備。在戰略層面，這需要平衡強而有力的軍事威懾與外交對話，並透過靈活的公私合作夥伴關係推動人道援助現代化，以確保衝突期間及衝突後的區域穩定。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "China",
+        "Europe",
+        "Indo-Pacific",
+        "Middle East",
+        "NATO",
+        "Nuclear",
+        "Russia",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "eff71e98",
+      "think_tank": "CFR",
+      "title": "Trump Should Take the U.S. Military’s Warning on Iran Seriously",
+      "url": "https://www.cfr.org/articles/trump-should-take-the-u-s-militarys-warning-on-iran-seriously",
+      "date": "2026-02-26",
+      "summary": "Max Boot argues that the Trump administration must heed military warnings regarding the high risks of a sustained conflict with Iran, which poses far greater dangers than previous limited strikes. Key concerns include potential Iranian attacks on regional oil infrastructure, the closure of the Strait of Hormuz, and a critical depletion of U.S. precision-guided munitions required for other global theaters like China and Russia. Additionally, the author notes that extended naval deployments are straining military readiness while a lack of regional ally support complicates any exit strategy. Consequently, a prolonged conflict could severely weaken U.S. strategic posture and global economic stability without guaranteed regime concessions.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "Max Boot argues that the Trump administration must heed military warnings regarding the high risks of a sustained conflict with Iran, which poses far greater dangers than previous limited strikes. Key concerns include potential Iranian attacks on regional oil infrastructure, the closure of the Strait of Hormuz, and a critical depletion of U.S. precision-guided munitions required for other global theaters like China and Russia. Additionally, the author notes that extended naval deployments are straining military readiness while a lack of regional ally support complicates any exit strategy. Consequently, a prolonged conflict could severely weaken U.S. strategic posture and global economic stability without guaranteed regime concessions.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:05:31.059680+00:00",
+        "zh": {
+          "summary": "Max Boot 主張川普政府必須聽取軍方警告，關注與伊朗持續衝突的高風險，其危險程度遠超以往的有限打擊。主要擔憂包括伊朗可能攻擊區域石油基礎設施、封鎖荷姆茲海峽，以及美國精確導引彈藥的嚴重枯竭，而這些彈藥對應對中國和俄羅斯等全球其他戰區至關重要。此外，作者指出，延長的海軍部署正消耗軍事準備能力，且缺乏區域盟友支持使退出策略更趨複雜。因此，一場持久衝突可能在無法確保政權讓步的情況下，嚴重削弱美國的戰略態勢及全球經濟穩定。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "China",
+        "Indo-Pacific",
+        "Middle East",
+        "Nuclear",
+        "Russia",
+        "Taiwan",
+        "United States"
+      ]
+    },
+    {
+      "id": "248b601a",
+      "think_tank": "CFR",
+      "title": "Leadership Transition in Iran",
+      "url": "https://www.cfr.org/reports/leadership-transition-in-iran",
+      "date": "2026-02-26",
+      "summary": "The report argues that the United States must urgently prepare for an imminent leadership transition in Iran—ranging from managed clerical continuity to an IRGC-led military takeover or total regime collapse—following recent internal uprisings and regional conflict. It highlights that while a democratic shift is unlikely in the near term, the transition will likely trigger opportunistic escalation by proxy groups and increased internal repression. Consequently, U.S. strategy should focus on maintaining a strong regional deterrent, supporting Iranian civil society's connectivity, and readying diplomatic frameworks for nuclear transparency and hostage release.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The report argues that the United States must urgently prepare for an imminent leadership transition in Iran—ranging from managed clerical continuity to an IRGC-led military takeover or total regime collapse—following recent internal uprisings and regional conflict. It highlights that while a democratic shift is unlikely in the near term, the transition will likely trigger opportunistic escalation by proxy groups and increased internal repression. Consequently, U.S. strategy should focus on maintaining a strong regional deterrent, supporting Iranian civil society's connectivity, and readying diplomatic frameworks for nuclear transparency and hostage release.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:06:05.258988+00:00",
+        "zh": {
+          "summary": "報告指出，鑒於近期發生的內部起義與地區衝突，美國必須為伊朗即將到來的領導層更迭預作緊迫準備，其情境涵蓋受控的教士體制延續、由伊斯蘭革命衛隊（IRGC）主導的軍事接管，或是政權的全面崩潰。報告強調，儘管短期內不太可能出現民主轉型，但權力過渡期間可能會引發代理人組織的投機性局勢升級，並加劇內部鎮壓。因此，美國的戰略應著重於維持強大的地區威懾力、支持伊朗公民社會的互聯互通，並為核透明度與人質釋放建立外交框架。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "China",
+        "Europe",
+        "Indo-Pacific",
+        "Middle East",
+        "Nuclear",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "9416884b",
+      "think_tank": "CFR",
+      "title": "War in Ukraine",
+      "url": "https://www.cfr.org/topics/war-in-ukraine",
+      "date": "2026-02-26",
+      "summary": "",
+      "category": "",
+      "status": "pending",
+      "topics": [
+        "Ukraine"
+      ]
+    },
+    {
+      "id": "d1b65c81",
+      "think_tank": "CFR",
+      "title": "Defending Europe if Russia Steps Out of the Gray Zone",
+      "url": "https://www.cfr.org/articles/defending-europe-if-russia-steps-out-of-the-gray-zone",
+      "date": "2026-02-26",
+      "summary": "This brief warns that Europe must prepare to independently counter potential low-level Russian conventional attacks, such as drone strikes, as Moscow may exploit declining transatlantic trust to undermine NATO's collective defense. The authors argue that Russia's shift from hybrid 'gray zone' tactics to overt provocations could expose a perceived lack of U.S. reliability, particularly as Washington prioritizes securing a Ukraine peace deal. To mitigate this risk, European governments are urged to establish autonomous command structures, develop independent response menus in coordination with Ukraine, and rapidly bolster native air defense and intelligence capabilities.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "This brief warns that Europe must prepare to independently counter potential low-level Russian conventional attacks, such as drone strikes, as Moscow may exploit declining transatlantic trust to undermine NATO's collective defense. The authors argue that Russia's shift from hybrid 'gray zone' tactics to overt provocations could expose a perceived lack of U.S. reliability, particularly as Washington prioritizes securing a Ukraine peace deal. To mitigate this risk, European governments are urged to establish autonomous command structures, develop independent response menus in coordination with Ukraine, and rapidly bolster native air defense and intelligence capabilities.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:08:38.852485+00:00",
+        "zh": {
+          "summary": "本簡報警告，由於莫斯科可能利用日益削弱的跨大西洋互信來破壞北約的集體防禦，歐洲必須準備好獨立應對潛在的俄羅斯低強度常規攻擊（如無人機襲擊）。作者主張，隨著華盛頓優先促成烏克蘭和平協議，俄羅斯從混合「灰色地帶」戰術轉向公開挑釁，可能會暴露美國可靠性受損的問題。為降低此風險，歐洲各國政府應建立自主指揮架構，與烏克蘭協作制定獨立的應對方案，並迅速強化本土防空與情報能力。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "Europe",
+        "NATO",
+        "Nuclear",
+        "Russia",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "4a7ad6df",
+      "think_tank": "CFR",
+      "title": "Preparing for the Day After in Europe",
+      "url": "https://www.cfr.org/articles/preparing-for-the-day-after-in-europe",
+      "date": "2026-02-26",
+      "summary": "CFR analysts argue that Western policymakers must immediately begin planning for a post-settlement Europe, as a ceasefire in Ukraine will not eliminate Russia's long-term security threat but rather shift it toward hybrid warfare and military testing of NATO cohesion. Potential risks include deepening transatlantic friction over sanctions relief and commercial normalization with Moscow, alongside intra-European disputes regarding defense burden-sharing. To mitigate these threats, the report recommends a G7-coordinated Russia strategy, a revitalized 'Harmel-style' NATO blueprint for dual-track deterrence, and the implementation of new Europe-wide risk reduction measures to stabilize the expanded NATO-Russia border.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "CFR analysts argue that Western policymakers must immediately begin planning for a post-settlement Europe, as a ceasefire in Ukraine will not eliminate Russia's long-term security threat but rather shift it toward hybrid warfare and military testing of NATO cohesion. Potential risks include deepening transatlantic friction over sanctions relief and commercial normalization with Moscow, alongside intra-European disputes regarding defense burden-sharing. To mitigate these threats, the report recommends a G7-coordinated Russia strategy, a revitalized 'Harmel-style' NATO blueprint for dual-track deterrence, and the implementation of new Europe-wide risk reduction measures to stabilize the expanded NATO-Russia border.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:09:10.696020+00:00",
+        "zh": {
+          "summary": "CFR 分析師指出，西方決策者必須立即開始規劃協議達成後的歐洲，因為烏克蘭停火並不會消除俄羅斯的長期安全威脅，而是會將其轉向混合戰，並對北約的凝聚力進行軍事測試。潛在風險包括在解除制裁以及與莫斯科商業關係正常化問題上加深跨大西洋摩擦，以及歐洲內部關於國防負擔分擔的爭議。為了減輕這些威脅，報告建議制定一項由 G7 協調的對俄戰略、一份振興的「哈默爾式」北約雙軌威懾藍圖，並實施新的全歐洲風險降低措施，以穩定擴大後的北約與俄羅斯邊境。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "Europe",
+        "Indo-Pacific",
+        "NATO",
+        "Nuclear",
+        "Russia",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "be0d0d03",
+      "think_tank": "CFR",
+      "title": "Securing Ukraine’s Future in Europe: Ukraine's Defense Industrial Base—An Anchor for Economic Renewal and European Security",
+      "url": "https://www.cfr.org/articles/securing-ukraines-future-in-europe-ukraines-defense-industrial-base-an-anchor-for-economic-renewal-and-european-security",
+      "date": "2026-02-26",
+      "summary": "Ukraine’s defense industrial base (DIB) has transformed from a wartime survival mechanism into a high-tech pillar of European security and a central driver for the country's postwar economic renewal. Driven by a 100-fold increase in defense-tech investment and the production of millions of drones, the sector is pivoting toward industrial-scale exports and coproduction models with European allies. The establishment of Ukrainian defense export centers across Europe signals a shift from aid dependency to strategic partnership, aiming to synchronize regulatory standards and attract private venture capital. Successfully integrating this mil-tech ecosystem will require Western policy support for joint certification and risk-sharing to overcome domestic governance hurdles and maximize Europe's collective deterrence.",
+      "category": "defense",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "Ukraine’s defense industrial base (DIB) has transformed from a wartime survival mechanism into a high-tech pillar of European security and a central driver for the country's postwar economic renewal. Driven by a 100-fold increase in defense-tech investment and the production of millions of drones, the sector is pivoting toward industrial-scale exports and coproduction models with European allies. The establishment of Ukrainian defense export centers across Europe signals a shift from aid dependency to strategic partnership, aiming to synchronize regulatory standards and attract private venture capital. Successfully integrating this mil-tech ecosystem will require Western policy support for joint certification and risk-sharing to overcome domestic governance hurdles and maximize Europe's collective deterrence.",
+          "category": "defense"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:09:48.915933+00:00",
+        "zh": {
+          "summary": "烏克蘭國防工業基地 (DIB) 已從戰時生存機制轉型為歐洲安全的科技支柱，並成為該國戰後經濟復甦的核心驅動力。在國防科技投資增長百倍及數百萬架無人機產量的推動下，該產業正轉向工業規模出口及與歐洲盟友的共同生產模式。遍布歐洲的烏克蘭國防出口中心之設立，標誌著從依賴援助轉向戰略夥伴關係，旨在同步監管標準並吸引私人風險資本。成功整合這一軍事技術生態系統將需要西方在聯合認證與風險共擔方面的政策支持，以克服國內治理障礙並最大化歐洲的集體威懾力。",
+          "category": "defense"
+        }
+      },
+      "topics": [
+        "AI",
+        "Europe",
+        "NATO",
+        "Nuclear",
+        "Russia",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "0ddf6a06",
+      "think_tank": "CFR",
+      "title": "Beyond Conventional Aid: Institutionalizing Public-Private Partnership in Ukraine’s Humanitarian Response",
+      "url": "https://www.cfr.org/articles/beyond-conventional-aid-institutionalizing-public-private-partnership-in-ukraines-humanitarian-response",
+      "date": "2026-02-26",
+      "summary": "The report argues that Ukraine's humanitarian response faces a critical gap due to massive international funding cuts and the inherent bureaucratic slowness of the United Nations system. It highlights that while the UN excels at resource mobilization, it lacks the flexibility of local NGOs or the now-defunct USAID Office of Transition Initiatives (OTI) to respond quickly to shifting frontline needs. To bridge this gap, the author proposes a new public-private partnership mechanism that institutionalizes OTI’s agile grant model while integrating specialized private-sector capabilities. This strategic pivot is deemed essential for maintaining aid effectiveness as the conflict evolves and eventually transitions toward long-term reconstruction.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The report argues that Ukraine's humanitarian response faces a critical gap due to massive international funding cuts and the inherent bureaucratic slowness of the United Nations system. It highlights that while the UN excels at resource mobilization, it lacks the flexibility of local NGOs or the now-defunct USAID Office of Transition Initiatives (OTI) to respond quickly to shifting frontline needs. To bridge this gap, the author proposes a new public-private partnership mechanism that institutionalizes OTI’s agile grant model while integrating specialized private-sector capabilities. This strategic pivot is deemed essential for maintaining aid effectiveness as the conflict evolves and eventually transitions toward long-term reconstruction.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:10:24.547168+00:00",
+        "zh": {
+          "summary": "該報告指出，受國際資金大幅削減與聯合國體系固有官僚效率低下的影響，烏克蘭的人道救援行動正面臨關鍵缺口。報告強調，儘管聯合國擅長資源動員，卻缺乏地方非政府組織或現已解散的美國國際開發署過渡倡議辦公室（USAID OTI）那樣的靈活性，難以迅速應對前線不斷變化的需求。為彌補此缺口，作者提議建立一套全新的公私夥伴關係機制，將 OTI 的敏捷撥款模式制度化，並整合私營部門的專業能力。隨著衝突演變並最終轉向長期重建，此一戰略轉型對於維持援助效能至關重要。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "NATO",
+        "Russia",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "91ddc12f",
+      "think_tank": "CFR",
+      "title": "Russia-Ukraine War Enters Fifth Year",
+      "url": "https://www.cfr.org/articles/russia-ukraine-war-enters-fifth-year",
+      "date": "2026-02-26",
+      "summary": "As the Russia-Ukraine war enters its fifth year, the conflict has evolved into a protracted struggle characterized by stalled U.S.-led peace efforts and a strategic shift toward European leadership in military support. High-intensity fighting has resulted in over 465,000 total casualties and a projected $588 billion reconstruction cost, highlighting the severe long-term impact on regional energy infrastructure and economic stability. This transition toward a European-led 'Coalition of the Willing' reflects a pivot in great-power dynamics, suggesting that future conflicts will require sustained societal mobilization and resilient regional alliances.",
+      "category": "defense",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "As the Russia-Ukraine war enters its fifth year, the conflict has evolved into a protracted struggle characterized by stalled U.S.-led peace efforts and a strategic shift toward European leadership in military support. High-intensity fighting has resulted in over 465,000 total casualties and a projected $588 billion reconstruction cost, highlighting the severe long-term impact on regional energy infrastructure and economic stability. This transition toward a European-led 'Coalition of the Willing' reflects a pivot in great-power dynamics, suggesting that future conflicts will require sustained societal mobilization and resilient regional alliances.",
+          "category": "defense"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:11:02.007257+00:00",
+        "zh": {
+          "summary": "隨著俄烏戰爭邁入第五年，這場衝突已演變為一場持久戰，其特徵是美國領導的和平努力陷入停滯，以及軍事支援的戰略重心轉向由歐洲領導。高強度戰鬥已造成總計超過 46.5 萬人傷亡，預計重建成本達 5,880 億美元，凸顯了對區域能源基礎設施和經濟穩定的嚴重長期影響。這種向歐洲領導的「志願者同盟」轉型的趨勢，反映了大國博弈動態的轉向，並暗示未來的衝突將需要持續的社會動員和具韌性的區域聯盟。",
+          "category": "defense"
+        }
+      },
+      "topics": [
+        "AI",
+        "China",
+        "Europe",
+        "Indo-Pacific",
+        "Middle East",
+        "Russia",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "71b2a447",
+      "think_tank": "CFR",
+      "title": "Experts Warn More Violence Could be Ahead for Mexico After Killing of Cartel Leader",
+      "url": "https://www.kjzz.org/fronteras-desk/2026-02-24/experts-warn-more-violence-could-be-ahead-for-mexico-after-killing-of-cartel-leader",
+      "date": "2026-02-26",
+      "summary": "",
+      "category": "",
+      "status": "pending"
+    },
+    {
+      "id": "d2565f0f",
+      "think_tank": "CFR",
+      "title": "Four Years into the Ukraine War, is Europe Ready for its Own Army?",
+      "url": "https://www.cnbc.com/2026/02/24/ukraine-war-anniversay-europe-own-army.html",
+      "date": "2026-02-26",
+      "summary": "",
+      "category": "",
+      "status": "pending",
+      "topics": [
+        "Europe",
+        "Ukraine"
+      ]
+    },
+    {
+      "id": "eeee6051",
+      "think_tank": "CFR",
+      "title": "The Future of Homeowners Insurance: Q&A with Alice Hill",
+      "url": "https://www.newamerica.org/future-land-housing/blog/the-future-of-homeowners-insurance-alice-hill/",
+      "date": "2026-02-26",
+      "summary": "",
+      "category": "",
+      "status": "pending"
+    },
+    {
+      "id": "d4d3d244",
+      "think_tank": "CFR",
+      "title": "Mexico Travel Advisory Issued as Cartel Violence Worsens | FOX 10 Talks",
+      "url": "https://www.youtube.com/watch?v=WKm1-udUWhA",
+      "date": "2026-02-26",
+      "summary": "",
+      "category": "",
+      "status": "pending"
+    },
+    {
+      "id": "79214de6",
+      "think_tank": "CFR",
+      "title": "The American Paradox",
+      "url": "https://internationalepolitik.de/de/das-amerika-paradox",
+      "date": "2026-02-26",
+      "summary": "",
+      "category": "",
+      "status": "pending",
+      "topics": [
+        "United States"
+      ]
+    },
+    {
+      "id": "58fc80e0",
+      "think_tank": "CFR",
+      "title": "An Independent Europe Remains Unrealized",
+      "url": "https://www.cfr.org/councilofcouncils/global-memo/munich-security-conference-marked-by-rocky-transatlantic-relations/",
+      "date": "2026-02-26",
+      "summary": "The 2026 Munich Security Conference exposed significant geopolitical rifts between the United States and its traditional allies over strategic autonomy and the future of international institutions. While European leaders advocated for a more independent Europe and a values-based NATO, U.S. officials emphasized that any restoration of the international system would occur strictly on American terms. This divergence highlights growing friction regarding free trade, climate change, and support for Ukraine, prompting middle powers like Canada to consider new security and economic partnerships. Ultimately, the conference suggests that the vision of a truly independent Europe remains unfulfilled amidst strained transatlantic relations.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The 2026 Munich Security Conference exposed significant geopolitical rifts between the United States and its traditional allies over strategic autonomy and the future of international institutions. While European leaders advocated for a more independent Europe and a values-based NATO, U.S. officials emphasized that any restoration of the international system would occur strictly on American terms. This divergence highlights growing friction regarding free trade, climate change, and support for Ukraine, prompting middle powers like Canada to consider new security and economic partnerships. Ultimately, the conference suggests that the vision of a truly independent Europe remains unfulfilled amidst strained transatlantic relations.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:11:42.363782+00:00",
+        "zh": {
+          "summary": "2026年慕尼黑安全會議揭示了美國與其傳統盟友之間，在戰略自主權及國際機構未來問題上的顯著地緣政治裂痕。儘管歐洲領導人主張推動更具獨立性的歐洲以及以價值觀為導向的北約，美國官員則強調，任何國際體系的重建都必須嚴格遵循美國所訂定的條件。此一分歧凸顯了雙方在自由貿易、氣候變遷以及對烏克蘭的支持等議題上日益加劇的摩擦，並促使加拿大等中等強國考慮尋求新的安全與經濟夥伴關係。最終，會議結果顯示，在緊張的跨大西洋關係下，真正獨立歐洲的願景依然未能實現。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "Climate",
+        "Europe",
+        "NATO",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "3ba88581",
+      "think_tank": "CFR",
+      "title": "Ukraine’s Struggle for Independence in Russia’s Shadow",
+      "url": "https://www.cfr.org/timelines/ukraines-struggle-independence-russias-shadow",
+      "date": "2026-02-26",
+      "summary": "Ukraine’s trajectory from 1991 to 2026 demonstrates a persistent struggle for independence defined by Russian military aggression and a shifting international security architecture. Milestones such as the 1994 Budapest Memorandum and the 2022 invasion highlight the failure of early security guarantees, leading to a war of attrition with combined casualties reaching an estimated 1.8 million by early 2026. Recent developments indicate a pivot toward bilateral U.S.-Russia peace summits that often exclude Ukrainian representation, creating a strategic tension between continued Western military support and great-power diplomacy. Ultimately, the ongoing targeting of energy infrastructure and deadlocked negotiations suggest that Ukraine's sovereignty remains precarious despite sustained G7 and NATO commitments.",
+      "category": "defense",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "Ukraine’s trajectory from 1991 to 2026 demonstrates a persistent struggle for independence defined by Russian military aggression and a shifting international security architecture. Milestones such as the 1994 Budapest Memorandum and the 2022 invasion highlight the failure of early security guarantees, leading to a war of attrition with combined casualties reaching an estimated 1.8 million by early 2026. Recent developments indicate a pivot toward bilateral U.S.-Russia peace summits that often exclude Ukrainian representation, creating a strategic tension between continued Western military support and great-power diplomacy. Ultimately, the ongoing targeting of energy infrastructure and deadlocked negotiations suggest that Ukraine's sovereignty remains precarious despite sustained G7 and NATO commitments.",
+          "category": "defense"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:12:19.693880+00:00",
+        "zh": {
+          "summary": "烏克蘭自 1991 年至 2026 年的發展軌跡，展現了其在俄羅斯軍事侵略與國際安全架構變遷背景下，為爭取獨立而進行的持久鬥爭。從 1994 年的《布達佩斯備忘錄》到 2022 年的入侵等重大事件，凸顯了早期安全保障的失效，並演變為一場消耗戰；截至 2026 年初，估計雙方合計傷亡人數已達 180 萬。近期趨勢顯示，外交重心轉向常將烏克蘭排除在外的美俄雙邊和平峰會，這在西方持續的軍事支持與大國外交之間造成了戰略張力。最終，針對能源基礎設施的持續打擊以及僵持不下的談判，顯示儘管七大工業國集團 (G7) 與北約 (NATO) 持續承諾支持，烏克蘭的主權地位依然脆弱。",
+          "category": "defense"
+        }
+      },
+      "topics": [
+        "Cybersecurity",
+        "Europe",
+        "Indo-Pacific",
+        "Middle East",
+        "NATO",
+        "Nuclear",
+        "Russia",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "8d1da31d",
+      "think_tank": "CFR",
+      "title": "America’s Digital Empire Has a Trust Problem",
+      "url": "https://www.cfr.org/articles/americas-digital-empire-has-a-trust-problem",
+      "date": "2026-02-26",
+      "summary": "The global dominance of U.S. cloud \"hyperscalers\" is increasingly viewed by international partners as an untenable strategic vulnerability rather than a commercial convenience. Following the weaponization of digital infrastructure against Russia and the Trump administration's perceived erratic foreign policy, nations like India and the Netherlands are accelerating efforts to build sovereign cloud platforms to reduce American dependence. This erosion of trust threatens long-term U.S. digital influence and may cede market share to Chinese competitors as allies prioritize technological autonomy over the cost-efficiency of American platforms.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The global dominance of U.S. cloud \"hyperscalers\" is increasingly viewed by international partners as an untenable strategic vulnerability rather than a commercial convenience. Following the weaponization of digital infrastructure against Russia and the Trump administration's perceived erratic foreign policy, nations like India and the Netherlands are accelerating efforts to build sovereign cloud platforms to reduce American dependence. This erosion of trust threatens long-term U.S. digital influence and may cede market share to Chinese competitors as allies prioritize technological autonomy over the cost-efficiency of American platforms.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:13:01.528335+00:00",
+        "zh": {
+          "summary": "美國雲端「超大型業者」（hyperscalers）在全球的主導地位，正日益被國際合作夥伴視為難以承受的戰略脆弱性，而非僅是商業便利。在數位基礎設施針對俄羅斯被武器化，以及川普政府的外交政策被視為反覆無常之後，印度與荷蘭等國正加速建立主權雲端平台，以減少對美國的依賴。這種信任侵蝕威脅著美國長期的數位影響力；隨著盟友將技術自主置於美國平台的成本效益之上，市場份額可能會流向中國競爭對手。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "China",
+        "Cybersecurity",
+        "Indo-Pacific",
+        "Russia",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "f3842a96",
+      "think_tank": "CFR",
+      "title": "Autonomous Ukraine: We Are in a New Era of Warfare",
+      "url": "https://www.cfr.org/podcasts/why-it-matters/autonomous-ukraine-we-are-in-a-new-era-of-warfare",
+      "date": "2026-02-26",
+      "summary": "The war in Ukraine has inaugurated a new era of 'precise mass' warfare, characterized by the deployment of millions of low-cost autonomous drones that are reshaping the battlefield and blurring traditional front lines. Key evidence includes Ukraine's rapid production of millions of drones and the critical role of Silicon Valley firms in providing AI and satellite connectivity, which often bypasses traditional, slower defense procurement cycles. These developments imply that the U.S. and its allies must urgently adapt their defense industrial bases to prioritize both high-volume production and rapid innovation while managing the strategic risks associated with private sector control of essential military technologies.",
+      "category": "defense",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The war in Ukraine has inaugurated a new era of 'precise mass' warfare, characterized by the deployment of millions of low-cost autonomous drones that are reshaping the battlefield and blurring traditional front lines. Key evidence includes Ukraine's rapid production of millions of drones and the critical role of Silicon Valley firms in providing AI and satellite connectivity, which often bypasses traditional, slower defense procurement cycles. These developments imply that the U.S. and its allies must urgently adapt their defense industrial bases to prioritize both high-volume production and rapid innovation while managing the strategic risks associated with private sector control of essential military technologies.",
+          "category": "defense"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:51:45.437731+00:00",
+        "zh": {
+          "summary": "烏克蘭戰爭開啟了「精準規模」（precise mass）戰爭的新時代，其特點是部署了數百萬架低成本自主無人機，正在重塑戰場並模糊了傳統的前線。關鍵證據包括烏克蘭快速生產數百萬架無人機，以及矽谷公司在提供人工智慧和衛星連接方面發揮的關鍵作用，這通常繞過了傳統且較慢的國防採購週期。這些發展意味著美國及其盟國必須緊急調整其國防工業基礎，優先考慮大規模生產和快速創新，同時管理與私營部門控制關鍵軍事技術相關的戰略風險。",
+          "category": "defense"
+        }
+      },
+      "topics": [
+        "AI",
+        "China",
+        "Europe",
+        "Middle East",
+        "Nuclear",
+        "Russia",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "9766b3d3",
+      "think_tank": "CFR",
+      "title": "Trump’s State of the Union Addresses Domestic Policy",
+      "url": "https://www.cfr.org/articles/trumps-state-of-the-union-addresses-domestic-policy",
+      "date": "2026-02-26",
+      "summary": "President Trump’s State of the Union address prioritized domestic economic issues and immigration while framing his 'peace through strength' doctrine as a success in stabilizing global conflicts. He defended the continuation of tariffs despite judicial setbacks and highlighted the recognition of a new interim government in Venezuela as a major shift in Western Hemisphere policy. These developments suggest an administration focused on transactional diplomacy and protectionist economic measures, emphasizing increased burden-sharing from both international allies and domestic technology firms.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "President Trump’s State of the Union address prioritized domestic economic issues and immigration while framing his 'peace through strength' doctrine as a success in stabilizing global conflicts. He defended the continuation of tariffs despite judicial setbacks and highlighted the recognition of a new interim government in Venezuela as a major shift in Western Hemisphere policy. These developments suggest an administration focused on transactional diplomacy and protectionist economic measures, emphasizing increased burden-sharing from both international allies and domestic technology firms.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:52:19.020032+00:00",
+        "zh": {
+          "summary": "特朗普總統於國情咨文中優先處理國內經濟議題與移民事務，並將其「以實力求和平」之方針形塑為穩定全球衝突的成功範式。儘管面臨司法挫折，他仍為維持關稅政策辯護，並強調承認委內瑞拉新臨時政府為西半球政策的重大轉折。綜觀上述進展，該政府顯現出側重交易型外交與保護主義經濟手段的趨勢，並強調國際盟友及國內科技企業應增加責任分擔。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "China",
+        "Europe",
+        "Indo-Pacific",
+        "Middle East",
+        "NATO",
+        "Nuclear",
+        "Russia",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "41520b83",
+      "think_tank": "CFR",
+      "title": "Robert B. Menschel Economics Symposium—Lessons From 1929",
+      "url": "https://www.cfr.org/event/now-virtual-robert-b-menschel-economics-symposium-lessons-1929",
+      "date": "2026-02-26",
+      "summary": "The symposium concludes that while current AI-driven investment mirrors the speculative mania of 1929, the primary systemic risk stems from a combination of high sovereign debt and potential policy errors rather than market volatility alone. Panelists noted parallels such as the democratization of finance through leverage and a growing gap between massive AI capital expenditures and realized revenues. To avoid a repeat of the Great Depression's domino effect, experts advocate for proactive financial regulation and caution that current high debt levels may limit the effectiveness of traditional crisis intervention strategies.",
+      "category": "technology",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The symposium concludes that while current AI-driven investment mirrors the speculative mania of 1929, the primary systemic risk stems from a combination of high sovereign debt and potential policy errors rather than market volatility alone. Panelists noted parallels such as the democratization of finance through leverage and a growing gap between massive AI capital expenditures and realized revenues. To avoid a repeat of the Great Depression's domino effect, experts advocate for proactive financial regulation and caution that current high debt levels may limit the effectiveness of traditional crisis intervention strategies.",
+          "category": "technology"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:53:03.039091+00:00",
+        "zh": {
+          "summary": "研討會總結指出，儘管當前 AI 驅動的投資反映了 1929 年的投機狂熱，但主要的系統性風險源於高主權債務與潛在政策錯誤的結合，而非僅僅是市場波動。與會專家指出，兩者存在相似之處，例如透過槓桿實現的金融民主化，以及龐大的 AI 資本支出與實際營收之間日益擴大的差距。為避免大蕭條的連鎖反應重演，專家主張採取主動的金融監管，並警告當前的高債務水準可能會限制傳統危機干預策略的成效。",
+          "category": "technology"
+        }
+      },
+      "topics": [
+        "AI",
+        "China",
+        "Europe",
+        "Indo-Pacific",
+        "Middle East",
+        "NATO",
+        "Taiwan",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "92b1878d",
+      "think_tank": "CFR",
+      "title": "Tariffs and Trade: What Comes Next",
+      "url": "https://www.cfr.org/event/tariffs-and-trade-what-comes-next",
+      "date": "2026-02-26",
+      "summary": "The U.S. Supreme Court struck down President Trump’s sweeping tariffs imposed under the International Economic Emergency Powers Act (IEEPA), ruling that the statute does not grant the executive branch the authority to levy duties. The Court reasoned that the Constitution reserves taxing powers for Congress and that IEEPA’s power to 'regulate' imports is distinct from the power to tax. Consequently, the administration has pivoted to Section 122 for temporary 150-day tariffs while launching 'expedited' Section 301 investigations to secure a longer-term legal foundation for its trade agenda. This shift highlights a significant constitutional reinforcement of congressional authority, even as the executive maintains protectionist policies through alternative statutory frameworks.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The U.S. Supreme Court struck down President Trump’s sweeping tariffs imposed under the International Economic Emergency Powers Act (IEEPA), ruling that the statute does not grant the executive branch the authority to levy duties. The Court reasoned that the Constitution reserves taxing powers for Congress and that IEEPA’s power to 'regulate' imports is distinct from the power to tax. Consequently, the administration has pivoted to Section 122 for temporary 150-day tariffs while launching 'expedited' Section 301 investigations to secure a longer-term legal foundation for its trade agenda. This shift highlights a significant constitutional reinforcement of congressional authority, even as the executive maintains protectionist policies through alternative statutory frameworks.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:53:38.397417+00:00",
+        "zh": {
+          "summary": "美國最高法院裁定川普總統依據《國際緊急經濟權力法》(IEEPA) 實施的全面性關稅無效，認定該法規並未授予行政部門徵收關稅的職權。法院主張，憲法將課稅權賦予國會，且 IEEPA 中「調節」進口的權力與課稅權有顯著區別。因此，政府已轉向依據第 122 條實施為期 150 天的臨時關稅，同時啟動「快速」301 條款調查，以期為其貿易議程奠定長期的法律基礎。此一轉變凸顯了憲法層面對國會權限的強化，即便行政部門仍透過其他法律框架維持其保護主義政策。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "China",
+        "Climate",
+        "Nuclear",
+        "Russia",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "d8a9157c",
+      "think_tank": "CFR",
+      "title": "Understanding the Supreme Court's Tariff Ruling",
+      "url": "https://www.cfr.org/event/understanding-supreme-courts-tariff-ruling",
+      "date": "2026-02-26",
+      "summary": "The Supreme Court’s ruling that the International Emergency Economic Powers Act (IEEPA) does not authorize presidential tariffs strips the administration of its most flexible geoeconomic weapon, forcing a shift toward more bureaucratic trade authorities. Experts suggest the executive branch will likely invoke Section 122 for temporary 150-day tariffs while initiating formal investigations under Sections 301 and 232 to reconstruct the previous tariff regime. This transition creates significant business uncertainty regarding potential refunds and trade agreement stability, and may paradoxically lead to a more aggressive use of alternative tools like export controls and financial sanctions.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The Supreme Court’s ruling that the International Emergency Economic Powers Act (IEEPA) does not authorize presidential tariffs strips the administration of its most flexible geoeconomic weapon, forcing a shift toward more bureaucratic trade authorities. Experts suggest the executive branch will likely invoke Section 122 for temporary 150-day tariffs while initiating formal investigations under Sections 301 and 232 to reconstruct the previous tariff regime. This transition creates significant business uncertainty regarding potential refunds and trade agreement stability, and may paradoxically lead to a more aggressive use of alternative tools like export controls and financial sanctions.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:54:15.527197+00:00",
+        "zh": {
+          "summary": "最高法院裁定《國際緊急經濟權力法》(IEEPA) 並未授權總統徵收關稅，這剝奪了行政部門最靈活的地緣經濟武器，迫使其轉向程序更為官僚的貿易權限。專家指出，行政部門可能會援引第 122 條徵收為期 150 天的臨時關稅，同時根據第 301 條和第 232 條展開正式調查，以重建先前的關稅制度。此一過渡期為企業帶來了關於潛在退稅和貿易協定穩定性的巨大不確定性，且可能矛盾地導致政府更激進地使用出口管制和金融制裁等替代工具。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "China",
+        "Europe",
+        "Indo-Pacific",
+        "Middle East",
+        "Russia",
+        "Taiwan",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "4e675697",
+      "think_tank": "CFR",
+      "title": "Screening and Discussion of \"Atomic Echoes: Untold Stories From World War II\"",
+      "url": "https://www.cfr.org/event/screening-and-discussion-atomic-echoes-untold-stories-world-war-ii",
+      "date": "2026-02-26",
+      "summary": "This CFR event centered on the documentary 'Atomic Echoes,' which examines the multi-generational human and health consequences of the 1945 atomic bombings for both Japanese survivors and American 'atomic veterans.' The discussion highlighted how historical classification and the focus on strategic deterrence often obscure the long-term trauma and radiation-related illnesses suffered by individuals on both sides of the conflict. Policy implications include the urgent need to address the erosion of international nuclear guardrails following the expiration of treaties like New START and the rising risk of inadvertent escalation. Panelists emphasized that human-centered narratives are essential for engaging the public in contemporary debates over nuclear modernization and the sole authority of the executive branch in weapon deployment.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "This CFR event centered on the documentary 'Atomic Echoes,' which examines the multi-generational human and health consequences of the 1945 atomic bombings for both Japanese survivors and American 'atomic veterans.' The discussion highlighted how historical classification and the focus on strategic deterrence often obscure the long-term trauma and radiation-related illnesses suffered by individuals on both sides of the conflict. Policy implications include the urgent need to address the erosion of international nuclear guardrails following the expiration of treaties like New START and the rising risk of inadvertent escalation. Panelists emphasized that human-centered narratives are essential for engaging the public in contemporary debates over nuclear modernization and the sole authority of the executive branch in weapon deployment.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:54:49.272436+00:00",
+        "zh": {
+          "summary": "這場外交關係協會（CFR）活動以紀錄片《原子的回響》（Atomic Echoes）為中心，探討了 1945 年原子彈轟炸對日本倖存者與美國「原子退伍軍人」造成的跨世代人道與健康後果。討論指出，歷史機密分類與對戰略威懾的聚焦，往往掩蓋了衝突雙方個人所承受的長期創傷與輻射相關疾病。政策影響層面包括：在《新削減戰略武器條約》（New START）等條約失效後，迫切需要應對國際核武護欄侵蝕及意外升級風險升高的挑戰。與談人強調，以人為中心的敘事對於引領大眾參與當前關於核武現代化，以及行政部門在武器部署上之唯一權限的辯論至關重要。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "China",
+        "Indo-Pacific",
+        "Middle East",
+        "Nuclear",
+        "Russia",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "06814f72",
+      "think_tank": "CFR",
+      "title": "2026 Securing Ukraine's Future Symposium",
+      "url": "https://www.cfr.org/event/2026-securing-ukraines-future-symposium",
+      "date": "2026-02-26",
+      "summary": "European leaders at the 2026 CFR symposium characterized the war in Ukraine as a generational conflict that has fundamentally transformed Russia into a direct, long-term threat to the continent. To maintain support amidst uncertain U.S. funding, European nations are aggressively increasing defense spending and industrial capacity while fostering Ukraine’s own domestic military-industrial base. Strategic priorities have shifted toward 'strategic autonomy' within NATO, emphasizing robust security guarantees and the deep integration of Ukraine into Western institutions to ensure a durable peace. The panel concluded that European security now depends on transitioning from security consumption to active partnership through sustained military and economic commitment.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "European leaders at the 2026 CFR symposium characterized the war in Ukraine as a generational conflict that has fundamentally transformed Russia into a direct, long-term threat to the continent. To maintain support amidst uncertain U.S. funding, European nations are aggressively increasing defense spending and industrial capacity while fostering Ukraine’s own domestic military-industrial base. Strategic priorities have shifted toward 'strategic autonomy' within NATO, emphasizing robust security guarantees and the deep integration of Ukraine into Western institutions to ensure a durable peace. The panel concluded that European security now depends on transitioning from security consumption to active partnership through sustained military and economic commitment.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:55:30.814375+00:00",
+        "zh": {
+          "summary": "歐洲領導人在 2026 年外交關係協會 (CFR) 研討會上，將烏克蘭戰爭定性為一場跨世代的衝突，並認為這場戰爭已從根本上使俄羅斯成為對歐洲大陸的直接且長期威脅。為了在美國資助前景不明的情況下維持支持，歐洲各國正積極提升國防開支與工業產能，同時培育烏克蘭自身的本土軍工產業基地。戰略優先事項已轉向北約內部的「戰略自主」，強調強而有力的安全保障，以及將烏克蘭深度納入西方體制，以確保持久和平。討論小組總結指出，歐洲安全現在取決於如何透過持續的軍事與經濟承諾，從安全消費轉向積極的夥伴關係。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "China",
+        "Climate",
+        "Europe",
+        "NATO",
+        "Nuclear",
+        "Russia",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "065a5f60",
+      "think_tank": "CFR",
+      "title": "Council Special Report Launch: America Revived—A Grand Strategy of Resolute Global Leadership",
+      "url": "https://www.cfr.org/event/council-special-report-launch-america-revived-grand-strategy-resolute-global-leadership",
+      "date": "2026-02-26",
+      "summary": "Ambassador Robert Blackwill proposes a \"resolute global leadership\" grand strategy that fuses superior military primacy with a muscular revitalization of the rules-based international order. He argues that recent liberal internationalism proved too passive against adversaries like China and Russia, while the transactional \"Trumpism\" approach dangerously abandons the alliances and moral frameworks essential to U.S. security. To restore influence, the report advocates for a significant increase in the defense budget, winning the AI technology race, and pivoting military resources to Asia to deter Chinese hegemony.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "Ambassador Robert Blackwill proposes a \"resolute global leadership\" grand strategy that fuses superior military primacy with a muscular revitalization of the rules-based international order. He argues that recent liberal internationalism proved too passive against adversaries like China and Russia, while the transactional \"Trumpism\" approach dangerously abandons the alliances and moral frameworks essential to U.S. security. To restore influence, the report advocates for a significant increase in the defense budget, winning the AI technology race, and pivoting military resources to Asia to deter Chinese hegemony.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:56:06.062596+00:00",
+        "zh": {
+          "summary": "羅伯特·布萊克威爾大使提出了一項「堅定的全球領導地位」大戰略，將卓越的軍事優勢與強有力地重振以規則為基礎的國際秩序相結合。他主張，近期的自由國際主義在應對中國和俄羅斯等對手時顯得過於被動，而交易式的「川普主義」則危險地拋棄了對美國安全至關重要的盟友關係與道德框架。為恢復影響力，該報告建議大幅增加國防預算、贏得人工智慧技術競賽，並將軍事資源轉向亞洲以遏制中國霸權。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "AI",
+        "China",
+        "Climate",
+        "Europe",
+        "Indo-Pacific",
+        "Middle East",
+        "Nuclear",
+        "Russia",
+        "Taiwan",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "deb8ac6e",
+      "think_tank": "CFR",
+      "title": "How I Got My Career in Foreign Policy: Alan Cullison",
+      "url": "https://www.cfr.org/articles/how-i-got-my-career-in-foreign-policy-alan-cullison",
+      "date": "2026-02-26",
+      "summary": "Veteran journalist Alan Cullison argues that effective foreign policy reporting and analysis must be grounded in human empathy and the study of individual personalities rather than abstract political theory. Drawing on three decades of experience in Russia and Afghanistan, Cullison demonstrates how focusing on the 'fragments' of conflict—such as personal tragedies or investigative leads like liberated al-Qaeda hard drives—provides deeper insights into geopolitical shifts than conventional high-level reporting. For policymakers and analysts, these reflections highlight that robust intelligence depends on maintaining a diverse ecosystem of 'honest interpreters' who possess the linguistic and cultural immersion necessary to navigate chaotic international environments.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "Veteran journalist Alan Cullison argues that effective foreign policy reporting and analysis must be grounded in human empathy and the study of individual personalities rather than abstract political theory. Drawing on three decades of experience in Russia and Afghanistan, Cullison demonstrates how focusing on the 'fragments' of conflict—such as personal tragedies or investigative leads like liberated al-Qaeda hard drives—provides deeper insights into geopolitical shifts than conventional high-level reporting. For policymakers and analysts, these reflections highlight that robust intelligence depends on maintaining a diverse ecosystem of 'honest interpreters' who possess the linguistic and cultural immersion necessary to navigate chaotic international environments.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:56:41.882176+00:00",
+        "zh": {
+          "summary": "資深記者 Alan Cullison 主張，有效的外交政策報導與分析必須植根於人類同理心及對個人特質的研究，而非抽象的政治理論。憑藉在俄羅斯與阿富汗三十年的經驗，Cullison 展現了關注衝突中的「碎片」——例如個人悲劇或被收繳的基地組織硬碟等調查線索——如何比傳統的高層報導更能提供對地緣政治轉變的深刻洞察。對於決策者與分析家而言，這些反思強調了強大的情報工作取決於維持一個由「誠實的解讀者」組成的多元生態系統，這些人具備在混亂國際環境中穿梭所需的語言與文化沉浸能力。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "China",
+        "Russia",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "72668053",
+      "think_tank": "CFR",
+      "title": "Remembering John Foster Dulles",
+      "url": "https://www.cfr.org/articles/remembering-john-foster-dulles",
+      "date": "2026-02-26",
+      "summary": "This retrospective analyzes the legacy of John Foster Dulles, a central figure in 1950s U.S. foreign policy known for his doctrines of 'massive retaliation,' 'brinkmanship,' and 'rollback.' While Dulles provided the bold moral and rhetorical framework for American exceptionalism during the Cold War, historical evidence suggests President Eisenhower maintained ultimate control over policy decisions, often opting for caution over Dulles's aggressive stances. The article also highlights the damaging long-term effects of Dulles’s purge of State Department experts on U.S. diplomatic intelligence and regional expertise.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "This retrospective analyzes the legacy of John Foster Dulles, a central figure in 1950s U.S. foreign policy known for his doctrines of 'massive retaliation,' 'brinkmanship,' and 'rollback.' While Dulles provided the bold moral and rhetorical framework for American exceptionalism during the Cold War, historical evidence suggests President Eisenhower maintained ultimate control over policy decisions, often opting for caution over Dulles's aggressive stances. The article also highlights the damaging long-term effects of Dulles’s purge of State Department experts on U.S. diplomatic intelligence and regional expertise.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:57:13.877995+00:00",
+        "zh": {
+          "summary": "這篇回顧分析了約翰·福斯特·杜勒斯（John Foster Dulles）的政治遺產，他是1950年代美國外交政策的核心人物，以「大規模報復」、「邊緣政策」和「推回策略」等主張著稱。雖然杜勒斯為冷戰期間的美國例外主義提供了大膽的道德與修辭框架，但歷史證據顯示，艾森豪總統始終掌握著政策決策的最終控制權，且相對於杜勒斯的激進立場，他往往更傾向於謹慎。文章還強調了杜勒斯對國務院專家的清洗，對美國外交情報和區域專業知識造成的長期破壞性影響。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "China",
+        "Europe",
+        "Indo-Pacific",
+        "Russia",
+        "United States"
+      ]
+    },
+    {
+      "id": "c5e9c895",
+      "think_tank": "CSIS",
+      "title": "All Together Now: China’s Militia in 2025",
+      "url": "https://amti.csis.org/all-together-now-chinas-militia-in-2025/",
+      "date": "2026-02-26",
+      "summary": "",
+      "category": "",
+      "status": "pending",
+      "topics": [
+        "China"
+      ]
+    },
+    {
+      "id": "1f077184",
+      "think_tank": "CSIS",
+      "title": "Revitalizing U.S.-Pacific Ties Through Kava Diplomacy",
+      "url": "https://www.csis.org/analysis/revitalizing-us-pacific-ties-through-kava-diplomacy",
+      "date": "2026-02-26",
+      "summary": "This report argues that kava trade offers a strategic 'trade, not aid' pathway for the United States to revitalize relations with Pacific Island nations following the dismantling of USAID. With the global kava market valued at up to $3 billion, the crop represents a vital economic engine for major exporters like Fiji and Vanuatu. The authors recommend leveraging the Millennium Challenge Corporation and Development Finance Corporation to address structural barriers, including agricultural financing gaps and climate-related infrastructure needs. By fostering these niche commercial ties, Washington can reinforce its strategic presence and support Pacific-led development goals in a geopolitically contested region.",
+      "category": "economics",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "This report argues that kava trade offers a strategic 'trade, not aid' pathway for the United States to revitalize relations with Pacific Island nations following the dismantling of USAID. With the global kava market valued at up to $3 billion, the crop represents a vital economic engine for major exporters like Fiji and Vanuatu. The authors recommend leveraging the Millennium Challenge Corporation and Development Finance Corporation to address structural barriers, including agricultural financing gaps and climate-related infrastructure needs. By fostering these niche commercial ties, Washington can reinforce its strategic presence and support Pacific-led development goals in a geopolitically contested region.",
+          "category": "economics"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:13:41.870954+00:00",
+        "zh": {
+          "summary": "這份報告指出，在美國國際開發署（USAID）裁撤後，卡瓦胡椒（kava）貿易為美國提供了一條「以貿易取代援助」的戰略路徑，得以重振與太平洋島國的關係。鑑於全球卡瓦胡椒市場價值高達 30 億美元，該作物已成為斐濟與萬那杜等主要出口國的關鍵經濟引擎。作者建議利用千禧挑戰公司（MCC）與國際開發金融公司（DFC）來克服結構性障礙，包括農業融資缺口及因應氣候變遷的基礎設施需求。透過深化這些利基商業連結，華盛頓當局能在地緣政治競爭激烈的區域強化其戰略影響力，並支持以太平洋島國為主導的發展目標。",
+          "category": "economics"
+        }
+      },
+      "topics": [
+        "Climate",
+        "Indo-Pacific",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "b6463fe3",
+      "think_tank": "CSIS",
+      "title": "The Supreme Court’s IEEPA Tariff Ruling and What Comes Next",
+      "url": "https://www.csis.org/analysis/supreme-courts-ieepa-tariff-ruling-and-what-comes-next",
+      "date": "2026-02-26",
+      "summary": "The U.S. Supreme Court ruled that the International Emergency Economic Powers Act (IEEPA) does not authorize the President to impose tariffs, asserting that taxation power is reserved exclusively for Congress. While the ruling creates a significant legal hurdle for executive trade authority, the administration is already seeking to reimpose tariffs through alternative statutes like Section 122 and Section 232. The decision triggers a massive $170 billion refund process for businesses and potentially weakens the U.S. negotiating position by undermining previous trade concessions forced by the now-invalidated IEEPA tariffs.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The U.S. Supreme Court ruled that the International Emergency Economic Powers Act (IEEPA) does not authorize the President to impose tariffs, asserting that taxation power is reserved exclusively for Congress. While the ruling creates a significant legal hurdle for executive trade authority, the administration is already seeking to reimpose tariffs through alternative statutes like Section 122 and Section 232. The decision triggers a massive $170 billion refund process for businesses and potentially weakens the U.S. negotiating position by undermining previous trade concessions forced by the now-invalidated IEEPA tariffs.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:14:21.337089+00:00",
+        "zh": {
+          "summary": "美國最高法院裁定，《國際緊急經濟權力法》（IEEPA）並未授權總統徵收關稅，並主張課稅權專屬於國會。儘管這項裁決為行政機關的貿易權限製造了重大的法律障礙，但政府已正尋求透過《122 條款》和《232 條款》等其他法令重新徵收關稅。此項決定引發了針對企業的高達 1,700 億美元的巨額退稅程序，並可能因削弱先前由現已失效的 IEEPA 關稅所迫使達成的貿易讓步，進而損害美國的談判地位。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "China",
+        "Europe",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "5bfcd157",
+      "think_tank": "CSIS",
+      "title": "The Russia-Ukraine War and Global Food Security: Impacts Four Years Later",
+      "url": "https://www.csis.org/analysis/war-ukraine-and-global-food-security-impacts-four-years-later",
+      "date": "2026-02-26",
+      "summary": "Four years after Russia's full-scale invasion, Ukraine's grain exports remain 35% below pre-war levels due to extensive landmine contamination, destroyed irrigation infrastructure, and acute labor shortages. While Russia initially surged to dominate 22% of the global wheat market by weaponizing appropriated Ukrainian land and infrastructure, its own production is now threatened by adverse weather and a shrinking agricultural workforce. Despite a decline from the 2022 price peak, global food security remains fragile as the war continues to suppress the output of a top producer, limiting the market's ability to absorb future shocks. Strategic recovery for Ukraine necessitates rapid EU integration, modernization of decentralized export logistics, and enhanced maritime defense to secure Black Sea trade routes.",
+      "category": "foreign-policy",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "Four years after Russia's full-scale invasion, Ukraine's grain exports remain 35% below pre-war levels due to extensive landmine contamination, destroyed irrigation infrastructure, and acute labor shortages. While Russia initially surged to dominate 22% of the global wheat market by weaponizing appropriated Ukrainian land and infrastructure, its own production is now threatened by adverse weather and a shrinking agricultural workforce. Despite a decline from the 2022 price peak, global food security remains fragile as the war continues to suppress the output of a top producer, limiting the market's ability to absorb future shocks. Strategic recovery for Ukraine necessitates rapid EU integration, modernization of decentralized export logistics, and enhanced maritime defense to secure Black Sea trade routes.",
+          "category": "foreign-policy"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:15:00.531299+00:00",
+        "zh": {
+          "summary": "在俄羅斯全面入侵烏克蘭數年後，由於地雷污染嚴重、灌溉基礎設施損毀以及勞動力嚴重短缺，烏克蘭的糧食出口量仍比戰前水準低35%。俄羅斯最初透過將侵占的烏克蘭土地和基礎設施武器化，迅速佔據了全球小麥市場22%的份額，但如今其自身的糧食生產也受到惡劣天氣和農業勞動力萎縮的威脅。儘管價格已從2022年的高峰迴落，但由於戰爭持續壓制主要生產國之一的產量，全球糧食安全依然脆弱，市場應對未來衝擊的能力也因此受到限制。烏克蘭的戰略復甦需要迅速融入歐盟，實現分散式出口物流的現代化，並加強海上防禦以確保黑海貿易航線的安全。",
+          "category": "foreign-policy"
+        }
+      },
+      "topics": [
+        "Climate",
+        "Europe",
+        "Middle East",
+        "Russia",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "8bcddd99",
+      "think_tank": "CSIS",
+      "title": "Assessing Xi’s Unprecedented Purges of China’s Military: Key Developments and Potential Implications",
+      "url": "https://www.csis.org/analysis/assessing-xis-unprecedented-purges-chinas-military-key-developments-and-potential",
+      "date": "2026-02-26",
+      "summary": "Xi Jinping has conducted an unprecedented purge of the People's Liberation Army (PLA), removing over 100 senior officers and nearly decapitating the Central Military Commission to ensure absolute political loyalty. This campaign has created a significant leadership void, with approximately 52% of top positions impacted, severely undermining the PLA's near-term readiness for complex military operations like a Taiwan invasion. While the purges disrupt immediate capabilities, they enable Xi to replace the 'old guard' with a younger, more technically literate generation of 'intelligentized' officers. Long-term implications include a potentially more aggressive military that is ideologically subservient, though at a heightened risk of strategic miscalculation due to the suppression of realistic operational advice.",
+      "category": "defense",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "Xi Jinping has conducted an unprecedented purge of the People's Liberation Army (PLA), removing over 100 senior officers and nearly decapitating the Central Military Commission to ensure absolute political loyalty. This campaign has created a significant leadership void, with approximately 52% of top positions impacted, severely undermining the PLA's near-term readiness for complex military operations like a Taiwan invasion. While the purges disrupt immediate capabilities, they enable Xi to replace the 'old guard' with a younger, more technically literate generation of 'intelligentized' officers. Long-term implications include a potentially more aggressive military that is ideologically subservient, though at a heightened risk of strategic miscalculation due to the suppression of realistic operational advice.",
+          "category": "defense"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:15:39.406224+00:00",
+        "zh": {
+          "summary": "習近平對人民解放軍（PLA）進行了前所未有的肅清，撤除超過 100 名高級軍官，並幾乎使中央軍事委員會領導層陷入癱瘓，以確保絕對的政治忠誠。此舉造成了顯著的領導層真空，約 52% 的高層職位受到波及，嚴重削弱了解放軍在短期內執行侵略台灣等複雜軍事行動的戰備能力。儘管肅清行動干擾了眼下的作戰能力，但它讓習近平得以用更年輕、更具技術素養的「智能化」軍官取代舊勢力。長期影響包括可能產生一支在意識形態上絕對服從、且更具侵略性的軍隊，但由於現實的作戰建議遭到壓制，其戰略誤判的風險亦隨之攀升。",
+          "category": "defense"
+        }
+      },
+      "topics": [
+        "AI",
+        "China",
+        "Indo-Pacific",
+        "Nuclear",
+        "Russia",
+        "Taiwan",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "be90352a",
+      "think_tank": "CSIS",
+      "title": "The Purges Within China’s Military Are Even Deeper Than You Think",
+      "url": "https://chinapower.csis.org/china-pla-military-purges/",
+      "date": "2026-02-26",
+      "summary": "",
+      "category": "",
+      "status": "pending",
+      "topics": [
+        "China"
+      ]
+    },
+    {
+      "id": "0c208d09",
+      "think_tank": "CSIS",
+      "title": "Russia-Ukraine War in 10 Charts",
+      "url": "https://www.csis.org/analysis/russia-ukraine-war-10-charts",
+      "date": "2026-02-26",
+      "summary": "Marking the fourth anniversary of the full-scale invasion, this analysis highlights that Russia’s military efforts have devolved into a slow-moving war of attrition characterized by unprecedented casualties (1.2 million) and a stagnating economy. Despite minimal territorial gains, Russia has intensified its drone campaign, while Ukraine faces a staggering $588 billion reconstruction challenge and a vulnerable centralized energy grid. Crucially, the financial burden of military support is shifting from the U.S. to Europe, requiring new procurement mechanisms like the Prioritized Ukraine Requirements List (PURL) to sustain Ukraine’s defense.",
+      "category": "defense",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "Marking the fourth anniversary of the full-scale invasion, this analysis highlights that Russia’s military efforts have devolved into a slow-moving war of attrition characterized by unprecedented casualties (1.2 million) and a stagnating economy. Despite minimal territorial gains, Russia has intensified its drone campaign, while Ukraine faces a staggering $588 billion reconstruction challenge and a vulnerable centralized energy grid. Crucially, the financial burden of military support is shifting from the U.S. to Europe, requiring new procurement mechanisms like the Prioritized Ukraine Requirements List (PURL) to sustain Ukraine’s defense.",
+          "category": "defense"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:16:20.955677+00:00",
+        "zh": {
+          "summary": "在全面入侵四週年之際，本分析指出俄羅斯的軍事行動已演變成一場進展緩慢的消耗戰，其特徵是前所未有的傷亡人數（120萬人）以及經濟停滯。儘管領土收益極其有限，俄羅斯仍加強了其無人機攻勢；而烏克蘭則面臨高達5,880億美元的艱巨重建挑戰，以及脆弱的集中式能源網絡。至關重要的一點是，軍事支援的財政負擔正從美國轉向歐洲，因此需要建立如「烏克蘭優先需求清單」(PURL) 等新型採購機制，以維持烏克蘭的防禦體系。",
+          "category": "defense"
+        }
+      },
+      "topics": [
+        "China",
+        "Europe",
+        "Indo-Pacific",
+        "NATO",
+        "Russia",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "8df28f18",
+      "think_tank": "CSIS",
+      "title": "Four Years of the War in Ukraine",
+      "url": "https://www.csis.org/analysis/four-years-war-ukraine",
+      "date": "2026-02-26",
+      "summary": "Four years after Russia's invasion, the conflict has evolved into a long-term war of attrition that requires a transition from short-term aid to a generational strategy for European security. Despite significant casualties and sanctions, Russia has maintained its war effort through economic ties with China and the Global South, while Ukraine has successfully shifted toward deeper defense industrial cooperation with European partners. Experts suggest that because Russia's maximalist goals remain unchanged, Western policymakers must prepare for a multiyear struggle focused on conventional deterrence and cautious escalation management.",
+      "category": "defense",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "Four years after Russia's invasion, the conflict has evolved into a long-term war of attrition that requires a transition from short-term aid to a generational strategy for European security. Despite significant casualties and sanctions, Russia has maintained its war effort through economic ties with China and the Global South, while Ukraine has successfully shifted toward deeper defense industrial cooperation with European partners. Experts suggest that because Russia's maximalist goals remain unchanged, Western policymakers must prepare for a multiyear struggle focused on conventional deterrence and cautious escalation management.",
+          "category": "defense"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:17:04.219222+00:00",
+        "zh": {
+          "summary": "在俄羅斯入侵四年後，此場衝突已演變為長期的消耗戰，使得歐洲安全策略必須從短期援助轉向具長遠意義的世代戰略。儘管承受重大人員傷亡與國際制裁，俄羅斯仍透過與中國及全球南方的經濟聯繫維持其戰爭動能；與此同時，烏克蘭則成功深化了與歐洲夥伴的國防工業合作。專家指出，鑑於俄羅斯的極大化目標並未改變，西方政策制定者必須為長期的鬥爭做好準備，並將重點聚焦於常規威懾與謹慎的衝突升級管控。",
+          "category": "defense"
+        }
+      },
+      "topics": [
+        "China",
+        "Europe",
+        "Indo-Pacific",
+        "Middle East",
+        "NATO",
+        "Nuclear",
+        "Russia",
+        "Taiwan",
+        "Trade",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "id": "a36fe049",
+      "think_tank": "CSIS",
+      "title": "China’s Carriers Increasingly Venture Beyond the First Island Chain",
+      "url": "https://www.csis.org/analysis/chinas-carriers-increasingly-venture-beyond-first-island-chain",
+      "date": "2026-02-26",
+      "summary": "China's People’s Liberation Army Navy (PLAN) is rapidly advancing its 'blue-water' capabilities, marked by a significant increase in aircraft carrier operations beyond the first island chain. In 2025, the Liaoning and Shandong carriers spent a record 58 days in the Western Pacific, conducting approximately 1,680 sorties and their first simultaneous deployment in the region. This trend signals a strategic shift toward sustained power projection far from Chinese shores, directly challenging established maritime security dynamics. Consequently, regional and global actors must reassess their naval strategies to account for the PLAN's growing reach and operational complexity.",
+      "category": "defense",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "China's People’s Liberation Army Navy (PLAN) is rapidly advancing its 'blue-water' capabilities, marked by a significant increase in aircraft carrier operations beyond the first island chain. In 2025, the Liaoning and Shandong carriers spent a record 58 days in the Western Pacific, conducting approximately 1,680 sorties and their first simultaneous deployment in the region. This trend signals a strategic shift toward sustained power projection far from Chinese shores, directly challenging established maritime security dynamics. Consequently, regional and global actors must reassess their naval strategies to account for the PLAN's growing reach and operational complexity.",
+          "category": "defense"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:57:47.798199+00:00",
+        "zh": {
+          "summary": "中國人民解放軍海軍（PLAN）正迅速提升其「遠洋」（藍水）能力，其顯著標誌是航空母艦在第一島鏈外的行動大幅增加。2025年，遼寧號與山東號航艦在西太平洋執行任務的時間長達58天，創下歷史紀錄，期間進行了約1,680架次的艦載機起降，並在該區域首度完成雙航艦同時部署。此一趨勢預示著其戰略正轉向遠離中國海岸的持續武力投送，直接挑戰既有的海事安全格局。因此，區域及全球各方必須重新評估其海軍戰略，以因應解放軍海軍不斷擴張的影響力與作戰複雜性。",
+          "category": "defense"
+        }
+      },
+      "topics": [
+        "China",
+        "Indo-Pacific"
+      ]
+    },
+    {
+      "id": "ba73d510",
+      "think_tank": "CSIS",
+      "title": "States Weekly: February 25, 2026",
+      "url": "https://www.csis.org/analysis/states-weekly-february-25-2026",
+      "date": "2026-02-26",
+      "summary": "This update outlines significant legislative and policy changes across several Indian states, highlighting Maharashtra's new climate finance strategy and Kerala's ambitious 2026 IT policy aimed at tripling IT space. Key developments include Gujarat's expansion of health insurance coverage to 27 million citizens and amendments to labor laws allowing women to work night shifts. These measures reflect a decentralized approach to addressing climate change, digital infrastructure, and social welfare, with direct implications for regional economic competitiveness and public service delivery in India.",
+      "category": "other",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "This update outlines significant legislative and policy changes across several Indian states, highlighting Maharashtra's new climate finance strategy and Kerala's ambitious 2026 IT policy aimed at tripling IT space. Key developments include Gujarat's expansion of health insurance coverage to 27 million citizens and amendments to labor laws allowing women to work night shifts. These measures reflect a decentralized approach to addressing climate change, digital infrastructure, and social welfare, with direct implications for regional economic competitiveness and public service delivery in India.",
+          "category": "other"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:58:27.251398+00:00",
+        "zh": {
+          "summary": "本更新概述了印度多個邦的重要立法與政策變革，重點聚焦於馬哈拉施特拉邦的新氣候金融戰略，以及喀拉拉邦旨在將資訊技術空間擴增至三倍的宏大 2026 年 IT 政策。關鍵進展包括古吉拉特邦將醫療保險覆蓋範圍擴大至 2,700 萬名公民，以及修正勞動法以允許女性從事夜班工作。這些措施反映出應對氣候變遷、數位基礎設施與社會福利的去中心化模式，並對印度的區域經濟競爭力與公共服務交付產生直接影響。",
+          "category": "other"
+        }
+      },
+      "topics": [
+        "Climate",
+        "Indo-Pacific",
+        "Trade"
+      ]
+    },
+    {
+      "id": "9cc67f7a",
+      "think_tank": "Chatham House",
+      "title": "Ukrainian ambassador Valerii Zaluzhnyi says future wars will require ‘technological alliances, not treaty articles’",
+      "url": "https://www.chathamhouse.org/2026/02/ukrainian-ambassador-valerii-zaluzhnyi-says-future-wars-will-require-technological",
+      "date": "2026-02-26",
+      "summary": "Valerii Zaluzhnyi, Ukraine’s Ambassador to the UK, argues that future warfare will be defined by autonomous robotic systems, necessitating international 'technological alliances' over traditional treaty frameworks. He emphasizes that no single nation can master all critical military technologies, requiring a collective approach to counter threats and ensure military effectiveness with fewer casualties. To secure victory, Zaluzhnyi advocates for sustained economic pressure to push Russia's economy to a breaking point, highlighting a strategic shift toward technology-sharing and economic attrition as primary tools of modern defense.",
+      "category": "defense",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "Valerii Zaluzhnyi, Ukraine’s Ambassador to the UK, argues that future warfare will be defined by autonomous robotic systems, necessitating international 'technological alliances' over traditional treaty frameworks. He emphasizes that no single nation can master all critical military technologies, requiring a collective approach to counter threats and ensure military effectiveness with fewer casualties. To secure victory, Zaluzhnyi advocates for sustained economic pressure to push Russia's economy to a breaking point, highlighting a strategic shift toward technology-sharing and economic attrition as primary tools of modern defense.",
+          "category": "defense"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:17:47.740480+00:00",
+        "zh": {
+          "summary": "烏克蘭駐英大使瓦勒里·扎盧日內（Valerii Zaluzhnyi）指出，未來戰爭將由自主機器人系統主導，這使得國際「技術聯盟」的重要性超越了傳統的條約框架。他強調，單一國家無法獨立掌握所有關鍵軍事技術，因此需要集體協作以應對威脅，並在減少傷亡的同時確保作戰效能。為取得勝利，扎盧日內提倡透過持續的經濟壓力將俄羅斯經濟推向崩潰點，並強調戰略重點已轉向將技術共享與經濟耗損作為現代國防的核心工具。",
+          "category": "defense"
+        }
+      },
+      "topics": [
+        "Europe",
+        "Russia",
+        "Trade",
+        "Ukraine"
+      ]
+    },
+    {
+      "id": "bcf4b336",
+      "think_tank": "Chatham House",
+      "title": "Chatham House appoints Owen Jenkins as Research Director for Africa, Middle East and North Africa, and Asia Pacific",
+      "url": "https://www.chathamhouse.org/2026/02/chatham-house-appoints-owen-jenkins-research-director-africa-middle-east-and-north-africa",
+      "date": "2026-02-26",
+      "summary": "Chatham House has appointed senior British diplomat Owen Jenkins as Research Director for Africa, the Middle East and North Africa, and the Asia Pacific. Jenkins brings extensive experience from the UK's Foreign, Commonwealth & Development Office, including roles as Director General for the Indo-Pacific and Ambassador to Indonesia. His appointment is strategically designed to enhance the institute's analysis of the evolving world order, shifting global alliances, and the rising influence of regional powers. This move integrates high-level diplomatic expertise into the institute's executive leadership to strengthen its external influence and policy impact across the Global South.",
+      "category": "other",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "Chatham House has appointed senior British diplomat Owen Jenkins as Research Director for Africa, the Middle East and North Africa, and the Asia Pacific. Jenkins brings extensive experience from the UK's Foreign, Commonwealth & Development Office, including roles as Director General for the Indo-Pacific and Ambassador to Indonesia. His appointment is strategically designed to enhance the institute's analysis of the evolving world order, shifting global alliances, and the rising influence of regional powers. This move integrates high-level diplomatic expertise into the institute's executive leadership to strengthen its external influence and policy impact across the Global South.",
+          "category": "other"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-27T08:18:22.880420+00:00",
+        "zh": {
+          "summary": "研究所已任命英國資深外交官歐文‧詹金斯為非洲、中東和北非以及亞太地區研究主任。詹金斯先生擁有豐富的英國外交、聯邦和發展事務部工作經驗，曾擔任印太事務總幹事和駐印尼大使。此次任命旨在策略性地加強該研究所對不斷演變的世界秩序、不斷變化的全球聯盟以及地區大國日益增長的影響力的分析。此舉將高水準的外交專長融入研究所的領導階層，以增強其在全球南方地區的外部影響力和政策影響力。",
+          "category": "other"
+        }
+      },
+      "topics": [
+        "China",
+        "Europe",
+        "Indo-Pacific",
+        "Middle East"
+      ]
+    },
+    {
+      "id": "5780153c",
+      "think_tank": "Chatham House",
+      "title": "Europe is helping Ukraine resist a US push for peace at any price",
+      "url": "https://www.chathamhouse.org/2026/02/europe-helping-ukraine-resist-us-push-peace-any-price",
+      "date": "2026-02-26",
+      "summary": "As the US scales back military support and pressures Ukraine for a quick peace settlement, European nations are stepping up to replace the US as Ukraine's primary donor and security guarantor. Kyiv faces significant domestic pressure against territorial concessions, while European allies are 'Trump-proofing' support through massive financial aid, new procurement mechanisms, and direct investment in Ukraine's defense industrial base. This strategic shift integrates Ukraine into Europe’s security architecture and leverages battlefield innovations, such as low-cost drone production, to sustain Ukraine's long-term defensive capabilities. Consequently, Europe's proactive role is essential for ensuring Ukraine can resist coercive diplomacy and negotiate from a position of strength.",
+      "category": "defense",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "As the US scales back military support and pressures Ukraine for a quick peace settlement, European nations are stepping up to replace the US as Ukraine's primary donor and security guarantor. Kyiv faces significant domestic pressure against territorial concessions, while European allies are 'Trump-proofing' support through massive financial aid, new procurement mechanisms, and direct investment in Ukraine's defense industrial base. This strategic shift integrates Ukraine into Europe’s security architecture and leverages battlefield innovations, such as low-cost drone production, to sustain Ukraine's long-term defensive capabilities. Consequently, Europe's proactive role is essential for ensuring Ukraine can resist coercive diplomacy and negotiate from a position of strength.",
+          "category": "defense"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:59:03.599992+00:00",
+        "zh": {
+          "summary": "隨著美國縮減軍事援助並向烏克蘭施壓以尋求快速和平解決方案，歐洲各國正挺身而出，取代美國成為烏克蘭的主要捐助者和安全保障者。基輔面臨著反對領土讓步的巨大國內壓力，而歐洲盟友則透過大規模財政援助、新的採購機制以及對烏克蘭國防工業基地的直接投資，為援助建立「川普防護」（Trump-proofing）。這項戰略轉變將烏克蘭納入歐洲的安全架構，並利用低成本無人機生產等戰場創新技術，以維持烏克蘭的長期防禦能力。因此，歐洲的積極角色對於確保烏克蘭能夠抵禦脅迫式外交，並在實力地位的基礎上進行談判至關重要。",
+          "category": "defense"
+        }
+      },
+      "topics": [
+        "Europe",
+        "NATO",
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "id": "87663f2b",
+      "think_tank": "Chatham House",
+      "title": "Film screening: Oscar-shortlisted The President’s Cake",
+      "url": "https://www.chathamhouse.org/events/all/standard-event/film-screening-oscar-shortlisted-presidents-cake",
+      "date": "2026-02-26",
+      "summary": "The film 'The President’s Cake' examines how authoritarian power in Iraq was sustained through everyday social practices and internal control rather than through coercion alone. It highlights that regime durability often depends on the shaping of societal behavior to reinforce compliance under oppressive systems. These insights are critical for understanding contemporary Middle Eastern political trajectories, state-society relations, and the enduring legacies of authoritarian control on reform prospects.",
+      "category": "governance",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "The film 'The President’s Cake' examines how authoritarian power in Iraq was sustained through everyday social practices and internal control rather than through coercion alone. It highlights that regime durability often depends on the shaping of societal behavior to reinforce compliance under oppressive systems. These insights are critical for understanding contemporary Middle Eastern political trajectories, state-society relations, and the enduring legacies of authoritarian control on reform prospects.",
+          "category": "governance"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T20:59:38.618860+00:00",
+        "zh": {
+          "summary": "電影《總統的蛋糕》探討了伊拉克的威權統治如何透過日常社會實踐和內部控制，而非單純依靠脅迫手段來維持。該片強調，政權的持久性往往取決於對社會行為的塑造，以強化在壓迫體制下的服從。這些見解對於理解當代中東的政治軌跡、國家與社會關係，以及威權控制對改革前景的深遠影響至關重要。",
+          "category": "governance"
+        }
+      },
+      "topics": [
+        "Middle East"
+      ]
+    },
+    {
+      "id": "3ef8f045",
+      "think_tank": "Heritage",
+      "title": "Latest Media Attack on School Choice Withers Under Scrutiny",
+      "url": "https://www.heritage.org/education/commentary/latest-media-attack-school-choice-withers-under-scrutiny",
+      "date": "2026-02-26",
+      "summary": "This article refutes recent media reports claiming a high rate of fund misuse in Arizona's Empowerment Scholarship Accounts (ESA) school choice program. The author argues that the reported 20% misspending rate is a gross exaggeration derived from a non-representative sample of transactions already flagged for audit. In reality, actual misspending is likely below 2% of total funds, a rate significantly lower than those found in other government programs like Medicaid or food stamps.",
+      "category": "health",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "This article refutes recent media reports claiming a high rate of fund misuse in Arizona's Empowerment Scholarship Accounts (ESA) school choice program. The author argues that the reported 20% misspending rate is a gross exaggeration derived from a non-representative sample of transactions already flagged for audit. In reality, actual misspending is likely below 2% of total funds, a rate significantly lower than those found in other government programs like Medicaid or food stamps.",
+          "category": "health"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T21:00:11.160349+00:00",
+        "zh": {
+          "summary": "本文駁斥了近期媒體關於亞利桑那州賦權獎學金帳戶 (ESA) 擇校計畫資金濫用率高的報導。作者指出，報導中提及的 20% 錯誤支出率是嚴重的誇大，該數據源自已被標記待審計的非代表性交易樣本。事實上，實際的錯誤支出可能低於總資金的 2%，這一比例顯著低於醫療補助 (Medicaid) 或糧食券等其他政府計畫。",
+          "category": "health"
+        }
+      }
+    }
+  ]
+}

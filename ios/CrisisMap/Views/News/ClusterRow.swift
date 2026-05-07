@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct ClusterRow: View {
+    @Environment(\.locale) private var locale
+
     let cluster: NewsClusterSummary
 
     var body: some View {
@@ -18,7 +20,7 @@ struct ClusterRow: View {
             }
 
             HStack(spacing: 10) {
-                Label("\(cluster.sourceCount) sources", systemImage: "dot.radiowaves.left.and.right")
+                Label(sourceCountText, systemImage: "dot.radiowaves.left.and.right")
                     .font(.caption)
                     .foregroundStyle(Color.textSecondary)
 
@@ -36,7 +38,7 @@ struct ClusterRow: View {
                     .lineLimit(1)
             }
 
-            if let rowSourceSummary = cluster.rowSourceSummary {
+            if let rowSourceSummary = cluster.rowSourceSummary(locale: locale) {
                 Text(rowSourceSummary)
                     .font(.caption2)
                     .foregroundStyle(Color.textSecondary)
@@ -46,5 +48,10 @@ struct ClusterRow: View {
         .padding(12)
         .background(Color.bgSecondary)
         .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+    }
+
+    private var sourceCountText: String {
+        let format = NewsLocalization.text("news.sources.count", locale: locale)
+        return String.localizedStringWithFormat(format, cluster.sourceCount)
     }
 }

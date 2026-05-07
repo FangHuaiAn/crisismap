@@ -17,6 +17,14 @@ final class NewsSourcePresentationTests: XCTestCase {
 
         XCTAssertEqual(NewsSourcePresentation.attributionText(for: event), "Direct")
         XCTAssertEqual(NewsSourcePresentation.kindText(for: event), "Wire")
+        XCTAssertEqual(
+            NewsSourcePresentation.attributionText(for: event, locale: Locale(identifier: "zh-Hant-TW")),
+            "直接來源"
+        )
+        XCTAssertEqual(
+            NewsSourcePresentation.kindText(for: event, locale: Locale(identifier: "zh-Hant-TW")),
+            "通訊社"
+        )
         XCTAssertNil(NewsSourcePresentation.outletSubtitle(for: event))
     }
 
@@ -35,6 +43,14 @@ final class NewsSourcePresentationTests: XCTestCase {
 
         XCTAssertEqual(NewsSourcePresentation.attributionText(for: event), "Derived")
         XCTAssertEqual(NewsSourcePresentation.kindText(for: event), "Aggregator")
+        XCTAssertEqual(
+            NewsSourcePresentation.attributionText(for: event, locale: Locale(identifier: "zh-Hant-TW")),
+            "轉載彙整"
+        )
+        XCTAssertEqual(
+            NewsSourcePresentation.kindText(for: event, locale: Locale(identifier: "zh-Hant-TW")),
+            "聚合器"
+        )
         XCTAssertEqual(NewsSourcePresentation.outletSubtitle(for: event), "example.com")
     }
 

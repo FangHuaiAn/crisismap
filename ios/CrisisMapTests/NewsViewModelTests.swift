@@ -218,6 +218,18 @@ final class NewsViewModelTests: XCTestCase {
         XCTAssertEqual(cluster?.attributionSummary, "2 direct · 1 derived")
         XCTAssertEqual(cluster?.sourceKindSummary, "wire · social · aggregator")
         XCTAssertEqual(cluster?.rowSourceSummary, "2 direct · 1 derived")
+        XCTAssertEqual(
+            cluster?.attributionSummary(locale: Locale(identifier: "zh-Hant-TW")),
+            "2 直接來源 · 1 轉載彙整"
+        )
+        XCTAssertEqual(
+            cluster?.sourceKindSummary(locale: Locale(identifier: "zh-Hant-TW")),
+            "通訊社 · 社群 · 聚合器"
+        )
+        XCTAssertEqual(
+            cluster?.rowSourceSummary(locale: Locale(identifier: "zh-Hant-TW")),
+            "2 直接來源 · 1 轉載彙整"
+        )
     }
 
     func testClusterRowSummaryFallsBackToKindWhenAttributionMixIsSingleMode() {
@@ -266,6 +278,14 @@ final class NewsViewModelTests: XCTestCase {
         let cluster = vm.filteredClusters.first
         XCTAssertEqual(cluster?.attributionSummary, "2 direct")
         XCTAssertEqual(cluster?.rowSourceSummary, "wire · publisher")
+        XCTAssertEqual(
+            cluster?.attributionSummary(locale: Locale(identifier: "zh-Hant-TW")),
+            "2 直接來源"
+        )
+        XCTAssertEqual(
+            cluster?.rowSourceSummary(locale: Locale(identifier: "zh-Hant-TW")),
+            "通訊社 · 發行媒體"
+        )
     }
 
     func testClusterDetailAttributionSummaryHiddenForSingleModeClusters() {
@@ -361,6 +381,10 @@ final class NewsViewModelTests: XCTestCase {
 
         let cluster = vm.filteredClusters.first
         XCTAssertEqual(cluster?.detailAttributionSummary, "1 direct · 1 derived")
+        XCTAssertEqual(
+            cluster?.detailAttributionSummary(locale: Locale(identifier: "zh-Hant-TW")),
+            "1 直接來源 · 1 轉載彙整"
+        )
     }
 
     private func makeEvent(
