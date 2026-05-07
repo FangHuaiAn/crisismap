@@ -106,7 +106,7 @@ struct CrisisMapView: View {
             HStack(spacing: 6) {
                 Text("⊕")
                     .font(.title3)
-                Text("CrisisMap")
+                Text("StratAperture")
                     .font(.headline.bold())
             }
             .foregroundStyle(Color.textPrimary)

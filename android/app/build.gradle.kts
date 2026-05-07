@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -5,22 +7,47 @@ plugins {
     id("org.jetbrains.kotlin.plugin.serialization")
 }
 
+val uploadKeystorePropertiesFile = rootProject.file("key/key.properties")
+val uploadKeystoreProperties = Properties().apply {
+    if (uploadKeystorePropertiesFile.exists()) {
+        uploadKeystorePropertiesFile.inputStream().use(::load)
+    }
+}
+
 android {
     namespace = "com.crisismap.app"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.crisismap.app"
+        applicationId = "net.strataperture.StratAperture"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "0.1.0"
+        versionCode = 2
+        versionName = "1.0.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildFeatures {
         compose = true
+    }
+
+    if (uploadKeystorePropertiesFile.exists()) {
+        signingConfigs {
+            create("release") {
+                val storeFileName = uploadKeystoreProperties.getProperty("storeFile", "upload-keystore.jks")
+                storeFile = rootProject.file("key/$storeFileName")
+                storePassword = uploadKeystoreProperties.getProperty("storePassword")
+                keyAlias = uploadKeystoreProperties.getProperty("keyAlias")
+                keyPassword = uploadKeystoreProperties.getProperty("keyPassword")
+            }
+        }
+
+        buildTypes {
+            release {
+                signingConfig = signingConfigs.getByName("release")
+            }
+        }
     }
 
     compileOptions {

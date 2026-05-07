@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CrisisMapAndroid"
+rootProject.name = "StratApertureAndroid"
 include(":app")
