@@ -1,0 +1,159 @@
+2026-04-29 17:36:45 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0xb89959800; archive(resolved)="<IDEArchive: 0xb8bc0b480>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAppStoreDistribution: 0xb899b4050>", team(resolved)="<IDEProvisioningBasicTeam: 0xb899aa6a0; teamID='Z247G8X22D', teamName='(null)'>">
+	Chain (15, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0xb89959800; archive = "<IDEArchive: 0xb8bc0b480>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xb899b4050>", team="<IDEProvisioningBasicTeam: 0xb899aa6a0; teamID='Z247G8X22D', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0xb89959b00; archive = "<IDEArchive: 0xb8bc0b480>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xb899b4050>", team="<IDEProvisioningBasicTeam: 0xb899aa6a0; teamID='Z247G8X22D', teamName='(null)'>">
+	<IDEDistributionContext: 0xb8bcef200; archive = "<IDEArchive: 0xb8bc0b480>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xb899b4050>", team="<IDEProvisioningBasicTeam: 0xb899aa6a0; teamID='Z247G8X22D', teamName='(null)'>">
+	<IDEDistributionContext: 0xb8bceed00; archive = "<IDEArchive: 0xb8bc0b480>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xb899b4050>", team="<IDEProvisioningBasicTeam: 0xb899aa6a0; teamID='Z247G8X22D', teamName='(null)'>">
+	<IDEDistributionContext: 0xb8bceea80; archive = "<IDEArchive: 0xb8bc0b480>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xb899b4050>", team="<IDEProvisioningBasicTeam: 0xb899aa6a0; teamID='Z247G8X22D', teamName='(null)'>">
+	<IDEDistributionContext: 0xb8bcee800; archive = "<IDEArchive: 0xb8bc0b480>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xb899b4050>", team="<IDEProvisioningBasicTeam: 0xb899aa6a0; teamID='Z247G8X22D', teamName='(null)'>">
+	<IDEDistributionContext: 0xb8bcee580; archive = "<IDEArchive: 0xb8bc0b480>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xb899b4050>", team="<IDEProvisioningBasicTeam: 0xb899aa6a0; teamID='Z247G8X22D', teamName='(null)'>">
+	<IDEDistributionContext: 0xb8bcee300; archive = "<IDEArchive: 0xb8bc0b480>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xb899b4050>", team="<IDEProvisioningBasicTeam: 0xb899aa6a0; teamID='Z247G8X22D', teamName='(null)'>">
+	<IDEDistributionContext: 0xb8bcee080; archive = "<IDEArchive: 0xb8bc0b480>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xb899b4050>", team="<IDEProvisioningBasicTeam: 0xb899aa6a0; teamID='Z247G8X22D', teamName='(null)'>">
+	<IDEDistributionContext: 0xb8bced180; archive = "<IDEArchive: 0xb8bc0b480>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xb899b4050>", team="<IDEProvisioningBasicTeam: 0xb899aa6a0; teamID='Z247G8X22D', teamName='(null)'>">
+	<IDEDistributionContext: 0xb8bcecf00; archive = "<IDEArchive: 0xb8bc0b480>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xb899b4050>", team="<IDEProvisioningBasicTeam: 0xb899aa6a0; teamID='Z247G8X22D', teamName='(null)'>">
+	<IDEDistributionContext: 0xb8bceca00; archive = "<IDEArchive: 0xb8bc0b480>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xb899b4050>", team="<IDEProvisioningBasicTeam: 0xb899aa6a0; teamID='Z247G8X22D', teamName='(null)'>">
+	<IDEDistributionContext: 0xb8bcecc80; archive = "<IDEArchive: 0xb8bc0b480>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xb899b4050>", team="(null)">
+	<IDEDistributionContext: 0xb8bcec280; archive = "<IDEArchive: 0xb8bc0b480>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xb899b4050>", team="(null)">
+	<IDEDistributionContext: 0x10310f820; archive = "<IDEArchive: 0xb8bc0b480>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0xb89959800>
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2026-04-29 17:36:45 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/fanghuaian/Documents/Projects/crisismap/release-artifacts/ios/StratAperture-1.0.2-build2-20260430-013527.xcarchive/Products/Applications/CrisisMap.app' '/var/folders/fc/b9wdjy296hz35mp0z7z2l0w40000gn/T/XcodeDistPipeline.~~~Ghb1C0/Root/Payload/CrisisMap.app'
+2026-04-29 17:36:45 +0000  >>> Copying /Users/fanghuaian/Documents/Projects/crisismap/release-artifacts/ios/StratAperture-1.0.2-build2-20260430-013527.xcarchive/Products/Applications/CrisisMap.app 
+2026-04-29 17:36:45 +0000  copying file ./_CodeSignature/CodeResources ... 
+2026-04-29 17:36:45 +0000  3971 bytes for ./_CodeSignature/CodeResources
+2026-04-29 17:36:45 +0000  copying file ./zh-Hant-TW.lproj/Localizable.strings ... 
+2026-04-29 17:36:45 +0000  1682 bytes for ./zh-Hant-TW.lproj/Localizable.strings
+2026-04-29 17:36:45 +0000  copying file ./en.lproj/Localizable.strings ... 
+2026-04-29 17:36:45 +0000  1834 bytes for ./en.lproj/Localizable.strings
+2026-04-29 17:36:45 +0000  copying file ./news-cluster-rules.v1.json ... 
+2026-04-29 17:36:45 +0000  7468 bytes for ./news-cluster-rules.v1.json
+2026-04-29 17:36:45 +0000  copying file ./AppIcon60x60@2x.png ... 
+2026-04-29 17:36:45 +0000  31486 bytes for ./AppIcon60x60@2x.png
+2026-04-29 17:36:45 +0000  copying file ./Assets.car ... 
+2026-04-29 17:36:45 +0000  2507112 bytes for ./Assets.car
+2026-04-29 17:36:45 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2026-04-29 17:36:45 +0000  48090 bytes for ./AppIcon76x76@2x~ipad.png
+2026-04-29 17:36:45 +0000  copying file ./news-scoring-config.v1.json ... 
+2026-04-29 17:36:45 +0000  74 bytes for ./news-scoring-config.v1.json
+2026-04-29 17:36:45 +0000  copying file ./embedded.mobileprovision ... 
+2026-04-29 17:36:45 +0000  12580 bytes for ./embedded.mobileprovision
+2026-04-29 17:36:45 +0000  copying file ./CrisisMap ... 
+2026-04-29 17:36:45 +0000  1300688 bytes for ./CrisisMap
+2026-04-29 17:36:45 +0000  copying file ./Info.plist ... 
+2026-04-29 17:36:45 +0000  1390 bytes for ./Info.plist
+2026-04-29 17:36:45 +0000  copying file ./PkgInfo ... 
+2026-04-29 17:36:45 +0000  8 bytes for ./PkgInfo
+2026-04-29 17:36:45 +0000 [MT] /usr/bin/ditto exited with 0
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2026-04-29 17:36:45 +0000 [MT] Skipping setting DTXcodeBuildDistribution because toolsBuildVersionName was nil.
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionItemRemovalStep
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2026-04-29 17:36:45 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2026-04-29 17:36:45 +0000 [MT] Writing /var/folders/fc/b9wdjy296hz35mp0z7z2l0w40000gn/T/XcodeDistPipeline.~~~Ghb1C0/Symbols/57B5EB90-BC48-3EFC-A893-273C485AF24E.symbols
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionCopyAppleProvidedContentStep
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2026-04-29 17:36:45 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2026-04-29 17:36:45 +0000 [MT] Archs to thin for item /Users/fanghuaian/Documents/Projects/crisismap/release-artifacts/ios/StratAperture-1.0.2-build2-20260430-013527.xcarchive/Products/Applications/CrisisMap.app are []
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionODRStep
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2026-04-29 17:36:45 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2026-04-29 17:36:45 +0000 [MT] Entitlements for <IDEDistributionItem: 0xb898e25e0; bundleID='net.strataperture.StratAperture', path='<DVTFilePath:0xb898e0420:'/Users/fanghuaian/Documents/Projects/crisismap/release-artifacts/ios/StratAperture-1.0.2-build2-20260430-013527.xcarchive/Products/Applications/CrisisMap.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0xb898e2700; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0xb8bda06c0; name='Apple Development: Huai An Fang (53TT37D6U8)', hash='3E1E8940DF5D51BCD297DFBD4E127C826E2CECA6', serialNumber='4A2F4A34193F05CB215B6C10E69F74DC', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-23 09:41:06 +0000''>', entitlements='{
+    "application-identifier" = "Z247G8X22D.net.strataperture.StratAperture";
+    "com.apple.developer.team-identifier" = Z247G8X22D;
+    "get-task-allow" = 1;
+}', teamID='Z247G8X22D', identifier='net.strataperture.StratAperture', executablePath='<DVTFilePath:0xb898e20a0:'/Users/fanghuaian/Documents/Projects/crisismap/release-artifacts/ios/StratAperture-1.0.2-build2-20260430-013527.xcarchive/Products/Applications/CrisisMap.app/CrisisMap'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "Z247G8X22D.net.strataperture.StratAperture";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = Z247G8X22D;
+    "get-task-allow" = 0;
+}
+2026-04-29 17:36:45 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-04-29 17:36:45 +0000 [MT] Entitlements for <IDEDistributionItem: 0xb898e25e0; bundleID='net.strataperture.StratAperture', path='<DVTFilePath:0xb898e0420:'/Users/fanghuaian/Documents/Projects/crisismap/release-artifacts/ios/StratAperture-1.0.2-build2-20260430-013527.xcarchive/Products/Applications/CrisisMap.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0xb898e2700; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0xb8bda2400; name='Apple Development: Huai An Fang (53TT37D6U8)', hash='3E1E8940DF5D51BCD297DFBD4E127C826E2CECA6', serialNumber='4A2F4A34193F05CB215B6C10E69F74DC', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-23 09:41:06 +0000''>', entitlements='{
+    "application-identifier" = "Z247G8X22D.net.strataperture.StratAperture";
+    "com.apple.developer.team-identifier" = Z247G8X22D;
+    "get-task-allow" = 1;
+}', teamID='Z247G8X22D', identifier='net.strataperture.StratAperture', executablePath='<DVTFilePath:0xb898e20a0:'/Users/fanghuaian/Documents/Projects/crisismap/release-artifacts/ios/StratAperture-1.0.2-build2-20260430-013527.xcarchive/Products/Applications/CrisisMap.app/CrisisMap'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "Z247G8X22D.net.strataperture.StratAperture";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = Z247G8X22D;
+    "get-task-allow" = 0;
+}
+2026-04-29 17:36:45 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0xb898e25e0; bundleID='net.strataperture.StratAperture', path='<DVTFilePath:0xb898e0420:'/Users/fanghuaian/Documents/Projects/crisismap/release-artifacts/ios/StratAperture-1.0.2-build2-20260430-013527.xcarchive/Products/Applications/CrisisMap.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0xb898e2700; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0xb8bda2400; name='Apple Development: Huai An Fang (53TT37D6U8)', hash='3E1E8940DF5D51BCD297DFBD4E127C826E2CECA6', serialNumber='4A2F4A34193F05CB215B6C10E69F74DC', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-23 09:41:06 +0000''>', entitlements='{
+    "application-identifier" = "Z247G8X22D.net.strataperture.StratAperture";
+    "com.apple.developer.team-identifier" = Z247G8X22D;
+    "get-task-allow" = 1;
+}', teamID='Z247G8X22D', identifier='net.strataperture.StratAperture', executablePath='<DVTFilePath:0xb898e20a0:'/Users/fanghuaian/Documents/Projects/crisismap/release-artifacts/ios/StratAperture-1.0.2-build2-20260430-013527.xcarchive/Products/Applications/CrisisMap.app/CrisisMap'>', hardenedRuntime='0'>'> to: /var/folders/fc/b9wdjy296hz35mp0z7z2l0w40000gn/T/XcodeDistPipeline.~~~Ghb1C0/entitlements~~~VS251E
+2026-04-29 17:36:45 +0000 [MT] invoking codesign: <NSConcreteTask: 0xb8bf8aee0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    85BAA877716EA26C9282047A6BC9A3F2949FFCE5,
+    "--entitlements",
+    "/var/folders/fc/b9wdjy296hz35mp0z7z2l0w40000gn/T/XcodeDistPipeline.~~~Ghb1C0/entitlements~~~VS251E",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/fc/b9wdjy296hz35mp0z7z2l0w40000gn/T/XcodeDistPipeline.~~~Ghb1C0/Root/Payload/CrisisMap.app"
+)'>
+2026-04-29 17:36:45 +0000 [MT] codesign output: /var/folders/fc/b9wdjy296hz35mp0z7z2l0w40000gn/T/XcodeDistPipeline.~~~Ghb1C0/Root/Payload/CrisisMap.app: replacing existing signature
+/var/folders/fc/b9wdjy296hz35mp0z7z2l0w40000gn/T/XcodeDistPipeline.~~~Ghb1C0/Root/Payload/CrisisMap.app: signed app bundle with Mach-O thin (arm64) [net.strataperture.StratAperture]
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2026-04-29 17:36:45 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2026-04-29 17:36:45 +0000 [MT] Running /usr/bin/rsync '-8aPhhE' '/var/folders/fc/b9wdjy296hz35mp0z7z2l0w40000gn/T/XcodeDistPipeline.~~~Ghb1C0/Symbols' '--link-dest' '/var/folders/fc/b9wdjy296hz35mp0z7z2l0w40000gn/T/XcodeDistPipeline.~~~Ghb1C0' '/var/folders/fc/b9wdjy296hz35mp0z7z2l0w40000gn/T/XcodeDistPipeline.~~~Ghb1C0/Root'
+2026-04-29 17:36:45 +0000  Symbols/
+._Symbols
+            163 170%    3.38MB/s   00:00:00 (xfer#1, to-check=0/4)
+2026-04-29 17:36:45 +0000  Symbols/57B5EB90-BC48-3EFC-A893-273C485AF24E.symbols
+Symbols/._57B5EB90-BC48-3EFC-A893-273C485AF24E.symbols
+            163   0%  264.94KB/s   00:00:00 (xfer#2, to-check=2/4)
+2026-04-29 17:36:45 +0000 [MT] /usr/bin/rsync exited with 0
+2026-04-29 17:36:45 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/fc/b9wdjy296hz35mp0z7z2l0w40000gn/T/XcodeDistPipeline.~~~Ghb1C0/Root' '/var/folders/fc/b9wdjy296hz35mp0z7z2l0w40000gn/T/XcodeDistPipeline.~~~Ghb1C0/Packages/CrisisMap.ipa'
+2026-04-29 17:36:45 +0000  >>> Copying /var/folders/fc/b9wdjy296hz35mp0z7z2l0w40000gn/T/XcodeDistPipeline.~~~Ghb1C0/Root 
+2026-04-29 17:36:45 +0000  copying file ./Payload/CrisisMap.app/_CodeSignature/CodeResources ... 
+2026-04-29 17:36:45 +0000  3971 bytes for ./Payload/CrisisMap.app/_CodeSignature/CodeResources
+2026-04-29 17:36:45 +0000  copying file ./Payload/CrisisMap.app/zh-Hant-TW.lproj/Localizable.strings ... 
+2026-04-29 17:36:45 +0000  1682 bytes for ./Payload/CrisisMap.app/zh-Hant-TW.lproj/Localizable.strings
+2026-04-29 17:36:45 +0000  copying file ./Payload/CrisisMap.app/en.lproj/Localizable.strings ... 
+2026-04-29 17:36:45 +0000  1834 bytes for ./Payload/CrisisMap.app/en.lproj/Localizable.strings
+2026-04-29 17:36:45 +0000  copying file ./Payload/CrisisMap.app/news-cluster-rules.v1.json ... 
+2026-04-29 17:36:45 +0000  7468 bytes for ./Payload/CrisisMap.app/news-cluster-rules.v1.json
+2026-04-29 17:36:45 +0000  copying file ./Payload/CrisisMap.app/AppIcon60x60@2x.png ... 
+2026-04-29 17:36:45 +0000  31486 bytes for ./Payload/CrisisMap.app/AppIcon60x60@2x.png
+2026-04-29 17:36:45 +0000  copying file ./Payload/CrisisMap.app/Assets.car ... 
+2026-04-29 17:36:45 +0000  2507112 bytes for ./Payload/CrisisMap.app/Assets.car
+2026-04-29 17:36:45 +0000  copying file ./Payload/CrisisMap.app/AppIcon76x76@2x~ipad.png ... 
+2026-04-29 17:36:45 +0000  48090 bytes for ./Payload/CrisisMap.app/AppIcon76x76@2x~ipad.png
+2026-04-29 17:36:45 +0000  copying file ./Payload/CrisisMap.app/news-scoring-config.v1.json ... 
+2026-04-29 17:36:45 +0000  74 bytes for ./Payload/CrisisMap.app/news-scoring-config.v1.json
+copying file ./Payload/CrisisMap.app/embedded.mobileprovision ... 
+2026-04-29 17:36:45 +0000  14273 bytes for ./Payload/CrisisMap.app/embedded.mobileprovision
+2026-04-29 17:36:45 +0000  copying file ./Payload/CrisisMap.app/CrisisMap ... 
+2026-04-29 17:36:45 +0000  1300752 bytes for ./Payload/CrisisMap.app/CrisisMap
+2026-04-29 17:36:45 +0000  copying file ./Payload/CrisisMap.app/Info.plist ... 
+2026-04-29 17:36:45 +0000  1390 bytes for ./Payload/CrisisMap.app/Info.plist
+2026-04-29 17:36:45 +0000  copying file ./Payload/CrisisMap.app/PkgInfo ... 
+2026-04-29 17:36:45 +0000  8 bytes for ./Payload/CrisisMap.app/PkgInfo
+2026-04-29 17:36:45 +0000  copying file ./Symbols/57B5EB90-BC48-3EFC-A893-273C485AF24E.symbols ... 
+2026-04-29 17:36:45 +0000  3380116 bytes for ./Symbols/57B5EB90-BC48-3EFC-A893-273C485AF24E.symbols
+2026-04-29 17:36:45 +0000 [MT] /usr/bin/ditto exited with 0
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2026-04-29 17:36:45 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2026-04-29 17:36:45 +0000 [MT] IDEDistributionItem init <DVTFilePath:0xb89b7d920:'/var/folders/fc/b9wdjy296hz35mp0z7z2l0w40000gn/T/XcodeDistPipeline.~~~Ghb1C0/Root/Payload/CrisisMap.app'>
+2026-04-29 17:36:45 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
+2026-04-29 17:36:45 +0000 [MT] Skipping step: IDEDistributionCreateManifestStep because it said so

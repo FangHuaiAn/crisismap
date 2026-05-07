@@ -1,0 +1,151 @@
+{
+  "week": "2026-W07",
+  "start_date": "2026-02-09",
+  "end_date": "2026-02-15",
+  "generated_at": "2026-02-15T10:00:00Z",
+  "articles": [
+    {
+      "id": "2bbc17b3",
+      "think_tank": "RAND",
+      "title": "Meeting the Needs of the Royal Navy and Royal Marines Community",
+      "url": "https://www.rand.org/pubs/research_reports/RRA3197-2.html",
+      "date": "2026-02-09",
+      "summary": "This report analyzes the evolving demographics and welfare needs of the Royal Navy and Royal Marines (RN&RM) community, projecting a stable Regular force of approximately 33,000 through 2040 despite a more volatile strategic environment. It finds that increasing operational tempo and unpredictable deployments are placing significant strain on families, evidenced by high levels of partner loneliness and chronic childcare accessibility issues. The study suggests that the Naval welfare sector must modernize its support by adopting holistic, 'whole force' approaches that mitigate mental health stigma and address structural barriers to partner employment to ensure long-term recruitment and retention.",
+      "category": "defense",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "This report analyzes the evolving demographics and welfare needs of the Royal Navy and Royal Marines (RN&RM) community, projecting a stable Regular force of approximately 33,000 through 2040 despite a more volatile strategic environment. It finds that increasing operational tempo and unpredictable deployments are placing significant strain on families, evidenced by high levels of partner loneliness and chronic childcare accessibility issues. The study suggests that the Naval welfare sector must modernize its support by adopting holistic, 'whole force' approaches that mitigate mental health stigma and address structural barriers to partner employment to ensure long-term recruitment and retention.",
+          "category": "defense"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T19:13:07.238112+00:00",
+        "zh": {
+          "summary": "本報告分析了英國皇家海軍及皇家海軍陸戰隊（RN&RM）社群不斷演變的人口特徵與福利需求；儘管戰略環境日益動盪，預計至 2040 年其常備部隊規模將穩定維持在約 33,000 人。研究顯示，作戰節奏的加快與不確定的部署任務正對軍眷家庭施加顯著壓力，具體體現在伴侶普遍的孤獨感及長期的托兒困難。研究建議，海軍福利部門應採納「全軍」（whole force）的整體性方案以推動現代化支援，致力於減輕心理健康污名化，並解決伴侶就業的結構性障礙，以確保長期的招募與留任成效。",
+          "category": "defense"
+        }
+      },
+      "topics": [
+        "China",
+        "Europe",
+        "NATO",
+        "Nuclear",
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    {
+      "id": "db729b69",
+      "think_tank": "RAND",
+      "title": "Manpower Analysis to Improve the Functional Alignment and Organizational Structure of Space Training and Readiness Command Headquarters",
+      "url": "https://www.rand.org/pubs/research_reports/RRA3669-1.html",
+      "date": "2026-02-10",
+      "summary": "A RAND analysis finds that the U.S. Space Force’s STARCOM headquarters is significantly understaffed, requiring nearly double its current personnel to effectively manage its workload and mission priorities. The study identifies core organizational friction stemming from a lack of unity of effort, structural tensions between lean design and command needs, and resource strain caused by simultaneous start-up and steady-state functions. Researchers recommend implementing a new staffing optimization model (STAR-SOM) and realigning leadership under senior authorities to better synchronize guardian development and combat credibility missions. These findings imply that STARCOM must pursue both a quantitative manpower increase and a qualitative structural reorganization to maintain readiness for near-peer space competition.",
+      "category": "defense",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "A RAND analysis finds that the U.S. Space Force’s STARCOM headquarters is significantly understaffed, requiring nearly double its current personnel to effectively manage its workload and mission priorities. The study identifies core organizational friction stemming from a lack of unity of effort, structural tensions between lean design and command needs, and resource strain caused by simultaneous start-up and steady-state functions. Researchers recommend implementing a new staffing optimization model (STAR-SOM) and realigning leadership under senior authorities to better synchronize guardian development and combat credibility missions. These findings imply that STARCOM must pursue both a quantitative manpower increase and a qualitative structural reorganization to maintain readiness for near-peer space competition.",
+          "category": "defense"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T19:14:18.539582+00:00",
+        "zh": {
+          "summary": "蘭德公司（RAND）的一項分析指出，美國太空軍太空訓練與作戰司令部（STARCOM）總部的人員編制嚴重不足，需增加近一倍的人力方能有效管理其工作量與任務優先順序。研究發現，核心組織摩擦源於缺乏行動統一性、精簡設計與指揮需求間的結構性緊張，以及同時執行啟動與常態運作功能所導致的資源壓力。研究人員建議採用全新的人力配置優化模型（STAR-SOM），並在高級主管部門下重新調整領導架構，以提升「守護者」（Guardian）培育與戰鬥可信度任務的同步性。研究結果顯示，STARCOM 必須同時推動量化的人力增長與質化的結構重組，以維持在應對近乎對等對手太空競爭中的戰備狀態。",
+          "category": "defense"
+        }
+      },
+      "topics": [
+        "AI",
+        "China",
+        "Cybersecurity",
+        "NATO",
+        "Nuclear",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "ce49da1c",
+      "think_tank": "RAND",
+      "title": "Just Work: Access to Worker Protections in the Changing World of Work",
+      "url": "https://www.rand.org/pubs/research_reports/RRA2881-1.html",
+      "date": "2026-02-10",
+      "summary": "This RAND report argues that the U.S. worker protection system remains fundamentally tied to traditional employer-employee relationships, creating significant security gaps for the 10-20% of the workforce engaged in nonstandard work like gig employment and independent contracting. Using a taxonomy of risks—unfair practices, work-related injuries, and life costs—the authors demonstrate how current classification rules systematically exclude freelancers from essential social insurance and employer-provided benefits. To address these inequities, the study recommends decoupling protections from specific employers through portable benefit systems and universal coverage mandates. Such reforms are increasingly critical as technological shifts and AI further disrupt traditional labor models and worker-firm dependencies.",
+      "category": "economics",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "This RAND report argues that the U.S. worker protection system remains fundamentally tied to traditional employer-employee relationships, creating significant security gaps for the 10-20% of the workforce engaged in nonstandard work like gig employment and independent contracting. Using a taxonomy of risks—unfair practices, work-related injuries, and life costs—the authors demonstrate how current classification rules systematically exclude freelancers from essential social insurance and employer-provided benefits. To address these inequities, the study recommends decoupling protections from specific employers through portable benefit systems and universal coverage mandates. Such reforms are increasingly critical as technological shifts and AI further disrupt traditional labor models and worker-firm dependencies.",
+          "category": "economics"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T19:15:02.596542+00:00",
+        "zh": {
+          "summary": "這份蘭德（RAND）報告指出，美國的勞工保護制度基本上仍侷限於傳統的雇傭關係，導致 10% 至 20% 從事零工經濟或獨立合約等非典型就業的勞動力面臨顯著的保障缺口。作者透過風險分類法（涵蓋不公平待遇、工傷及生活成本），論證了現行分類規則如何系統性地將自由職業者排除在必要的社會保險與雇主福利之外。為了解決這些不平等，研究建議透過可攜式福利制度與全民覆蓋授權，將保護機制與特定雇主脫鉤。隨著科技變遷與人工智能進一步顛覆傳統勞動模式及勞資依賴關係，此類改革已變得至關重要。",
+          "category": "economics"
+        }
+      },
+      "topics": [
+        "Europe",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "a1c78c31",
+      "think_tank": "RAND",
+      "title": "Developing a Risk-Scoring Tool for Artificial Intelligence–Enabled Biological Design: A Method to Assess the Risks of Using Artificial Intelligence to Modify Select Viral Capabilities",
+      "url": "https://www.rand.org/pubs/research_reports/RRA4490-1.html",
+      "date": "2026-02-11",
+      "summary": "RAND developed a dual-axis risk-scoring tool to evaluate the biosecurity threats posed by AI-enabled biological design, focusing on five critical viral functions such as host range and transmission dynamics. The framework assesses both the potential severity of biological modifications and the technical capability required by actors, specifically measuring the 'uplift' that advancing AI provides to lower-skilled individuals. Researchers concluded that as AI tools become more accessible, the technical barriers to engineering dangerous pathogens will continue to decrease, necessitating new oversight mechanisms. Consequently, the report proposes using this scoring system as a foundation for establishing regulatory redlines and federal funding requirements to manage AI-driven biological risks without stifling innovation.",
+      "category": "technology",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "RAND developed a dual-axis risk-scoring tool to evaluate the biosecurity threats posed by AI-enabled biological design, focusing on five critical viral functions such as host range and transmission dynamics. The framework assesses both the potential severity of biological modifications and the technical capability required by actors, specifically measuring the 'uplift' that advancing AI provides to lower-skilled individuals. Researchers concluded that as AI tools become more accessible, the technical barriers to engineering dangerous pathogens will continue to decrease, necessitating new oversight mechanisms. Consequently, the report proposes using this scoring system as a foundation for establishing regulatory redlines and federal funding requirements to manage AI-driven biological risks without stifling innovation.",
+          "category": "technology"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T19:15:43.431170+00:00",
+        "zh": {
+          "summary": "蘭德公司（RAND）開發了一套雙軸風險評分工具，旨在評估由人工智慧賦能的生物設計所帶來的生物安全威脅，並聚焦於宿主範圍與傳播動態等五項關鍵病毒功能。該框架同時評估生物改造的潛在嚴重性以及行為體所需的技術能力，特別衡量了先進人工智慧為低技術門檻個人提供的「能力提升」（uplift）。研究人員得出結論，隨著人工智慧工具日益普及，工程化危險病原體的技術門檻將持續降低，因此有必要建立新的監督機制。據此，報告建議將此評分系統作為劃定監管紅線與聯邦資助要求的基礎，以便在不阻礙創新的前提下，有效管理由人工智慧驅動的生物風險。",
+          "category": "technology"
+        }
+      },
+      "topics": [
+        "AI",
+        "Climate",
+        "Middle East",
+        "Nuclear",
+        "Trade",
+        "United States"
+      ]
+    },
+    {
+      "id": "ab3c04a7",
+      "think_tank": "RAND",
+      "title": "Evaluating the Impact of Changes to the Air Force Officer and Enlisted Evaluation Systems",
+      "url": "https://www.rand.org/pubs/research_reports/RRA3177-1.html",
+      "date": "2026-02-13",
+      "summary": "This RAND report evaluates the 2023 overhaul of the U.S. Air Force’s performance evaluation systems, finding that while the transition to narrative formats and major performance areas has improved clarity, it has created new challenges for promotion boards in differentiating between top performers. Based on surveys of over 10,000 airmen and interviews with talent management stakeholders, the study identifies widespread confusion regarding new stratification policies and significant technical frustrations with the 'myEval 2.0' interface. The report recommends that the Air Force provide more robust writing guidance and explore ways to reintegrate quantitative indicators to ensure the system effectively supports long-term talent management and career development. Ultimately, successful refinement of these processes is critical for maintaining a meritocratic promotion system and aligning personnel development with core organizational values.",
+      "category": "defense",
+      "status": "reviewed",
+      "analysis": {
+        "en": {
+          "summary": "This RAND report evaluates the 2023 overhaul of the U.S. Air Force’s performance evaluation systems, finding that while the transition to narrative formats and major performance areas has improved clarity, it has created new challenges for promotion boards in differentiating between top performers. Based on surveys of over 10,000 airmen and interviews with talent management stakeholders, the study identifies widespread confusion regarding new stratification policies and significant technical frustrations with the 'myEval 2.0' interface. The report recommends that the Air Force provide more robust writing guidance and explore ways to reintegrate quantitative indicators to ensure the system effectively supports long-term talent management and career development. Ultimately, successful refinement of these processes is critical for maintaining a meritocratic promotion system and aligning personnel development with core organizational values.",
+          "category": "defense"
+        },
+        "provider": "gemini",
+        "generated_at": "2026-02-26T19:18:23.542170+00:00",
+        "zh": {
+          "summary": "這份蘭德 (RAND) 報告評估了 2023 年美國空軍績效評估系統的全面改革，發現雖然改採敘述格式與主要績效領域提高了透明度，但也為晉升委員會在區分頂尖人才方面帶來了新挑戰。基於對超過 10,000 名空軍人員的調查以及與人才管理相關者的訪談，研究指出基層對新分層政策存在普遍困惑，且對「myEval 2.0」介面感到顯著的技術挫折。報告建議空軍應提供更完善的撰寫指南，並探索重新整合定量指標的方法，以確保系統能有效支持長期人才管理與職涯發展。最終，成功完善這些流程對於維持功績晉升制度，以及使人員發展與核心組織價值觀保持一致至關重要。",
+          "category": "defense"
+        }
+      },
+      "topics": [
+        "United States"
+      ]
+    }
+  ]
+}

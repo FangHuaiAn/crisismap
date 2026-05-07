@@ -52,3 +52,15 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: net.strataperture.StratAperture.tests
         GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/StratAperture.app/StratAperture"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+
+schemes:
+  CrisisMap:
+    build:
+      targets:
+        CrisisMap: all
+        CrisisMapTests: [test]
+    test:
+      targets:
+        - CrisisMapTests

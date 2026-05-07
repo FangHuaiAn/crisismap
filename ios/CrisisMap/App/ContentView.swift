@@ -17,7 +17,7 @@ enum AppTab: Int, CaseIterable, Identifiable, Sendable {
         case .map:       "tab.map"
         case .feed:      "tab.feed"
         case .dashboard: "tab.dashboard"
-        case .news:      "News"
+        case .news:      "news.title"
         case .research:  "tab.research"
         }
     }

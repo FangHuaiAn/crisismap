@@ -1,0 +1,58 @@
+# ThinkTankWeekly — 標準文章分類清單
+#
+# 用途：
+#   - Admin UI 提供下拉選單（取代自由輸入）
+#   - 確保不同週次間分類名稱一致
+#   - 可隨時新增，但避免修改已使用的名稱
+#
+# 格式：每個分類包含中文名稱（主要）和英文名稱（輔助）
+# 分類參考：以國際關係與公共政策研究的常見主題為基礎
+
+categories:
+  - id: defense
+    zh: 國防與安全
+    en: Defense & Security
+
+  - id: diplomacy
+    zh: 外交與國際關係
+    en: Diplomacy & International Relations
+
+  - id: economy
+    zh: 經濟與貿易
+    en: Economy & Trade
+
+  - id: tech
+    zh: 科技與創新
+    en: Technology & Innovation
+
+  - id: society
+    zh: 社會與治理
+    en: Society & Governance
+
+  - id: energy
+    zh: 能源與環境
+    en: Energy & Environment
+
+  - id: health
+    zh: 公共衛生
+    en: Public Health
+
+  - id: china_indopacific
+    zh: 中國與印太
+    en: China & Indo-Pacific
+
+  - id: europe
+    zh: 歐洲
+    en: Europe
+
+  - id: middle_east
+    zh: 中東
+    en: Middle East
+
+  - id: africa
+    zh: 非洲
+    en: Africa
+
+  - id: americas
+    zh: 美洲
+    en: Americas

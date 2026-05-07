@@ -1,20 +1,22 @@
 import SwiftUI
 
 struct ClusterDetailView: View {
+    @Environment(\.locale) private var locale
+
     let cluster: NewsClusterSummary
 
     var body: some View {
         List {
-            Section("Signal") {
+            Section("news.signal.section") {
                 HStack {
-                    Text("Mention Index")
+                    Text("news.signal.mentionIndex")
                     Spacer()
                     Text(cluster.score, format: .number.precision(.fractionLength(2)))
                         .font(.system(.body, design: .monospaced).bold())
                 }
 
                 HStack {
-                    Text("Distinct Sources")
+                    Text("news.signal.distinctSources")
                     Spacer()
                     Text("\(cluster.sourceCount)")
                 }
@@ -25,9 +27,9 @@ struct ClusterDetailView: View {
                         .foregroundStyle(Color.textSecondary)
                 }
 
-                if let attributionSummary = cluster.detailAttributionSummary {
+                if let attributionSummary = cluster.detailAttributionSummary(locale: locale) {
                     HStack {
-                        Text("Attribution Mix")
+                        Text("news.signal.attributionMix")
                         Spacer()
                         Text(attributionSummary)
                             .font(.caption)
@@ -35,9 +37,9 @@ struct ClusterDetailView: View {
                     }
                 }
 
-                if let sourceKindSummary = cluster.sourceKindSummary {
+                if let sourceKindSummary = cluster.sourceKindSummary(locale: locale) {
                     HStack {
-                        Text("Source Types")
+                        Text("news.signal.sourceTypes")
                         Spacer()
                         Text(sourceKindSummary)
                             .font(.caption)
@@ -46,42 +48,9 @@ struct ClusterDetailView: View {
                 }
             }
 
-            Section("Recent Events") {
+            Section("news.events.recent") {
                 ForEach(cluster.events) { event in
-                    VStack(alignment: .leading, spacing: 6) {
-                        Text(event.title)
-                            .font(.subheadline.weight(.semibold))
-                            .foregroundStyle(Color.textPrimary)
-
-                        Text(event.summary)
-                            .font(.caption)
-                            .foregroundStyle(Color.textSecondary)
-                            .lineLimit(3)
-
-                        HStack {
-                            SourceBadge(source: event.source, tier: event.sourceTier)
-
-                            if let attributionText = NewsSourcePresentation.attributionText(for: event) {
-                                metadataChip(attributionText)
-                            }
-
-                            if let kindText = NewsSourcePresentation.kindText(for: event) {
-                                metadataChip(kindText)
-                            }
-
-                            Spacer()
-                            Text(event.date, style: .relative)
-                                .font(.caption2)
-                                .foregroundStyle(Color.textSecondary)
-                        }
-
-                        if let outletSubtitle = NewsSourcePresentation.outletSubtitle(for: event) {
-                            Text(outletSubtitle)
-                                .font(.caption2)
-                                .foregroundStyle(Color.textSecondary)
-                        }
-                    }
-                    .padding(.vertical, 4)
+                    eventRow(for: event)
                 }
             }
         }
@@ -89,6 +58,46 @@ struct ClusterDetailView: View {
         .navigationBarTitleDisplayMode(.inline)
         .scrollContentBackground(.hidden)
         .background(Color.bgPrimary)
+    }
+
+    @ViewBuilder
+    private func eventRow(for event: CrisisEvent) -> some View {
+        let display = NewsLocalizedEventDisplay(event: event, localizedContent: nil)
+
+        VStack(alignment: .leading, spacing: 6) {
+            Text(display.displayTitle)
+                .font(.subheadline.weight(.semibold))
+                .foregroundStyle(Color.textPrimary)
+
+            Text(display.displaySummary)
+                .font(.caption)
+                .foregroundStyle(Color.textSecondary)
+                .lineLimit(3)
+
+            HStack {
+                SourceBadge(source: event.source, tier: event.sourceTier)
+
+                if let attributionText = NewsSourcePresentation.attributionText(for: event, locale: locale) {
+                    metadataChip(attributionText)
+                }
+
+                if let kindText = NewsSourcePresentation.kindText(for: event, locale: locale) {
+                    metadataChip(kindText)
+                }
+
+                Spacer()
+                Text(event.date, style: .relative)
+                    .font(.caption2)
+                    .foregroundStyle(Color.textSecondary)
+            }
+
+            if let outletSubtitle = NewsSourcePresentation.outletSubtitle(for: event) {
+                Text(outletSubtitle)
+                    .font(.caption2)
+                    .foregroundStyle(Color.textSecondary)
+            }
+        }
+        .padding(.vertical, 4)
     }
 
     @ViewBuilder

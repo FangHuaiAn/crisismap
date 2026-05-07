@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ResearchView: View {
     @Environment(ResearchViewModel.self) private var viewModel
+    @State private var isShowingSourceTransparency = false
 
     var body: some View {
         NavigationStack {
@@ -25,6 +26,15 @@ struct ResearchView: View {
             }
             .navigationTitle(String(localized: "research.title"))
             .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button {
+                        isShowingSourceTransparency = true
+                    } label: {
+                        Image(systemName: "info.circle")
+                    }
+                    .accessibilityLabel(Text("sourceTransparency.button"))
+                }
+
                 if viewModel.isOffline {
                     ToolbarItem(placement: .status) {
                         Label(String(localized: "research.offline"), systemImage: "wifi.slash")
@@ -33,6 +43,9 @@ struct ResearchView: View {
                     }
                 }
             }
+        }
+        .sheet(isPresented: $isShowingSourceTransparency) {
+            SourceTransparencySheet()
         }
         .task {
             if viewModel.articles.isEmpty {

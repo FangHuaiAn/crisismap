@@ -1,0 +1,52 @@
+{
+  "AI": [
+    "artificial intelligence", "machine learning", "deep learning",
+    "large language model", "LLM", "generative AI", "ChatGPT"
+  ],
+  "China": [
+    "China", "Chinese", "PRC", "Beijing", "CCP", "Xi Jinping"
+  ],
+  "Climate": [
+    "climate change", "carbon", "net zero", "emissions",
+    "renewable energy", "fossil fuel", "global warming"
+  ],
+  "Cybersecurity": [
+    "cybersecurity", "cyber attack", "cyber threat",
+    "hacking", "malware", "ransomware", "data breach"
+  ],
+  "Europe": [
+    "Europe", "European Union", "EU", "Brussels", "Eurozone"
+  ],
+  "Indo-Pacific": [
+    "Indo-Pacific", "ASEAN", "Southeast Asia", "Pacific",
+    "Australia", "Japan", "South Korea", "India"
+  ],
+  "Middle East": [
+    "Middle East", "Gaza", "Israel", "Iran", "Saudi Arabia",
+    "Syria", "Lebanon", "Yemen", "Hamas", "Hezbollah"
+  ],
+  "NATO": [
+    "NATO", "North Atlantic Treaty", "Article 5", "collective defense"
+  ],
+  "Nuclear": [
+    "nuclear", "warhead", "ballistic missile", "nonproliferation",
+    "IAEA", "deterrence", "arms control"
+  ],
+  "Russia": [
+    "Russia", "Russian", "Kremlin", "Putin", "Moscow", "Soviet"
+  ],
+  "Taiwan": [
+    "Taiwan", "Taipei", "ROC", "cross-strait"
+  ],
+  "Trade": [
+    "trade", "tariff", "export", "import", "supply chain",
+    "WTO", "free trade", "sanctions"
+  ],
+  "Ukraine": [
+    "Ukraine", "Ukrainian", "Kyiv", "Zelensky", "Donbas"
+  ],
+  "United States": [
+    "United States", "U.S.", "American", "Washington D.C.",
+    "Congress", "Pentagon", "White House"
+  ]
+}

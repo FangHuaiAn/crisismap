@@ -2,29 +2,27 @@ import Foundation
 
 enum NewsSourcePresentation {
     static func attributionText(for event: CrisisEvent) -> String? {
-        switch event.newsSource?.attribution {
-        case .direct:
-            "Direct"
-        case .derived:
-            "Derived"
-        case nil:
-            nil
+        attributionText(for: event, locale: Locale(identifier: "en"))
+    }
+
+    static func attributionText(for event: CrisisEvent, locale: Locale) -> String? {
+        guard let attribution = event.newsSource?.attribution else {
+            return nil
         }
+
+        return NewsLocalization.attributionBadgeText(attribution, locale: locale)
     }
 
     static func kindText(for event: CrisisEvent) -> String? {
-        switch event.newsSource?.kind {
-        case .wire:
-            "Wire"
-        case .publisher:
-            "Publisher"
-        case .aggregator:
-            "Aggregator"
-        case .social:
-            "Social"
-        case nil:
-            nil
+        kindText(for: event, locale: Locale(identifier: "en"))
+    }
+
+    static func kindText(for event: CrisisEvent, locale: Locale) -> String? {
+        guard let kind = event.newsSource?.kind else {
+            return nil
         }
+
+        return NewsLocalization.kindBadgeText(kind, locale: locale)
     }
 
     static func outletSubtitle(for event: CrisisEvent) -> String? {
