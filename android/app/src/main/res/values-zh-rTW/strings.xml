@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">StratAperture</string>
+    <string name="tab_map">地圖</string>
+    <string name="tab_news">新聞</string>
+    <string name="tab_research">研究</string>
+    <string name="news_title">新聞</string>
+    <string name="news_retry">重試</string>
+    <string name="news_items_count">%1$d 則</string>
+    <string name="news_source_count">%1$d 個來源</string>
+    <string name="news_source_direct">直接來源</string>
+    <string name="news_source_derived">轉載彙整</string>
+    <string name="news_source_wire">通訊社</string>
+    <string name="news_source_publisher">發行媒體</string>
+    <string name="news_source_aggregator">聚合器</string>
+    <string name="news_source_social">社群</string>
+    <string name="news_source_counted">%1$d 個%2$s</string>
+    <string name="research_title">研究</string>
+    <string name="research_retry">重試</string>
+    <string name="research_recent">近期</string>
+    <string name="common_done">完成</string>
+    <string name="source_transparency_button">資料來源與透明度</string>
+    <string name="source_transparency_title">資料來源與透明度</string>
+    <string name="source_transparency_intro">我們希望你能看見每個訊號背後的資料來源。StratAperture 會整理公開新聞、全球新聞索引、可用的快訊來源，以及精選智庫研究。</string>
+    <string name="source_transparency_news_title">新聞來源</string>
+    <string name="source_transparency_news_description">我們監測一組精選的公開新聞來源與索引。來源標籤能協助分辨直接報導、聚合索引或轉載彙整訊號。</string>
+    <string name="source_transparency_news_gdelt">全球新聞索引，用作聚合訊號，不是單一新聞發行者。</string>
+    <string name="source_transparency_news_x_grok">可選的快訊來源，只有在 credentials 設定完成時才會啟用。</string>
+    <string name="source_transparency_research_title">研究來源</string>
+    <string name="source_transparency_research_description">研究頁使用精選的每週智庫與政策研究資料集，目前納入的來源清單可能隨資料維護而調整。</string>
+    <string name="source_transparency_organized_title">資訊如何整理</string>
+    <string name="source_transparency_organized_description">App 會從監測來源收集項目，依主題、區域或危機脈絡整理相近訊號，並盡可能降低重複或高度重疊的內容。</string>
+    <string name="source_transparency_limits_title">限制</string>
+    <string name="source_transparency_limit_coverage">這不是完整的新聞或研究資料庫。</string>
+    <string name="source_transparency_limit_availability">來源可用性可能改變，也可能出現暫時性的資料空缺。</string>
+    <string name="source_transparency_limit_originals">做出重要判斷前，請開啟原始來源確認脈絡。</string>
+</resources>

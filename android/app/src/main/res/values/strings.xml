@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">StratAperture</string>
+    <string name="tab_map">Map</string>
+    <string name="tab_news">News</string>
+    <string name="tab_research">Research</string>
+    <string name="news_title">News</string>
+    <string name="news_retry">Retry</string>
+    <string name="news_items_count">%1$d items</string>
+    <string name="news_source_count">%1$d sources</string>
+    <string name="news_source_direct">direct</string>
+    <string name="news_source_derived">derived</string>
+    <string name="news_source_wire">wire</string>
+    <string name="news_source_publisher">publisher</string>
+    <string name="news_source_aggregator">aggregator</string>
+    <string name="news_source_social">social</string>
+    <string name="news_source_counted">%1$d %2$s</string>
+    <string name="research_title">Research</string>
+    <string name="research_retry">Retry</string>
+    <string name="research_recent">Recent</string>
+    <string name="common_done">Done</string>
+    <string name="source_transparency_button">Data sources and transparency</string>
+    <string name="source_transparency_title">Data Sources &amp; Transparency</string>
+    <string name="source_transparency_intro">We want you to see the data sources behind each signal. StratAperture organizes public news, global news indexes, available fast-moving signals, and selected policy research.</string>
+    <string name="source_transparency_news_title">News Sources</string>
+    <string name="source_transparency_news_description">We monitor a curated set of public news feeds and indexes. Source labels help separate direct reporting from aggregated or derived signals.</string>
+    <string name="source_transparency_news_gdelt">Global news index used as an aggregation signal, not a single publisher.</string>
+    <string name="source_transparency_news_x_grok">Optional fast-moving signal source, enabled only when credentials are configured.</string>
+    <string name="source_transparency_research_title">Research Sources</string>
+    <string name="source_transparency_research_description">Research uses a curated weekly dataset of think tank and policy sources. The included source list may evolve.</string>
+    <string name="source_transparency_organized_title">How Information Is Organized</string>
+    <string name="source_transparency_organized_description">The app collects items from monitored sources, groups similar signals by topic, region, or crisis theme, and reduces duplicate or overlapping coverage where possible.</string>
+    <string name="source_transparency_limits_title">Limits</string>
+    <string name="source_transparency_limit_coverage">This is not a complete index of all news or research.</string>
+    <string name="source_transparency_limit_availability">Source availability can change, and temporary gaps may occur.</string>
+    <string name="source_transparency_limit_originals">Open original sources before making important judgments.</string>
+</resources>

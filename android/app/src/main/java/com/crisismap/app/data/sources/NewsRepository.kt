@@ -1,6 +1,8 @@
 package com.crisismap.app.data.sources
 
 import com.crisismap.app.data.model.CrisisEvent
+import com.crisismap.app.data.model.NewsSourceAttribution
+import com.crisismap.app.data.model.NewsSourceKind
 import com.crisismap.app.data.model.Region
 import com.crisismap.app.domain.locations.inferEventLocation
 import com.crisismap.app.domain.regions.NewsClusterSummary
@@ -84,6 +86,13 @@ fun buildNewsClusters(events: List<CrisisEvent>): List<NewsClusterSummary> {
         .filterKeys { it != Region.All }
         .map { (region, regionEvents) ->
             val sortedEvents = regionEvents.sortedByDescending { it.timestamp }
+            val orderedKinds = listOf(
+                NewsSourceKind.Wire,
+                NewsSourceKind.Publisher,
+                NewsSourceKind.Social,
+                NewsSourceKind.Aggregator
+            )
+            val presentKinds = regionEvents.mapNotNull { it.newsSource?.kind }.toSet()
             NewsClusterSummary(
                 id = "news-${region.name.lowercase()}",
                 title = sortedEvents.first().title,
@@ -92,7 +101,10 @@ fun buildNewsClusters(events: List<CrisisEvent>): List<NewsClusterSummary> {
                 sourceCount = regionEvents.map { it.source }.distinct().size,
                 score = regionEvents.maxOf { it.level.score },
                 topics = listOf(region.name),
-                lastUpdatedAt = sortedEvents.first().timestamp
+                lastUpdatedAt = sortedEvents.first().timestamp,
+                sourceKinds = orderedKinds.filter { it in presentKinds },
+                directSourceCount = regionEvents.count { it.newsSource?.attribution == NewsSourceAttribution.Direct },
+                derivedSourceCount = regionEvents.count { it.newsSource?.attribution == NewsSourceAttribution.Derived }
             )
         }
         .sortedWith(compareByDescending<NewsClusterSummary> { it.score }.thenByDescending { it.eventCount })

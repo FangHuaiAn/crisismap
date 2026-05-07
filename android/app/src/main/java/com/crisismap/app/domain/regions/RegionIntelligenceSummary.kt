@@ -1,5 +1,6 @@
 package com.crisismap.app.domain.regions
 
+import com.crisismap.app.data.model.NewsSourceKind
 import com.crisismap.app.data.model.Region
 import com.crisismap.app.data.model.ThinkTankArticle
 
@@ -11,7 +12,10 @@ data class NewsClusterSummary(
     val sourceCount: Int,
     val score: Double,
     val topics: List<String>,
-    val lastUpdatedAt: String
+    val lastUpdatedAt: String,
+    val sourceKinds: List<NewsSourceKind> = emptyList(),
+    val directSourceCount: Int = 0,
+    val derivedSourceCount: Int = 0
 )
 
 data class RegionMapCoordinate(

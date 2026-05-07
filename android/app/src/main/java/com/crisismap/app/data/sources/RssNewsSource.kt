@@ -29,7 +29,15 @@ class RssNewsSource(
     }
 
     private fun fetchFeed(feed: RssFeed): List<CrisisEvent> {
-        val request = Request.Builder().url(feed.url).build()
+        return (listOf(feed.url) + feed.fallbackUrls)
+            .firstNotNullOfOrNull { url ->
+                fetchFeedUrl(feed = feed, url = url).takeIf { it.isNotEmpty() }
+            }
+            .orEmpty()
+    }
+
+    private fun fetchFeedUrl(feed: RssFeed, url: String): List<CrisisEvent> {
+        val request = Request.Builder().url(url).build()
         client.newCall(request).execute().use { response ->
             if (!response.isSuccessful) return emptyList()
 
@@ -56,7 +64,7 @@ class RssNewsSource(
                     url = link,
                     newsSource = NewsSourceDescriptor(
                         displayName = feed.name,
-                        kind = NewsSourceKind.Publisher,
+                        kind = feed.kind,
                         identity = feed.id,
                         group = id,
                         attribution = NewsSourceAttribution.Direct,
@@ -74,8 +82,29 @@ class RssNewsSource(
 
     companion object {
         val defaultFeeds = listOf(
-            RssFeed(id = "bbc-world", name = "BBC", domain = "bbc.com", url = "https://feeds.bbci.co.uk/news/world/rss.xml"),
-            RssFeed(id = "aljazeera", name = "Al Jazeera", domain = "aljazeera.com", url = "https://www.aljazeera.com/xml/rss/all.xml")
+            RssFeed(
+                id = "reuters",
+                name = "Reuters",
+                domain = "reuters.com",
+                url = "https://feeds.reuters.com/Reuters/worldNews",
+                kind = NewsSourceKind.Wire
+            ),
+            RssFeed(
+                id = "ap",
+                name = "AP News",
+                domain = "apnews.com",
+                url = "https://rsshub.app/apnews/topics/world-news",
+                fallbackUrls = listOf("https://news.google.com/rss/search?q=site:apnews.com%20world&hl=en-US&gl=US&ceid=US:en"),
+                kind = NewsSourceKind.Wire
+            ),
+            RssFeed(id = "bbc", name = "BBC News", domain = "bbc.com", url = "https://feeds.bbci.co.uk/news/world/rss.xml"),
+            RssFeed(id = "nhk", name = "NHK World", domain = "nhk.or.jp", url = "https://www3.nhk.or.jp/rss/news/cat6.xml"),
+            RssFeed(id = "aljazeera", name = "Al Jazeera", domain = "aljazeera.com", url = "https://www.aljazeera.com/xml/rss/all.xml"),
+            RssFeed(id = "dw", name = "DW", domain = "dw.com", url = "https://rss.dw.com/rdf/rss-en-top"),
+            RssFeed(id = "guardian-world", name = "The Guardian", domain = "theguardian.com", url = "https://www.theguardian.com/world/rss"),
+            RssFeed(id = "npr-world", name = "NPR World", domain = "npr.org", url = "https://feeds.npr.org/1004/rss.xml"),
+            RssFeed(id = "france24", name = "France 24", domain = "france24.com", url = "https://www.france24.com/en/rss"),
+            RssFeed(id = "un-news", name = "UN News", domain = "news.un.org", url = "https://news.un.org/feed/subscribe/en/news/all/rss.xml")
         )
     }
 }
@@ -84,5 +113,7 @@ data class RssFeed(
     val id: String,
     val name: String,
     val domain: String,
-    val url: String
+    val url: String,
+    val fallbackUrls: List<String> = emptyList(),
+    val kind: NewsSourceKind = NewsSourceKind.Publisher
 )
