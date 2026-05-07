@@ -6,6 +6,13 @@
     <string name="news_title">新聞</string>
     <string name="news_retry">重試</string>
     <string name="news_source_count">%1$d 個來源</string>
+    <string name="news_source_direct">直接來源</string>
+    <string name="news_source_derived">轉載彙整</string>
+    <string name="news_source_wire">通訊社</string>
+    <string name="news_source_publisher">發行媒體</string>
+    <string name="news_source_aggregator">聚合器</string>
+    <string name="news_source_social">社群</string>
+    <string name="news_source_counted">%1$d 個%2$s</string>
     <string name="research_title">研究</string>
     <string name="research_retry">重試</string>
     <string name="research_recent">近期</string>

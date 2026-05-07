@@ -15,8 +15,12 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.crisismap.app.R
+import com.crisismap.app.data.model.NewsSourceKind
+import com.crisismap.app.domain.regions.NewsClusterSummary
 import com.crisismap.app.ui.regions.displayName
 
 @Composable
@@ -34,7 +38,7 @@ fun NewsScreen(
         item {
             Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 Text(
-                    text = "News",
+                    text = stringResource(R.string.news_title),
                     style = MaterialTheme.typography.headlineSmall
                 )
 
@@ -49,7 +53,7 @@ fun NewsScreen(
                         style = MaterialTheme.typography.bodyMedium
                     )
                     TextButton(onClick = viewModel::refresh) {
-                        Text("Retry")
+                        Text(stringResource(R.string.news_retry))
                     }
                 }
             }
@@ -59,7 +63,14 @@ fun NewsScreen(
             ListItem(
                 headlineContent = { Text(cluster.title) },
                 supportingContent = {
-                    Text("${cluster.region.displayName} | ${cluster.eventCount} items | ${cluster.sourceCount} sources")
+                    val sourceSummary = sourceSummaryText(cluster)
+                    val baseSummary = "${cluster.region.displayName} | ${cluster.eventCount} items | ${
+                        stringResource(R.string.news_source_count, cluster.sourceCount)
+                    }"
+                    Text(
+                        listOfNotNull(baseSummary, sourceSummary)
+                            .joinToString(separator = "\n")
+                    )
                 },
                 trailingContent = {
                     AssistChip(
@@ -72,3 +83,30 @@ fun NewsScreen(
         }
     }
 }
+
+@Composable
+private fun sourceSummaryText(cluster: NewsClusterSummary): String? {
+    val direct = stringResource(R.string.news_source_direct)
+    val derived = stringResource(R.string.news_source_derived)
+
+    if (cluster.directSourceCount > 0 && cluster.derivedSourceCount > 0) {
+        return listOf(
+            stringResource(R.string.news_source_counted, cluster.directSourceCount, direct),
+            stringResource(R.string.news_source_counted, cluster.derivedSourceCount, derived)
+        ).joinToString(separator = " · ")
+    }
+
+    return cluster.sourceKinds
+        .map { sourceKindText(it) }
+        .takeIf { it.isNotEmpty() }
+        ?.joinToString(separator = " · ")
+}
+
+@Composable
+private fun sourceKindText(kind: NewsSourceKind): String =
+    when (kind) {
+        NewsSourceKind.Wire -> stringResource(R.string.news_source_wire)
+        NewsSourceKind.Publisher -> stringResource(R.string.news_source_publisher)
+        NewsSourceKind.Aggregator -> stringResource(R.string.news_source_aggregator)
+        NewsSourceKind.Social -> stringResource(R.string.news_source_social)
+    }

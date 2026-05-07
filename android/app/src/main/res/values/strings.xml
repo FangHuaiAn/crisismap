@@ -6,6 +6,13 @@
     <string name="news_title">News</string>
     <string name="news_retry">Retry</string>
     <string name="news_source_count">%1$d sources</string>
+    <string name="news_source_direct">direct</string>
+    <string name="news_source_derived">derived</string>
+    <string name="news_source_wire">wire</string>
+    <string name="news_source_publisher">publisher</string>
+    <string name="news_source_aggregator">aggregator</string>
+    <string name="news_source_social">social</string>
+    <string name="news_source_counted">%1$d %2$s</string>
     <string name="research_title">Research</string>
     <string name="research_retry">Retry</string>
     <string name="research_recent">Recent</string>

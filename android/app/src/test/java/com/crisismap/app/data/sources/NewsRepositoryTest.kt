@@ -3,6 +3,9 @@ package com.crisismap.app.data.sources
 import com.crisismap.app.data.model.CrisisEvent
 import com.crisismap.app.data.model.EventCategory
 import com.crisismap.app.data.model.Location
+import com.crisismap.app.data.model.NewsSourceAttribution
+import com.crisismap.app.data.model.NewsSourceDescriptor
+import com.crisismap.app.data.model.NewsSourceKind
 import com.crisismap.app.data.model.Region
 import com.crisismap.app.data.model.SourceTier
 import com.crisismap.app.data.model.ThreatLevel
@@ -81,6 +84,43 @@ class NewsRepositoryTest {
         assertEquals(Region.Africa, clusters.first().region)
     }
 
+    @Test
+    fun clusterSummariesExposeAttributionCountsAndSourceKinds() {
+        val clusters = buildNewsClusters(
+            listOf(
+                event("reuters", "Taiwan Strait patrols continue").copy(
+                    newsSource = source(
+                        displayName = "Reuters",
+                        kind = NewsSourceKind.Wire,
+                        attribution = NewsSourceAttribution.Direct
+                    )
+                ),
+                event("bbc", "China responds to Taiwan Strait patrols").copy(
+                    newsSource = source(
+                        displayName = "BBC News",
+                        kind = NewsSourceKind.Publisher,
+                        attribution = NewsSourceAttribution.Direct
+                    )
+                ),
+                event("gdelt", "Taiwan Strait risk index rises").copy(
+                    newsSource = source(
+                        displayName = "GDELT",
+                        kind = NewsSourceKind.Aggregator,
+                        attribution = NewsSourceAttribution.Derived
+                    )
+                )
+            )
+        )
+
+        assertEquals(1, clusters.size)
+        assertEquals(2, clusters.first().directSourceCount)
+        assertEquals(1, clusters.first().derivedSourceCount)
+        assertEquals(
+            listOf(NewsSourceKind.Wire, NewsSourceKind.Publisher, NewsSourceKind.Aggregator),
+            clusters.first().sourceKinds
+        )
+    }
+
     private fun event(
         id: String,
         title: String,
@@ -95,6 +135,18 @@ class NewsRepositoryTest {
         source = "Fixture",
         sourceTier = SourceTier.Public,
         url = "https://example.com/$id"
+    )
+
+    private fun source(
+        displayName: String,
+        kind: NewsSourceKind,
+        attribution: NewsSourceAttribution
+    ) = NewsSourceDescriptor(
+        displayName = displayName,
+        kind = kind,
+        identity = displayName.lowercase(),
+        group = "test",
+        attribution = attribution
     )
 }
 
