@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">StratAperture</string>
+    <string name="tab_map">Map</string>
+    <string name="tab_news">News</string>
+    <string name="tab_research">Research</string>
+    <string name="news_title">News</string>
+    <string name="news_retry">Retry</string>
+    <string name="news_source_count">%1$d sources</string>
+    <string name="research_title">Research</string>
+    <string name="research_retry">Retry</string>
+    <string name="research_recent">Recent</string>
+</resources>

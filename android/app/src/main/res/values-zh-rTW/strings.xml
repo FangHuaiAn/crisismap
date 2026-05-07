@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">StratAperture</string>
+    <string name="tab_map">地圖</string>
+    <string name="tab_news">新聞</string>
+    <string name="tab_research">研究</string>
+    <string name="news_title">新聞</string>
+    <string name="news_retry">重試</string>
+    <string name="news_source_count">%1$d 個來源</string>
+    <string name="research_title">研究</string>
+    <string name="research_retry">重試</string>
+    <string name="research_recent">近期</string>
+</resources>

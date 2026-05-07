@@ -13,6 +13,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.Modifier
 import androidx.compose.foundation.layout.padding
+import androidx.compose.ui.res.stringResource
 import com.crisismap.app.ui.map.MapScreen
 import com.crisismap.app.ui.news.NewsScreen
 import com.crisismap.app.ui.research.ResearchScreen
@@ -31,7 +32,7 @@ fun CrisisMapApp() {
                                 selected = selectedTab == tab,
                                 onClick = { selectedTab = tab },
                                 icon = { Text(tab.shortLabel) },
-                                label = { Text(tab.label) }
+                                label = { Text(stringResource(tab.labelRes)) }
                             )
                         }
                     }

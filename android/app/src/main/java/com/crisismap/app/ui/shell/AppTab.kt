@@ -1,12 +1,15 @@
 package com.crisismap.app.ui.shell
 
+import androidx.annotation.StringRes
+import com.crisismap.app.R
+
 enum class AppTab(
-    val label: String,
+    @StringRes val labelRes: Int,
     val shortLabel: String
 ) {
-    Map(label = "Map", shortLabel = "M"),
-    News(label = "News", shortLabel = "N"),
-    Research(label = "Research", shortLabel = "R");
+    Map(labelRes = R.string.tab_map, shortLabel = "M"),
+    News(labelRes = R.string.tab_news, shortLabel = "N"),
+    Research(labelRes = R.string.tab_research, shortLabel = "R");
 
     companion object {
         val mvpVisible = listOf(Map, News, Research)
