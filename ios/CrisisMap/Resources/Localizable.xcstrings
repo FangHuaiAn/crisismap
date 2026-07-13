@@ -122,682 +122,6 @@
         }
       }
     },
-    "news.empty.description" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Try another region/topic filter."
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "請嘗試其他地區或主題篩選。"
-          }
-        }
-      }
-    },
-    "news.empty.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No Clusters"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "沒有新聞群組"
-          }
-        }
-      }
-    },
-    "news.error.unavailable" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "News Unavailable"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "新聞暫時無法使用"
-          }
-        }
-      }
-    },
-    "news.events.recent" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recent Events"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "近期事件"
-          }
-        }
-      }
-    },
-    "news.offline.cached" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Showing cached news while live sources are unavailable."
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "即時來源暫時無法使用，正在顯示快取新聞。"
-          }
-        }
-      }
-    },
-    "news.search" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Search clusters"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "搜尋新聞群組"
-          }
-        }
-      }
-    },
-    "news.signal.attributionMix" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Attribution Mix"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "來源歸屬組合"
-          }
-        }
-      }
-    },
-    "news.signal.distinctSources" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Distinct Sources"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "不同來源"
-          }
-        }
-      }
-    },
-    "news.signal.mentionIndex" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mention Index"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "提及指數"
-          }
-        }
-      }
-    },
-    "news.signal.section" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Signal"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "訊號"
-          }
-        }
-      }
-    },
-    "news.signal.sourceTypes" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Source Types"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "來源類型"
-          }
-        }
-      }
-    },
-    "news.source.attribution.derived" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Derived"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "轉載彙整"
-          }
-        }
-      }
-    },
-    "news.source.attribution.direct" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Direct"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "直接來源"
-          }
-        }
-      }
-    },
-    "news.source.kind.aggregator" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aggregator"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "聚合器"
-          }
-        }
-      }
-    },
-    "news.source.kind.publisher" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Publisher"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "發行媒體"
-          }
-        }
-      }
-    },
-    "news.source.kind.social" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Social"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "社群"
-          }
-        }
-      }
-    },
-    "news.source.kind.wire" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Wire"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "通訊社"
-          }
-        }
-      }
-    },
-    "news.source.summary.derived" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "derived"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "轉載彙整"
-          }
-        }
-      }
-    },
-    "news.source.summary.direct" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "direct"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "直接來源"
-          }
-        }
-      }
-    },
-    "news.source.summary.kind.aggregator" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "aggregator"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "聚合器"
-          }
-        }
-      }
-    },
-    "news.source.summary.kind.publisher" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "publisher"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "發行媒體"
-          }
-        }
-      }
-    },
-    "news.source.summary.kind.social" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "social"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "社群"
-          }
-        }
-      }
-    },
-    "news.source.summary.kind.wire" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "wire"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "通訊社"
-          }
-        }
-      }
-    },
-    "news.sources.count" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld sources"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld 個來源"
-          }
-        }
-      }
-    },
-    "news.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "News"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "新聞"
-          }
-        }
-      }
-    },
-    "news.topic.all" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "All Topics"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "所有主題"
-          }
-        }
-      }
-    },
-    "common.done" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Done"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "完成"
-          }
-        }
-      }
-    },
-    "sourceTransparency.button" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Data sources and transparency"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "資料來源與透明度"
-          }
-        }
-      }
-    },
-    "sourceTransparency.intro" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "We show source labels so you can understand where each signal comes from. StratAperture combines public news, global news indexes, optional fast-moving alerts, and curated policy research."
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "我們希望你能看見每個訊號背後的資料來源。StratAperture 會整理公開新聞、全球新聞索引、可用的快訊來源，以及精選智庫研究。"
-          }
-        }
-      }
-    },
-    "sourceTransparency.limit.availability" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sources may change as availability, access, and data quality change."
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "來源可能會因可用性、存取權限與資料品質而調整。"
-          }
-        }
-      }
-    },
-    "sourceTransparency.limit.coverage" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "This is not a complete index of all news or research."
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "這不是所有新聞或研究資料的完整清單。"
-          }
-        }
-      }
-    },
-    "sourceTransparency.limit.originals" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open original sources before making important judgments."
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "做出重要判斷前，仍應開啟原文來源交叉確認。"
-          }
-        }
-      }
-    },
-    "sourceTransparency.limits.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "What to Keep in Mind"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "需要知道的限制"
-          }
-        }
-      }
-    },
-    "sourceTransparency.news.description" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "We monitor a curated set of public feeds and indexes. Source labels help distinguish direct reporting from aggregated or derived signals."
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "我們監測一組精選的公開新聞來源與索引。來源標籤能協助分辨直接報導、聚合索引或轉載彙整訊號。"
-          }
-        }
-      }
-    },
-    "sourceTransparency.news.gdelt" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Global news index and aggregation signal."
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "全球新聞索引與聚合訊號。"
-          }
-        }
-      }
-    },
-    "sourceTransparency.news.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "News Sources"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "新聞來源"
-          }
-        }
-      }
-    },
-    "sourceTransparency.news.xGrok" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Optional fast-moving signal source when credentials are configured."
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "設定憑證後啟用的可選快訊來源。"
-          }
-        }
-      }
-    },
-    "sourceTransparency.organized.description" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The app collects monitored items, reduces overlapping coverage, and groups related signals by topic, region, or crisis theme."
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "App 會整理監測到的項目、減少重複內容，並依主題、地區或危機脈絡分群。"
-          }
-        }
-      }
-    },
-    "sourceTransparency.organized.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "How We Organize Information"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "我們如何整理資訊"
-          }
-        }
-      }
-    },
-    "sourceTransparency.research.description" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The Research tab uses a curated weekly dataset of policy and think tank analysis. The list reflects currently included sources."
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Research 分頁使用每週整理的政策與智庫分析資料集。此清單反映目前涵蓋的來源。"
-          }
-        }
-      }
-    },
-    "sourceTransparency.research.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Research Sources"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "智庫與研究來源"
-          }
-        }
-      }
-    },
-    "sourceTransparency.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Data Sources & Transparency"
-          }
-        },
-        "zh-Hant-TW" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "資料來源與透明度"
-          }
-        }
-      }
-    },
-    "Attribution Mix" : {
-      "comment" : "A label for the attribution mix section of the cluster detail view.",
-      "isCommentAutoGenerated" : true
-    },
     "category.conflict" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -1052,9 +376,22 @@
         }
       }
     },
-    "Distinct Sources" : {
-      "comment" : "A label describing the number of distinct news sources mentioned in a news cluster.",
-      "isCommentAutoGenerated" : true
+    "common.done" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
+          }
+        }
+      }
     },
     "feed.empty" : {
       "extractionState" : "stale",
@@ -1280,10 +617,6 @@
         }
       }
     },
-    "Mention Index" : {
-      "comment" : "A label for the mention index within a news cluster.",
-      "isCommentAutoGenerated" : true
-    },
     "nav.dashboard" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -1314,6 +647,443 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "事件"
+          }
+        }
+      }
+    },
+    "news.empty.description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try another region/topic filter."
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請嘗試其他地區或主題篩選。"
+          }
+        }
+      }
+    },
+    "news.empty.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Clusters"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沒有新聞群組"
+          }
+        }
+      }
+    },
+    "news.error.unavailable" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "News Unavailable"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新聞暫時無法使用"
+          }
+        }
+      }
+    },
+    "news.events.recent" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recent Events"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "近期事件"
+          }
+        }
+      }
+    },
+    "news.offline.cached" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Showing cached news while live sources are unavailable."
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "即時來源暫時無法使用，正在顯示快取新聞。"
+          }
+        }
+      }
+    },
+    "news.search" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search clusters"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜尋新聞群組"
+          }
+        }
+      }
+    },
+    "news.signal.attributionMix" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attribution Mix"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "來源歸屬組合"
+          }
+        }
+      }
+    },
+    "news.signal.distinctSources" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Distinct Sources"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不同來源"
+          }
+        }
+      }
+    },
+    "news.signal.mentionIndex" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mention Index"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提及指數"
+          }
+        }
+      }
+    },
+    "news.signal.section" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signal"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "訊號"
+          }
+        }
+      }
+    },
+    "news.signal.sourceTypes" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Source Types"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "來源類型"
+          }
+        }
+      }
+    },
+    "news.source.attribution.derived" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Derived"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轉載彙整"
+          }
+        }
+      }
+    },
+    "news.source.attribution.direct" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Direct"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "直接來源"
+          }
+        }
+      }
+    },
+    "news.source.kind.aggregator" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggregator"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "聚合器"
+          }
+        }
+      }
+    },
+    "news.source.kind.publisher" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Publisher"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "發行媒體"
+          }
+        }
+      }
+    },
+    "news.source.kind.social" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Social"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "社群"
+          }
+        }
+      }
+    },
+    "news.source.kind.wire" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wire"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通訊社"
+          }
+        }
+      }
+    },
+    "news.source.summary.derived" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "derived"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轉載彙整"
+          }
+        }
+      }
+    },
+    "news.source.summary.direct" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "direct"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "直接來源"
+          }
+        }
+      }
+    },
+    "news.source.summary.kind.aggregator" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "aggregator"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "聚合器"
+          }
+        }
+      }
+    },
+    "news.source.summary.kind.publisher" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "publisher"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "發行媒體"
+          }
+        }
+      }
+    },
+    "news.source.summary.kind.social" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "social"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "社群"
+          }
+        }
+      }
+    },
+    "news.source.summary.kind.wire" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "wire"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通訊社"
+          }
+        }
+      }
+    },
+    "news.sources.count" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld sources"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 個來源"
+          }
+        }
+      }
+    },
+    "news.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "News"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新聞"
+          }
+        }
+      }
+    },
+    "news.topic.all" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All Topics"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所有主題"
           }
         }
       }
@@ -1526,9 +1296,257 @@
         }
       }
     },
-    "Source Types" : {
-      "comment" : "A label describing the types of sources featured in a news cluster.",
-      "isCommentAutoGenerated" : true
+    "sourceTransparency.button" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data sources and transparency"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "資料來源與透明度"
+          }
+        }
+      }
+    },
+    "sourceTransparency.intro" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We show source labels so you can understand where each signal comes from. StratAperture combines public news, global news indexes, optional fast-moving alerts, and curated policy research."
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我們希望你能看見每個訊號背後的資料來源。StratAperture 會整理公開新聞、全球新聞索引、可用的快訊來源，以及精選智庫研究。"
+          }
+        }
+      }
+    },
+    "sourceTransparency.limit.availability" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sources may change as availability, access, and data quality change."
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "來源可能會因可用性、存取權限與資料品質而調整。"
+          }
+        }
+      }
+    },
+    "sourceTransparency.limit.coverage" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This is not a complete index of all news or research."
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這不是所有新聞或研究資料的完整清單。"
+          }
+        }
+      }
+    },
+    "sourceTransparency.limit.originals" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open original sources before making important judgments."
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "做出重要判斷前，仍應開啟原文來源交叉確認。"
+          }
+        }
+      }
+    },
+    "sourceTransparency.limits.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What to Keep in Mind"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要知道的限制"
+          }
+        }
+      }
+    },
+    "sourceTransparency.news.description" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We monitor a curated set of public feeds and indexes. Source labels help distinguish direct reporting from aggregated or derived signals."
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我們監測一組精選的公開新聞來源與索引。來源標籤能協助分辨直接報導、聚合索引或轉載彙整訊號。"
+          }
+        }
+      }
+    },
+    "sourceTransparency.news.gdelt" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Global news index and aggregation signal."
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全球新聞索引與聚合訊號。"
+          }
+        }
+      }
+    },
+    "sourceTransparency.news.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "News Sources"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新聞來源"
+          }
+        }
+      }
+    },
+    "sourceTransparency.news.xGrok" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Optional fast-moving signal source when credentials are configured."
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定憑證後啟用的可選快訊來源。"
+          }
+        }
+      }
+    },
+    "sourceTransparency.organized.description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The app collects monitored items, reduces overlapping coverage, and groups related signals by topic, region, or crisis theme."
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App 會整理監測到的項目、減少重複內容，並依主題、地區或危機脈絡分群。"
+          }
+        }
+      }
+    },
+    "sourceTransparency.organized.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How We Organize Information"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我們如何整理資訊"
+          }
+        }
+      }
+    },
+    "sourceTransparency.research.description" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Research tab uses a curated weekly dataset of policy and think tank analysis. The list reflects currently included sources."
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Research 分頁使用每週整理的政策與智庫分析資料集。此清單反映目前涵蓋的來源。"
+          }
+        }
+      }
+    },
+    "sourceTransparency.research.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Research Sources"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "智庫與研究來源"
+          }
+        }
+      }
+    },
+    "sourceTransparency.title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data Sources & Transparency"
+          }
+        },
+        "zh-Hant-TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "資料來源與透明度"
+          }
+        }
+      }
     },
     "StratAperture" : {
       "comment" : "The title of the StratAperture app.",
@@ -1684,10 +1702,6 @@
           }
         }
       }
-    },
-    "Try another region/topic filter." : {
-      "comment" : "A description text displayed when there are no news articles in a cluster.",
-      "isCommentAutoGenerated" : true
     }
   },
   "version" : "1.1"

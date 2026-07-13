@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -124,7 +124,7 @@
 		12ECF190B400FBE7826F2B6F /* MentionIndexCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentionIndexCalculatorTests.swift; sourceTree = "<group>"; };
 		144BF3A8034632C7A8E12B26 /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
 		177EEBE41409E26ED41BB664 /* ArticleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRow.swift; sourceTree = "<group>"; };
-		187079A12C41D1861DABD3D4 /* CrisisMap.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CrisisMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187079A12C41D1861DABD3D4 /* StratAperture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StratAperture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5BFB9184662700DE3E3891 /* NewsClusterRuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsClusterRuleTests.swift; sourceTree = "<group>"; };
 		1E74B7ACC3A4C4C8C98E6347 /* NewsSourceHeuristics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSourceHeuristics.swift; sourceTree = "<group>"; };
 		230DCD07842FCF00EFC0135F /* ThinkTankArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkTankArticle.swift; sourceTree = "<group>"; };
@@ -257,7 +257,7 @@
 		118FF2968442D821DC1E8CFB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				187079A12C41D1861DABD3D4 /* CrisisMap.app */,
+				187079A12C41D1861DABD3D4 /* StratAperture.app */,
 				ADC8FA3674F7AECF5D8B0A77 /* CrisisMapTests.xctest */,
 			);
 			name = Products;
@@ -492,7 +492,7 @@
 			packageProductDependencies = (
 			);
 			productName = CrisisMap;
-			productReference = 187079A12C41D1861DABD3D4 /* CrisisMap.app */;
+			productReference = 187079A12C41D1861DABD3D4 /* StratAperture.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A2BECD8DFF6706A35E67A4A6 /* CrisisMapTests */ = {
@@ -533,7 +533,6 @@
 			);
 			mainGroup = B02DFB10B926F46FBFAF1028;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -766,6 +765,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = Z247G8X22D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleName = StratAperture;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -808,6 +808,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = Z247G8X22D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleName = StratAperture;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
